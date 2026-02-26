@@ -1,0 +1,54 @@
+{
+  "en": {
+    "water_hardness_in": "Water Hardness in",
+    "nearby_cities": "Water Hardness in Nearby Cities",
+    "base_unit": "Base Unit (CaCO3)",
+    "local_unit": "Local Unit",
+    "soft": "Soft",
+    "medium": "Medium",
+    "hard": "Hard",
+    "very_hard": "Very Hard",
+    "recommended_solutions": "Recommended Solutions",
+    "hard_water_warning": "Hard Water Detected. We recommend the Waterdrop G3 or a BWT Softener.",
+    "soft_water_ok": "Soft/Medium Water. Protect taste with a Brita Pitcher or TAPP Water."
+  },
+  "de": {
+    "water_hardness_in": "Wasserhärte in",
+    "nearby_cities": "Wasserhärte in umliegenden Städten",
+    "base_unit": "Basiseinheit (CaCO3)",
+    "local_unit": "Deutsche Härte",
+    "soft": "Weich",
+    "medium": "Mittel",
+    "hard": "Hart",
+    "very_hard": "Sehr Hart",
+    "recommended_solutions": "Empfohlene Lösungen",
+    "hard_water_warning": "Hartes Wasser erkannt. Wir empfehlen den Waterdrop G3 oder eine BWT-Anlage.",
+    "soft_water_ok": "Weiches/Mittleres Wasser. Schützen Sie den Geschmack mit einem Brita-Filter."
+  },
+  "fr": {
+    "water_hardness_in": "Dureté de l'eau à",
+    "nearby_cities": "Dureté de l'eau dans les villes voisines",
+    "base_unit": "Unité de base (CaCO3)",
+    "local_unit": "Degré Français",
+    "soft": "Douce",
+    "medium": "Moyenne",
+    "hard": "Dure",
+    "very_hard": "Très Dure",
+    "recommended_solutions": "Solutions Recommandées",
+    "hard_water_warning": "Eau dure détectée. Nous recommandons un adoucisseur d'eau BWT.",
+    "soft_water_ok": "Eau douce/moyenne. Améliorez le goût avec une carafe Brita."
+  },
+  "es": {
+    "water_hardness_in": "Dureza del agua en",
+    "nearby_cities": "Dureza del agua en ciudades cercanas",
+    "base_unit": "Unidad base (CaCO3)",
+    "local_unit": "Unidad Local",
+    "soft": "Blanda",
+    "medium": "Media",
+    "hard": "Dura",
+    "very_hard": "Muy Dura",
+    "recommended_solutions": "Soluciones Recomendadas",
+    "hard_water_warning": "Agua dura detectada. Recomendamos el Waterdrop G3 o un descalcificador BWT.",
+    "soft_water_ok": "Agua blanda/media. Proteja el sabor con una jarra Brita."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hard-water-hero": {
+    "default": { "name": "Waterdrop G3 RO System", "url": "https://amazon.com/dp/B07P1XFYJP?tag=aquascale-en-20" },
+    "de": { "name": "BWT Perla Silk", "url": "https://amazon.de/dp/B08XYZ123?tag=aquascale-de-21" },
+    "fr": { "name": "BWT Perla Sphere", "url": "https://amazon.fr/dp/B08XYZ123?tag=aquascale-fr-21" },
+    "es": { "name": "Descalcificador Waterdrop", "url": "https://amazon.es/dp/B08XYZ123?tag=aquascale-es-21" }
+  },
+  "taste-improver": {
+    "default": { "name": "Brita Marella Water Filter", "url": "https://amazon.com/dp/B01N2XYZ?tag=aquascale-en-20" },
+    "de": { "name": "Brita Marella Wasserfilter", "url": "https://amazon.de/dp/B01N2XYZ?tag=aquascale-de-21" },
+    "fr": { "name": "Brita Marella Carafe", "url": "https://amazon.fr/dp/B01N2XYZ?tag=aquascale-fr-21" },
+    "es": { "name": "Brita Marella Jarra", "url": "https://amazon.es/dp/B01N2XYZ?tag=aquascale-es-21" }
+  }
+}

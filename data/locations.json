@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "vienna-at",
+    "name": "Vienna",
+    "native_name": "Wien",
+    "country_slug": "austria",
+    "region_slug": "vienna",
+    "hardness_mg_l": 162,
+    "coords": { "lat": 48.2082, "lng": 16.3738 },
+    "population": 1951000
+  },
+  {
+    "id": "graz-at",
+    "name": "Graz",
+    "native_name": "Graz",
+    "country_slug": "austria",
+    "region_slug": "styria",
+    "hardness_mg_l": 184,
+    "coords": { "lat": 47.0707, "lng": 15.4395 },
+    "population": 292000
+  },
+  {
+    "id": "linz-at",
+    "name": "Linz",
+    "native_name": "Linz",
+    "country_slug": "austria",
+    "region_slug": "upper-austria",
+    "hardness_mg_l": 147,
+    "coords": { "lat": 48.3069, "lng": 14.2858 },
+    "population": 207000
+  },
+  {
+    "id": "salzburg-at",
+    "name": "Salzburg",
+    "native_name": "Salzburg",
+    "country_slug": "austria",
+    "region_slug": "salzburg",
+    "hardness_mg_l": 153,
+    "coords": { "lat": 47.8095, "lng": 13.0550 },
+    "population": 157000
+  },
+  {
+    "id": "innsbruck-at",
+    "name": "Innsbruck",
+    "native_name": "Innsbruck",
+    "country_slug": "austria",
+    "region_slug": "tyrol",
+    "hardness_mg_l": 124,
+    "coords": { "lat": 47.2692, "lng": 11.4041 },
+    "population": 132000
+  },
+  {
+    "id": "klagenfurt-at",
+    "name": "Klagenfurt",
+    "native_name": "Klagenfurt am Wörthersee",
+    "country_slug": "austria",
+    "region_slug": "carinthia",
+    "hardness_mg_l": 176,
+    "coords": { "lat": 46.6249, "lng": 14.3050 },
+    "population": 102000
+  },
+  {
+    "id": "villach-at",
+    "name": "Villach",
+    "native_name": "Villach",
+    "country_slug": "austria",
+    "region_slug": "carinthia",
+    "hardness_mg_l": 171,
+    "coords": { "lat": 46.6103, "lng": 13.8558 },
+    "population": 63000
+  },
+  {
+    "id": "wels-at",
+    "name": "Wels",
+    "native_name": "Wels",
+    "country_slug": "austria",
+    "region_slug": "upper-austria",
+    "hardness_mg_l": 151,
+    "coords": { "lat": 48.1575, "lng": 14.0289 },
+    "population": 63000
+  },
+  {
+    "id": "stpolten-at",
+    "name": "Sankt Pölten",
+    "native_name": "Sankt Pölten",
+    "country_slug": "austria",
+    "region_slug": "lower-austria",
+    "hardness_mg_l": 158,
+    "coords": { "lat": 48.2047, "lng": 15.6256 },
+    "population": 57000
+  },
+  {
+    "id": "dornbirn-at",
+    "name": "Dornbirn",
+    "native_name": "Dornbirn",
+    "country_slug": "austria",
+    "region_slug": "vorarlberg",
+    "hardness_mg_l": 132,
+    "coords": { "lat": 47.4169, "lng": 9.7417 },
+    "population": 51000
+  },
+  {
+    "id": "brussels-be",
+    "name": "Brussels",
+    "native_name": "Bruxelles/Brussel",
+    "country_slug": "belgium",
+    "region_slug": "brussels-capital",
+    "hardness_mg_l": 210,
+    "coords": { "lat": 50.8503, "lng": 4.3517 },
+    "population": 1880000
+  },
+  {
+    "id": "antwerp-be",
+    "name": "Antwerp",
+    "native_name": "Antwerpen",
+    "country_slug": "belgium",
+    "region_slug": "flanders",
+    "hardness_mg_l": 238,
+    "coords": { "lat": 51.2213, "lng": 4.4051 },
+    "population": 530000
+  },
+  {
+    "id": "ghent-be",
+    "name": "Ghent",
+    "native_name": "Gent",
+    "country_slug": "belgium",
+    "region_slug": "flanders",
+    "hardness_mg_l": 195,
+    "coords": { "lat": 51.0543, "lng": 3.7174 },
+    "population": 266000
+  },
+  {
+    "id": "charleroi-be",
+    "name": "Charleroi",
+    "native_name": "Charleroi",
+    "country_slug": "belgium",
+    "region_slug": "wallonia",
+    "hardness_mg_l": 183,
+    "coords": { "lat": 50.4108, "lng": 4.4446 },
+    "population": 201000
+  },
+  {
+    "id": "liege-be",
+    "name": "Liège",
+    "native_name": "Liège",
+    "country_slug": "belgium",
+    "region_slug": "wallonia",
+    "hardness_mg_l": 176,
+    "coords": { "lat": 50.6326, "lng": 5.5797 },
+    "population": 197000
+  },
+  {
+    "id": "sofia-bg",
+    "name": "Sofia",
+    "native_name": "София",
+    "country_slug": "bulgaria",
+    "region_slug": "sofia-capital",
+    "hardness_mg_l": 122,
+    "coords": { "lat": 42.6977, "lng": 23.3219 },
+    "population": 1248000
+  },
+  {
+    "id": "plovdiv-bg",
+    "name": "Plovdiv",
+    "native_name": "Пловдив",
+    "country_slug": "bulgaria",
+    "region_slug": "plovdiv",
+    "hardness_mg_l": 135,
+    "coords": { "lat": 42.1354, "lng": 24.7453 },
+    "population": 347000
+  },
+  {
+    "id": "varna-bg",
+    "name": "Varna",
+    "native_name": "Варна",
+    "country_slug": "bulgaria",
+    "region_slug": "varna",
+    "hardness_mg_l": 94,
+    "coords": { "lat": 43.2141, "lng": 27.9147 },
+    "population": 336000
+  },
+  {
+    "id": "burgas-bg",
+    "name": "Burgas",
+    "native_name": "Бургас",
+    "country_slug": "bulgaria",
+    "region_slug": "burgas",
+    "hardness_mg_l": 88,
+    "coords": { "lat": 42.5048, "lng": 27.4626 },
+    "population": 203000
+  },
+  {
+    "id": "ruse-bg",
+    "name": "Ruse",
+    "native_name": "Русе",
+    "country_slug": "bulgaria",
+    "region_slug": "ruse",
+    "hardness_mg_l": 147,
+    "coords": { "lat": 43.8356, "lng": 25.9657 },
+    "population": 146000
+  },
+  {
+    "id": "stara-zagora-bg",
+    "name": "Stara Zagora",
+    "native_name": "Стара Загора",
+    "country_slug": "bulgaria",
+    "region_slug": "stara-zagora",
+    "hardness_mg_l": 141,
+    "coords": { "lat": 42.4258, "lng": 25.6345 },
+    "population": 137000
+  },
+  {
+    "id": "pleven-bg",
+    "name": "Pleven",
+    "native_name": "Плевен",
+    "country_slug": "bulgaria",
+    "region_slug": "pleven",
+    "hardness_mg_l": 153,
+    "coords": { "lat": 43.4167, "lng": 24.6167 },
+    "population": 102000
+  },
+  {
+    "id": "zagreb-hr",
+    "name": "Zagreb",
+    "native_name": "Zagreb",
+    "country_slug": "croatia",
+    "region_slug": "city-of-zagreb",
+    "hardness_mg_l": 189,
+    "coords": { "lat": 45.8150, "lng": 15.9819 },
+    "population": 769000
+  },
+  {
+    "id": "split-hr",
+    "name": "Split",
+    "native_name": "Split",
+    "country_slug": "croatia",
+    "region_slug": "split-dalmatia",
+    "hardness_mg_l": 204,
+    "coords": { "lat": 43.5081, "lng": 16.4402 },
+    "population": 161000
+  },
+  {
+    "id": "rijeka-hr",
+    "name": "Rijeka",
+    "native_name": "Rijeka",
+    "country_slug": "croatia",
+    "region_slug": "primorje-gorski-kotar",
+    "hardness_mg_l": 172,
+    "coords": { "lat": 45.3271, "lng": 14.4422 },
+    "population": 128000
+  },
+  {
+    "id": "osijek-hr",
+    "name": "Osijek",
+    "native_name": "Osijek",
+    "country_slug": "croatia",
+    "region_slug": "osijek-baranja",
+    "hardness_mg_l": 195,
+    "coords": { "lat": 45.5550, "lng": 18.6955 },
+    "population": 108000
+  },
+  {
+    "id": "zadar-hr",
+    "name": "Zadar",
+    "native_name": "Zadar",
+    "country_slug": "croatia",
+    "region_slug": "zadar",
+    "hardness_mg_l": 211,
+    "coords": { "lat": 44.1194, "lng": 15.2314 },
+    "population": 75000
+  },
+  {
+    "id": "prague-cz",
+    "name": "Prague",
+    "native_name": "Praha",
+    "country_slug": "czech-republic",
+    "region_slug": "prague",
+    "hardness_mg_l": 119,
+    "coords": { "lat": 50.0755, "lng": 14.4378 },
+    "population": 1350000
+  },
+  {
+    "id": "brno-cz",
+    "name": "Brno",
+    "native_name": "Brno",
+    "country_slug": "czech-republic",
+    "region_slug": "south-moravian",
+    "hardness_mg_l": 156,
+    "coords": { "lat": 49.1951, "lng": 16.6068 },
+    "population": 382000
+  },
+  {
+    "id": "ostrava-cz",
+    "name": "Ostrava",
+    "native_name": "Ostrava",
+    "country_slug": "czech-republic",
+    "region_slug": "moravian-silesian",
+    "hardness_mg_l": 188,
+    "coords": { "lat": 49.8209, "lng": 18.2625 },
+    "population": 284000
+  },
+  {
+    "id": "plzen-cz",
+    "name": "Pilsen",
+    "native_name": "Plzeň",
+    "country_slug": "czech-republic",
+    "region_slug": "plzen",
+    "hardness_mg_l": 107,
+    "coords": { "lat": 49.7384, "lng": 13.3736 },
+    "population": 175000
+  },
+  {
+    "id": "liberec-cz",
+    "name": "Liberec",
+    "native_name": "Liberec",
+    "country_slug": "czech-republic",
+    "region_slug": "liberec",
+    "hardness_mg_l": 71,
+    "coords": { "lat": 50.7671, "lng": 15.0565 },
+    "population": 105000
+  },
+  {
+    "id": "copenhagen-dk",
+    "name": "Copenhagen",
+    "native_name": "København",
+    "country_slug": "denmark",
+    "region_slug": "capital-region",
+    "hardness_mg_l": 124,
+    "coords": { "lat": 55.6761, "lng": 12.5683 },
+    "population": 1360000
+  },
+  {
+    "id": "aarhus-dk",
+    "name": "Aarhus",
+    "native_name": "Aarhus",
+    "country_slug": "denmark",
+    "region_slug": "central-denmark",
+    "hardness_mg_l": 98,
+    "coords": { "lat": 56.1629, "lng": 10.2039 },
+    "population": 285000
+  },
+  {
+    "id": "odense-dk",
+    "name": "Odense",
+    "native_name": "Odense",
+    "country_slug": "denmark",
+    "region_slug": "southern-denmark",
+    "hardness_mg_l": 153,
+    "coords": { "lat": 55.4038, "lng": 10.4024 },
+    "population": 181000
+  },
+  {
+    "id": "aalborg-dk",
+    "name": "Aalborg",
+    "native_name": "Aalborg",
+    "country_slug": "denmark",
+    "region_slug": "north-denmark",
+    "hardness_mg_l": 87,
+    "coords": { "lat": 57.0488, "lng": 9.9217 },
+    "population": 143000
+  },
+  {
+    "id": "helsinki-fi",
+    "name": "Helsinki",
+    "native_name": "Helsinki",
+    "country_slug": "finland",
+    "region_slug": "uusimaa",
+    "hardness_mg_l": 48,
+    "coords": { "lat": 60.1699, "lng": 24.9384 },
+    "population": 664000
+  },
+  {
+    "id": "espoo-fi",
+    "name": "Espoo",
+    "native_name": "Espoo",
+    "country_slug": "finland",
+    "region_slug": "uusimaa",
+    "hardness_mg_l": 52,
+    "coords": { "lat": 60.2055, "lng": 24.6559 },
+    "population": 300000
+  },
+  {
+    "id": "tampere-fi",
+    "name": "Tampere",
+    "native_name": "Tampere",
+    "country_slug": "finland",
+    "region_slug": "pirkanmaa",
+    "hardness_mg_l": 79,
+    "coords": { "lat": 61.4978, "lng": 23.7610 },
+    "population": 244000
+  },
+  {
+    "id": "vantaa-fi",
+    "name": "Vantaa",
+    "native_name": "Vantaa",
+    "country_slug": "finland",
+    "region_slug": "uusimaa",
+    "hardness_mg_l": 55,
+    "coords": { "lat": 60.2934, "lng": 25.0378 },
+    "population": 239000
+  },
+  {
+    "id": "turku-fi",
+    "name": "Turku",
+    "native_name": "Turku",
+    "country_slug": "finland",
+    "region_slug": "finland-proper",
+    "hardness_mg_l": 73,
+    "coords": { "lat": 60.4518, "lng": 22.2666 },
+    "population": 196000
+  },
+  {
+    "id": "oulu-fi",
+    "name": "Oulu",
+    "native_name": "Oulu",
+    "country_slug": "finland",
+    "region_slug": "north-ostrobothnia",
+    "hardness_mg_l": 43,
+    "coords": { "lat": 65.0121, "lng": 25.4651 },
+    "population": 209000
+  },
+  {
+    "id": "paris-fr",
+    "name": "Paris",
+    "native_name": "Paris",
+    "country_slug": "france",
+    "region_slug": "ile-de-france",
+    "hardness_mg_l": 234,
+    "coords": { "lat": 48.8566, "lng": 2.3522 },
+    "population": 11000000
+  },
+  {
+    "id": "marseille-fr",
+    "name": "Marseille",
+    "native_name": "Marseille",
+    "country_slug": "france",
+    "region_slug": "provence-alpes-cote-dazur",
+    "hardness_mg_l": 187,
+    "coords": { "lat": 43.2965, "lng": 5.3698 },
+    "population": 1618000
+  },
+  {
+    "id": "lyon-fr",
+    "name": "Lyon",
+    "native_name": "Lyon",
+    "country_slug": "france",
+    "region_slug": "auvergne-rhone-alpes",
+    "hardness_mg_l": 162,
+    "coords": { "lat": 45.7640, "lng": 4.8357 },
+    "population": 1729000
+  },
+  {
+    "id": "toulouse-fr",
+    "name": "Toulouse",
+    "native_name": "Toulouse",
+    "country_slug": "france",
+    "region_slug": "occitanie",
+    "hardness_mg_l": 216,
+    "coords": { "lat": 43.6047, "lng": 1.4442 },
+    "population": 1021000
+  },
+  {
+    "id": "nice-fr",
+    "name": "Nice",
+    "native_name": "Nice",
+    "country_slug": "france",
+    "region_slug": "provence-alpes-cote-dazur",
+    "hardness_mg_l": 178,
+    "coords": { "lat": 43.7102, "lng": 7.2620 },
+    "population": 942000
+  },
+  {
+    "id": "berlin-de",
+    "name": "Berlin",
+    "native_name": "Berlin",
+    "country_slug": "germany",
+    "region_slug": "berlin",
+    "hardness_mg_l": 163,
+    "coords": { "lat": 52.5200, "lng": 13.4050 },
+    "population": 3769000
+  },
+  {
+    "id": "hamburg-de",
+    "name": "Hamburg",
+    "native_name": "Hamburg",
+    "country_slug": "germany",
+    "region_slug": "hamburg",
+    "hardness_mg_l": 174,
+    "coords": { "lat": 53.5511, "lng": 9.9937 },
+    "population": 1854000
+  },
+  {
+    "id": "munich-de",
+    "name": "Munich",
+    "native_name": "München",
+    "country_slug": "germany",
+    "region_slug": "bavaria",
+    "hardness_mg_l": 157,
+    "coords": { "lat": 48.1351, "lng": 11.5820 },
+    "population": 1512000
+  },
+  {
+    "id": "cologne-de",
+    "name": "Cologne",
+    "native_name": "Köln",
+    "country_slug": "germany",
+    "region_slug": "north-rhine-westphalia",
+    "hardness_mg_l": 166,
+    "coords": { "lat": 50.9375, "lng": 6.9603 },
+    "population": 1086000
+  },
+  {
+    "id": "frankfurt-de",
+    "name": "Frankfurt",
+    "native_name": "Frankfurt am Main",
+    "country_slug": "germany",
+    "region_slug": "hesse",
+    "hardness_mg_l": 182,
+    "coords": { "lat": 50.1109, "lng": 8.6821 },
+    "population": 764000
+  },
+  {
+    "id": "stuttgart-de",
+    "name": "Stuttgart",
+    "native_name": "Stuttgart",
+    "country_slug": "germany",
+    "region_slug": "baden-wurttemberg",
+    "hardness_mg_l": 171,
+    "coords": { "lat": 48.7758, "lng": 9.1829 },
+    "population": 632000
+  },
+  {
+    "id": "dusseldorf-de",
+    "name": "Düsseldorf",
+    "native_name": "Düsseldorf",
+    "country_slug": "germany",
+    "region_slug": "north-rhine-westphalia",
+    "hardness_mg_l": 144,
+    "coords": { "lat": 51.2277, "lng": 6.7735 },
+    "population": 621000
+  },
+  {
+    "id": "leipzig-de",
+    "name": "Leipzig",
+    "native_name": "Leipzig",
+    "country_slug": "germany",
+    "region_slug": "saxony",
+    "hardness_mg_l": 135,
+    "coords": { "lat": 51.3397, "lng": 12.3731 },
+    "population": 616000
+  },
+  {
+    "id": "dortmund-de",
+    "name": "Dortmund",
+    "native_name": "Dortmund",
+    "country_slug": "germany",
+    "region_slug": "north-rhine-westphalia",
+    "hardness_mg_l": 159,
+    "coords": { "lat": 51.5136, "lng": 7.4653 },
+    "population": 588000
+  },
+  {
+    "id": "essen-de",
+    "name": "Essen",
+    "native_name": "Essen",
+    "country_slug": "germany",
+    "region_slug": "north-rhine-westphalia",
+    "hardness_mg_l": 162,
+    "coords": { "lat": 51.4556, "lng": 7.0116 },
+    "population": 583000
+  },
+  {
+    "id": "bremen-de",
+    "name": "Bremen",
+    "native_name": "Bremen",
+    "country_slug": "germany",
+    "region_slug": "bremen",
+    "hardness_mg_l": 184,
+    "coords": { "lat": 53.0793, "lng": 8.8017 },
+    "population": 568000
+  },
+  {
+    "id": "dresden-de",
+    "name": "Dresden",
+    "native_name": "Dresden",
+    "country_slug": "germany",
+    "region_slug": "saxony",
+    "hardness_mg_l": 125,
+    "coords": { "lat": 51.0504, "lng": 13.7373 },
+    "population": 557000
+  },
+  {
+    "id": "hanover-de",
+    "name": "Hanover",
+    "native_name": "Hannover",
+    "country_slug": "germany",
+    "region_slug": "lower-saxony",
+    "hardness_mg_l": 166,
+    "coords": { "lat": 52.3759, "lng": 9.7320 },
+    "population": 536000
+  },
+  {
+    "id": "nuremberg-de",
+    "name": "Nuremberg",
+    "native_name": "Nürnberg",
+    "country_slug": "germany",
+    "region_slug": "bavaria",
+    "hardness_mg_l": 155,
+    "coords": { "lat": 49.4521, "lng": 11.0767 },
+    "population": 519000
+  },
+  {
+    "id": "duisburg-de",
+    "name": "Duisburg",
+    "native_name": "Duisburg",
+    "country_slug": "germany",
+    "region_slug": "north-rhine-westphalia",
+    "hardness_mg_l": 169,
+    "coords": { "lat": 51.4344, "lng": 6.7623 },
+    "population": 498000
+  },
+  {
+    "id": "budapest-hu",
+    "name": "Budapest",
+    "native_name": "Budapest",
+    "country_slug": "hungary",
+    "region_slug": "budapest",
+    "hardness_mg_l": 177,
+    "coords": { "lat": 47.4979, "lng": 19.0402 },
+    "population": 1752000
+  },
+  {
+    "id": "debrecen-hu",
+    "name": "Debrecen",
+    "native_name": "Debrecen",
+    "country_slug": "hungary",
+    "region_slug": "hajdu-bihar",
+    "hardness_mg_l": 188,
+    "coords": { "lat": 47.5316, "lng": 21.6273 },
+    "population": 202000
+  },
+  {
+    "id": "szeged-hu",
+    "name": "Szeged",
+    "native_name": "Szeged",
+    "country_slug": "hungary",
+    "region_slug": "csongrad",
+    "hardness_mg_l": 196,
+    "coords": { "lat": 46.2530, "lng": 20.1414 },
+    "population": 162000
+  },
+  {
+    "id": "miskolc-hu",
+    "name": "Miskolc",
+    "native_name": "Miskolc",
+    "country_slug": "hungary",
+    "region_slug": "borsod-abauj-zemplen",
+    "hardness_mg_l": 183,
+    "coords": { "lat": 48.1035, "lng": 20.7784 },
+    "population": 150000
+  },
+  {
+    "id": "pecs-hu",
+    "name": "Pécs",
+    "native_name": "Pécs",
+    "country_slug": "hungary",
+    "region_slug": "baranya",
+    "hardness_mg_l": 204,
+    "coords": { "lat": 46.0725, "lng": 18.2323 },
+    "population": 144000
+  },
+  {
+    "id": "gyor-hu",
+    "name": "Győr",
+    "native_name": "Győr",
+    "country_slug": "hungary",
+    "region_slug": "gyor-moson-sopron",
+    "hardness_mg_l": 179,
+    "coords": { "lat": 47.6875, "lng": 17.6504 },
+    "population": 132000
+  },
+  {
+    "id": "nyiregyhaza-hu",
+    "name": "Nyíregyháza",
+    "native_name": "Nyíregyháza",
+    "country_slug": "hungary",
+    "region_slug": "szabolcs-szatmar-bereg",
+    "hardness_mg_l": 192,
+    "coords": { "lat": 47.9495, "lng": 21.7244 },
+    "population": 118000
+  },
+  {
+    "id": "kecskemet-hu",
+    "name": "Kecskemét",
+    "native_name": "Kecskemét",
+    "country_slug": "hungary",
+    "region_slug": "bacs-kiskun",
+    "hardness_mg_l": 215,
+    "coords": { "lat": 46.8964, "lng": 19.6897 },
+    "population": 111000
+  },
+  {
+    "id": "szekesfehervar-hu",
+    "name": "Székesfehérvár",
+    "native_name": "Székesfehérvár",
+    "country_slug": "hungary",
+    "region_slug": "fejer",
+    "hardness_mg_l": 197,
+    "coords": { "lat": 47.1947, "lng": 18.4087 },
+    "population": 98000
+  },
+  {
+    "id": "szombathely-hu",
+    "name": "Szombathely",
+    "native_name": "Szombathely",
+    "country_slug": "hungary",
+    "region_slug": "vas",
+    "hardness_mg_l": 169,
+    "coords": { "lat": 47.2309, "lng": 16.6216 },
+    "population": 78000
+  },
+  {
+    "id": "paradsasvar-hu",
+    "name": "Parád",
+    "native_name": "Parád",
+    "country_slug": "hungary",
+    "region_slug": "heves",
+    "hardness_mg_l": 142,
+    "coords": { "lat": 47.9167, "lng": 20.0333 },
+    "population": 5000
+  },
+  {
+    "id": "tirana-al",
+    "name": "Tirana",
+    "native_name": "Tiranë",
+    "country_slug": "albania",
+    "region_slug": "tirana",
+    "hardness_mg_l": 199,
+    "coords": { "lat": 41.3275, "lng": 19.8187 },
+    "population": 525000
+  },
+  {
+    "id": "durres-al",
+    "name": "Durrës",
+    "native_name": "Durrës",
+    "country_slug": "albania",
+    "region_slug": "durres",
+    "hardness_mg_l": 204,
+    "coords": { "lat": 41.3231, "lng": 19.4561 },
+    "population": 175000
+  },
+  {
+    "id": "vlore-al",
+    "name": "Vlorë",
+    "native_name": "Vlorë",
+    "country_slug": "albania",
+    "region_slug": "vlore",
+    "hardness_mg_l": 215,
+    "coords": { "lat": 40.4691, "lng": 19.4836 },
+    "population": 130000
+  },
+  {
+    "id": "elbasan-al",
+    "name": "Elbasan",
+    "native_name": "Elbasan",
+    "country_slug": "albania",
+    "region_slug": "elbasan",
+    "hardness_mg_l": 188,
+    "coords": { "lat": 41.1126, "lng": 20.0822 },
+    "population": 115000
+  },
+  {
+    "id": "shkoder-al",
+    "name": "Shkodër",
+    "native_name": "Shkodër",
+    "country_slug": "albania",
+    "region_slug": "shkoder",
+    "hardness_mg_l": 176,
+    "coords": { "lat": 42.0693, "lng": 19.5129 },
+    "population": 95000
+  },
+  {
+    "id": "andorra-la-vella-ad",
+    "name": "Andorra la Vella",
+    "native_name": "Andorra la Vella",
+    "country_slug": "andorra",
+    "region_slug": "andorra-la-vella",
+    "hardness_mg_l": 145,
+    "coords": { "lat": 42.5063, "lng": 1.5218 },
+    "population": 23000
+  },
+  {
+    "id": "escaldes-engordany-ad",
+    "name": "Escaldes-Engordany",
+    "native_name": "Escaldes-Engordany",
+    "country_slug": "andorra",
+    "region_slug": "escaldes-engordany",
+    "hardness_mg_l": 148,
+    "coords": { "lat": 42.5075, "lng": 1.5390 },
+    "population": 15000
+  },
+  {
+    "id": "encamp-ad",
+    "name": "Encamp",
+    "native_name": "Encamp",
+    "country_slug": "andorra",
+    "region_slug": "encamp",
+    "hardness_mg_l": 151,
+    "coords": { "lat": 42.5350, "lng": 1.5833 },
+    "population": 13000
+  },
+  {
+    "id": "sant-julia-de-loria-ad",
+    "name": "Sant Julià de Lòria",
+    "native_name": "Sant Julià de Lòria",
+    "country_slug": "andorra",
+    "region_slug": "sant-julia-de-loria",
+    "hardness_mg_l": 154,
+    "coords": { "lat": 42.4667, "lng": 1.5000 },
+    "population": 9500
+  },
+  {
+    "id": "la-massana-ad",
+    "name": "La Massana",
+    "native_name": "La Massana",
+    "country_slug": "andorra",
+    "region_slug": "la-massana",
+    "hardness_mg_l": 142,
+    "coords": { "lat": 42.5449, "lng": 1.5148 },
+    "population": 11000
+  },
+  {
+    "id": "minsk-by",
+    "name": "Minsk",
+    "native_name": "Мінск",
+    "country_slug": "belarus",
+    "region_slug": "minsk",
+    "hardness_mg_l": 126,
+    "coords": { "lat": 53.9045, "lng": 27.5615 },
+    "population": 1996000
+  },
+  {
+    "id": "gomel-by",
+    "name": "Gomel",
+    "native_name": "Гомель",
+    "country_slug": "belarus",
+    "region_slug": "gomel",
+    "hardness_mg_l": 138,
+    "coords": { "lat": 52.4412, "lng": 30.9878 },
+    "population": 510000
+  },
+  {
+    "id": "mogilev-by",
+    "name": "Mogilev",
+    "native_name": "Магілёў",
+    "country_slug": "belarus",
+    "region_slug": "mogilev",
+    "hardness_mg_l": 143,
+    "coords": { "lat": 53.8945, "lng": 30.3310 },
+    "population": 357000
+  },
+  {
+    "id": "vitebsk-by",
+    "name": "Vitebsk",
+    "native_name": "Віцебск",
+    "country_slug": "belarus",
+    "region_slug": "vitebsk",
+    "hardness_mg_l": 119,
+    "coords": { "lat": 55.1848, "lng": 30.2016 },
+    "population": 365000
+  },
+  {
+    "id": "grodno-by",
+    "name": "Grodno",
+    "native_name": "Гродна",
+    "country_slug": "belarus",
+    "region_slug": "grodno",
+    "hardness_mg_l": 135,
+    "coords": { "lat": 53.6694, "lng": 23.8131 },
+    "population": 357000
+  },
+  {
+    "id": "brest-by",
+    "name": "Brest",
+    "native_name": "Брэст",
+    "country_slug": "belarus",
+    "region_slug": "brest",
+    "hardness_mg_l": 148,
+    "coords": { "lat": 52.0976, "lng": 23.7341 },
+    "population": 350000
+  },
+  {
+    "id": "sarajevo-ba",
+    "name": "Sarajevo",
+    "native_name": "Sarajevo",
+    "country_slug": "bosnia-and-herzegovina",
+    "region_slug": "federation-of-bosnia-and-herzegovina",
+    "hardness_mg_l": 165,
+    "coords": { "lat": 43.8563, "lng": 18.4131 },
+    "population": 291000
+  },
+  {
+    "id": "banja-luka-ba",
+    "name": "Banja Luka",
+    "native_name": "Бања Лука",
+    "country_slug": "bosnia-and-herzegovina",
+    "region_slug": "republika-srpska",
+    "hardness_mg_l": 179,
+    "coords": { "lat": 44.7722, "lng": 17.1910 },
+    "population": 199000
+  },
+  {
+    "id": "tuzla-ba",
+    "name": "Tuzla",
+    "native_name": "Tuzla",
+    "country_slug": "bosnia-and-herzegovina",
+    "region_slug": "federation-of-bosnia-and-herzegovina",
+    "hardness_mg_l": 183,
+    "coords": { "lat": 44.5377, "lng": 18.6764 },
+    "population": 120000
+  },
+  {
+    "id": "zenica-ba",
+    "name": "Zenica",
+    "native_name": "Zenica",
+    "country_slug": "bosnia-and-herzegovina",
+    "region_slug": "federation-of-bosnia-and-herzegovina",
+    "hardness_mg_l": 188,
+    "coords": { "lat": 44.2034, "lng": 17.9077 },
+    "population": 115000
+  },
+  {
+    "id": "mostar-ba",
+    "name": "Mostar",
+    "native_name": "Mostar",
+    "country_slug": "bosnia-and-herzegovina",
+    "region_slug": "federation-of-bosnia-and-herzegovina",
+    "hardness_mg_l": 204,
+    "coords": { "lat": 43.3438, "lng": 17.8078 },
+    "population": 113000
+  },
+  {
+    "id": "nicosia-cy",
+    "name": "Nicosia",
+    "native_name": "Λευκωσία",
+    "country_slug": "cyprus",
+    "region_slug": "nicosia",
+    "hardness_mg_l": 196,
+    "coords": { "lat": 35.1856, "lng": 33.3823 },
+    "population": 330000
+  },
+  {
+    "id": "limassol-cy",
+    "name": "Limassol",
+    "native_name": "Λεμεσός",
+    "country_slug": "cyprus",
+    "region_slug": "limassol",
+    "hardness_mg_l": 211,
+    "coords": { "lat": 34.7071, "lng": 33.0226 },
+    "population": 235000
+  },
+  {
+    "id": "larnaca-cy",
+    "name": "Larnaca",
+    "native_name": "Λάρνακα",
+    "country_slug": "cyprus",
+    "region_slug": "larnaca",
+    "hardness_mg_l": 222,
+    "coords": { "lat": 34.9169, "lng": 33.6376 },
+    "population": 144000
+  },
+  {
+    "id": "paphos-cy",
+    "name": "Paphos",
+    "native_name": "Πάφος",
+    "country_slug": "cyprus",
+    "region_slug": "paphos",
+    "hardness_mg_l": 218,
+    "coords": { "lat": 34.7754, "lng": 32.4243 },
+    "population": 63000
+  },
+  {
+    "id": "kyrenia-cy",
+    "name": "Kyrenia",
+    "native_name": "Κερύνεια",
+    "country_slug": "cyprus",
+    "region_slug": "kyrenia",
+    "hardness_mg_l": 207,
+    "coords": { "lat": 35.3398, "lng": 33.3174 },
+    "population": 73000
+  },
+  {
+    "id": "tallinn-ee",
+    "name": "Tallinn",
+    "native_name": "Tallinn",
+    "country_slug": "estonia",
+    "region_slug": "harju",
+    "hardness_mg_l": 84,
+    "coords": { "lat": 59.4370, "lng": 24.7536 },
+    "population": 438000
+  },
+  {
+    "id": "tartu-ee",
+    "name": "Tartu",
+    "native_name": "Tartu",
+    "country_slug": "estonia",
+    "region_slug": "tartu",
+    "hardness_mg_l": 102,
+    "coords": { "lat": 58.3776, "lng": 26.7290 },
+    "population": 95000
+  },
+  {
+    "id": "narva-ee",
+    "name": "Narva",
+    "native_name": "Narva",
+    "country_slug": "estonia",
+    "region_slug": "ida-viru",
+    "hardness_mg_l": 115,
+    "coords": { "lat": 59.3796, "lng": 28.1905 },
+    "population": 57000
+  },
+  {
+    "id": "parnu-ee",
+    "name": "Pärnu",
+    "native_name": "Pärnu",
+    "country_slug": "estonia",
+    "region_slug": "parnu",
+    "hardness_mg_l": 97,
+    "coords": { "lat": 58.3859, "lng": 24.4971 },
+    "population": 40000
+  },
+  {
+    "id": "kohtla-jarve-ee",
+    "name": "Kohtla-Järve",
+    "native_name": "Kohtla-Järve",
+    "country_slug": "estonia",
+    "region_slug": "ida-viru",
+    "hardness_mg_l": 119,
+    "coords": { "lat": 59.3989, "lng": 27.2831 },
+    "population": 35000
+  },
+  {
+    "id": "reykjavik-is",
+    "name": "Reykjavík",
+    "native_name": "Reykjavík",
+    "country_slug": "iceland",
+    "region_slug": "capital-region",
+    "hardness_mg_l": 58,
+    "coords": { "lat": 64.1466, "lng": -21.9426 },
+    "population": 131000
+  },
+  {
+    "id": "kopavogur-is",
+    "name": "Kópavogur",
+    "native_name": "Kópavogur",
+    "country_slug": "iceland",
+    "region_slug": "capital-region",
+    "hardness_mg_l": 62,
+    "coords": { "lat": 64.1125, "lng": -21.9130 },
+    "population": 37000
+  },
+  {
+    "id": "hafnarfjordur-is",
+    "name": "Hafnarfjörður",
+    "native_name": "Hafnarfjörður",
+    "country_slug": "iceland",
+    "region_slug": "capital-region",
+    "hardness_mg_l": 65,
+    "coords": { "lat": 64.0671, "lng": -21.9375 },
+    "population": 29000
+  },
+  {
+    "id": "akureyri-is",
+    "name": "Akureyri",
+    "native_name": "Akureyri",
+    "country_slug": "iceland",
+    "region_slug": "northeastern",
+    "hardness_mg_l": 44,
+    "coords": { "lat": 65.6885, "lng": -18.1262 },
+    "population": 19000
+  },
+  {
+    "id": "dublin-ie",
+    "name": "Dublin",
+    "native_name": "Baile Átha Cliath",
+    "country_slug": "ireland",
+    "region_slug": "dublin",
+    "hardness_mg_l": 177,
+    "coords": { "lat": 53.3498, "lng": -6.2603 },
+    "population": 1210000
+  },
+  {
+    "id": "cork-ie",
+    "name": "Cork",
+    "native_name": "Corcaigh",
+    "country_slug": "ireland",
+    "region_slug": "cork",
+    "hardness_mg_l": 188,
+    "coords": { "lat": 51.8985, "lng": -8.4756 },
+    "population": 222000
+  },
+  {
+    "id": "limerick-ie",
+    "name": "Limerick",
+    "native_name": "Luimneach",
+    "country_slug": "ireland",
+    "region_slug": "limerick",
+    "hardness_mg_l": 195,
+    "coords": { "lat": 52.6638, "lng": -8.6267 },
+    "population": 94000
+  },
+  {
+    "id": "galway-ie",
+    "name": "Galway",
+    "native_name": "Gaillimh",
+    "country_slug": "ireland",
+    "region_slug": "galway",
+    "hardness_mg_l": 166,
+    "coords": { "lat": 53.2707, "lng": -9.0568 },
+    "population": 83000
+  },
+  {
+    "id": "waterford-ie",
+    "name": "Waterford",
+    "native_name": "Port Láirge",
+    "country_slug": "ireland",
+    "region_slug": "waterford",
+    "hardness_mg_l": 182,
+    "coords": { "lat": 52.2593, "lng": -7.1101 },
+    "population": 54000
+  },
+  {
+    "id": "drogheda-ie",
+    "name": "Drogheda",
+    "native_name": "Droichead Átha",
+    "country_slug": "ireland",
+    "region_slug": "louth",
+    "hardness_mg_l": 203,
+    "coords": { "lat": 53.7151, "lng": -6.3502 },
+    "population": 41000
+  },
+  {
+    "id": "rome-it",
+    "name": "Rome",
+    "native_name": "Roma",
+    "country_slug": "italy",
+    "region_slug": "lazio",
+    "hardness_mg_l": 198,
+    "coords": { "lat": 41.9028, "lng": 12.4964 },
+    "population": 4342000
+  },
+  {
+    "id": "milan-it",
+    "name": "Milan",
+    "native_name": "Milano",
+    "country_slug": "italy",
+    "region_slug": "lombardy",
+    "hardness_mg_l": 214,
+    "coords": { "lat": 45.4642, "lng": 9.1900 },
+    "population": 3151000
+  },
+  {
+    "id": "naples-it",
+    "name": "Naples",
+    "native_name": "Napoli",
+    "country_slug": "italy",
+    "region_slug": "campania",
+    "hardness_mg_l": 236,
+    "coords": { "lat": 40.8518, "lng": 14.2681 },
+    "population": 3073000
+  },
+  {
+    "id": "turin-it",
+    "name": "Turin",
+    "native_name": "Torino",
+    "country_slug": "italy",
+    "region_slug": "piedmont",
+    "hardness_mg_l": 172,
+    "coords": { "lat": 45.0703, "lng": 7.6869 },
+    "population": 1776000
+  },
+  {
+    "id": "palermo-it",
+    "name": "Palermo",
+    "native_name": "Palermo",
+    "country_slug": "italy",
+    "region_slug": "sicily",
+    "hardness_mg_l": 225,
+    "coords": { "lat": 38.1157, "lng": 13.3615 },
+    "population": 855000
+  },
+  {
+    "id": "genoa-it",
+    "name": "Genoa",
+    "native_name": "Genova",
+    "country_slug": "italy",
+    "region_slug": "liguria",
+    "hardness_mg_l": 166,
+    "coords": { "lat": 44.4056, "lng": 8.9463 },
+    "population": 580000
+  },
+  {
+    "id": "bologna-it",
+    "name": "Bologna",
+    "native_name": "Bologna",
+    "country_slug": "italy",
+    "region_slug": "emilia-romagna",
+    "hardness_mg_l": 256,
+    "coords": { "lat": 44.4949, "lng": 11.3426 },
+    "population": 392000
+  },
+  {
+    "id": "florence-it",
+    "name": "Florence",
+    "native_name": "Firenze",
+    "country_slug": "italy",
+    "region_slug": "tuscany",
+    "hardness_mg_l": 179,
+    "coords": { "lat": 43.7696, "lng": 11.2558 },
+    "population": 382000
+  },
+  {
+    "id": "bari-it",
+    "name": "Bari",
+    "native_name": "Bari",
+    "country_slug": "italy",
+    "region_slug": "apulia",
+    "hardness_mg_l": 243,
+    "coords": { "lat": 41.1171, "lng": 16.8719 },
+    "population": 322000
+  },
+  {
+    "id": "catania-it",
+    "name": "Catania",
+    "native_name": "Catania",
+    "country_slug": "italy",
+    "region_slug": "sicily",
+    "hardness_mg_l": 228,
+    "coords": { "lat": 37.5079, "lng": 15.0830 },
+    "population": 311000
+  },
+  {
+    "id": "riga-lv",
+    "name": "Riga",
+    "native_name": "Rīga",
+    "country_slug": "latvia",
+    "region_slug": "riga",
+    "hardness_mg_l": 115,
+    "coords": { "lat": 56.9496, "lng": 24.1052 },
+    "population": 620000
+  },
+  {
+    "id": "daugavpils-lv",
+    "name": "Daugavpils",
+    "native_name": "Daugavpils",
+    "country_slug": "latvia",
+    "region_slug": "latgale",
+    "hardness_mg_l": 127,
+    "coords": { "lat": 55.8747, "lng": 26.5362 },
+    "population": 82000
+  },
+  {
+    "id": "liepaja-lv",
+    "name": "Liepāja",
+    "native_name": "Liepāja",
+    "country_slug": "latvia",
+    "region_slug": "kurzeme",
+    "hardness_mg_l": 106,
+    "coords": { "lat": 56.5047, "lng": 21.0108 },
+    "population": 68000
+  },
+  {
+    "id": "jelgava-lv",
+    "name": "Jelgava",
+    "native_name": "Jelgava",
+    "country_slug": "latvia",
+    "region_slug": "zemgale",
+    "hardness_mg_l": 133,
+    "coords": { "lat": 56.6511, "lng": 23.7214 },
+    "population": 56000
+  },
+  {
+    "id": "ventspils-lv",
+    "name": "Ventspils",
+    "native_name": "Ventspils",
+    "country_slug": "latvia",
+    "region_slug": "kurzeme",
+    "hardness_mg_l": 112,
+    "coords": { "lat": 57.3939, "lng": 21.5649 },
+    "population": 34000
+  },
+  {
+    "id": "vaduz-li",
+    "name": "Vaduz",
+    "native_name": "Vaduz",
+    "country_slug": "liechtenstein",
+    "region_slug": "oberland",
+    "hardness_mg_l": 138,
+    "coords": { "lat": 47.1410, "lng": 9.5209 },
+    "population": 5700
+  },
+  {
+    "id": "schaan-li",
+    "name": "Schaan",
+    "native_name": "Schaan",
+    "country_slug": "liechtenstein",
+    "region_slug": "oberland",
+    "hardness_mg_l": 142,
+    "coords": { "lat": 47.1649, "lng": 9.5089 },
+    "population": 6000
+  },
+  {
+    "id": "balzers-li",
+    "name": "Balzers",
+    "native_name": "Balzers",
+    "country_slug": "liechtenstein",
+    "region_slug": "oberland",
+    "hardness_mg_l": 145,
+    "coords": { "lat": 47.0667, "lng": 9.5000 },
+    "population": 4600
+  },
+  {
+    "id": "triesen-li",
+    "name": "Triesen",
+    "native_name": "Triesen",
+    "country_slug": "liechtenstein",
+    "region_slug": "oberland",
+    "hardness_mg_l": 140,
+    "coords": { "lat": 47.1095, "lng": 9.5252 },
+    "population": 5200
+  },
+  {
+    "id": "vilnius-lt",
+    "name": "Vilnius",
+    "native_name": "Vilnius",
+    "country_slug": "lithuania",
+    "region_slug": "vilnius",
+    "hardness_mg_l": 108,
+    "coords": { "lat": 54.6872, "lng": 25.2797 },
+    "population": 581000
+  },
+  {
+    "id": "kaunas-lt",
+    "name": "Kaunas",
+    "native_name": "Kaunas",
+    "country_slug": "lithuania",
+    "region_slug": "kaunas",
+    "hardness_mg_l": 124,
+    "coords": { "lat": 54.8985, "lng": 23.9036 },
+    "population": 298000
+  },
+  {
+    "id": "klaipeda-lt",
+    "name": "Klaipėda",
+    "native_name": "Klaipėda",
+    "country_slug": "lithuania",
+    "region_slug": "klaipeda",
+    "hardness_mg_l": 116,
+    "coords": { "lat": 55.7033, "lng": 21.1443 },
+    "population": 149000
+  },
+  {
+    "id": "siauliai-lt",
+    "name": "Šiauliai",
+    "native_name": "Šiauliai",
+    "country_slug": "lithuania",
+    "region_slug": "siauliai",
+    "hardness_mg_l": 131,
+    "coords": { "lat": 55.9349, "lng": 23.3137 },
+    "population": 107000
+  },
+  {
+    "id": "panevezys-lt",
+    "name": "Panevėžys",
+    "native_name": "Panevėžys",
+    "country_slug": "lithuania",
+    "region_slug": "panevezys",
+    "hardness_mg_l": 133,
+    "coords": { "lat": 55.7348, "lng": 24.3575 },
+    "population": 89000
+  },
+  {
+    "id": "luxembourg-city-lu",
+    "name": "Luxembourg City",
+    "native_name": "Lëtzebuerg",
+    "country_slug": "luxembourg",
+    "region_slug": "luxembourg",
+    "hardness_mg_l": 118,
+    "coords": { "lat": 49.6117, "lng": 6.1319 },
+    "population": 132000
+  },
+  {
+    "id": "esch-sur-alzette-lu",
+    "name": "Esch-sur-Alzette",
+    "native_name": "Esch-Uelzecht",
+    "country_slug": "luxembourg",
+    "region_slug": "esch-sur-alzette",
+    "hardness_mg_l": 126,
+    "coords": { "lat": 49.4959, "lng": 5.9806 },
+    "population": 36000
+  },
+  {
+    "id": "differdange-lu",
+    "name": "Differdange",
+    "native_name": "Déifferdeng",
+    "country_slug": "luxembourg",
+    "region_slug": "differdange",
+    "hardness_mg_l": 130,
+    "coords": { "lat": 49.5241, "lng": 5.8912 },
+    "population": 28000
+  },
+  {
+    "id": "valletta-mt",
+    "name": "Valletta",
+    "native_name": "Valletta",
+    "country_slug": "malta",
+    "region_slug": "south-eastern",
+    "hardness_mg_l": 244,
+    "coords": { "lat": 35.8989, "lng": 14.5146 },
+    "population": 5800
+  },
+  {
+    "id": "birkirkara-mt",
+    "name": "Birkirkara",
+    "native_name": "Birkirkara",
+    "country_slug": "malta",
+    "region_slug": "central",
+    "hardness_mg_l": 253,
+    "coords": { "lat": 35.8972, "lng": 14.4611 },
+    "population": 25000
+  },
+  {
+    "id": "mosta-mt",
+    "name": "Mosta",
+    "native_name": "Mosta",
+    "country_slug": "malta",
+    "region_slug": "northern",
+    "hardness_mg_l": 257,
+    "coords": { "lat": 35.9143, "lng": 14.4228 },
+    "population": 21000
+  },
+  {
+    "id": "qormi-mt",
+    "name": "Qormi",
+    "native_name": "Ħal Qormi",
+    "country_slug": "malta",
+    "region_slug": "south-eastern",
+    "hardness_mg_l": 248,
+    "coords": { "lat": 35.8780, "lng": 14.4700 },
+    "population": 17000
+  },
+  {
+    "id": "amsterdam-nl",
+    "name": "Amsterdam",
+    "native_name": "Amsterdam",
+    "country_slug": "netherlands",
+    "region_slug": "north-holland",
+    "hardness_mg_l": 77,
+    "coords": { "lat": 52.3676, "lng": 4.9041 },
+    "population": 1463000
+  },
+  {
+    "id": "rotterdam-nl",
+    "name": "Rotterdam",
+    "native_name": "Rotterdam",
+    "country_slug": "netherlands",
+    "region_slug": "south-holland",
+    "hardness_mg_l": 83,
+    "coords": { "lat": 51.9244, "lng": 4.4777 },
+    "population": 1021000
+  },
+  {
+    "id": "the-hague-nl",
+    "name": "The Hague",
+    "native_name": "Den Haag",
+    "country_slug": "netherlands",
+    "region_slug": "south-holland",
+    "hardness_mg_l": 86,
+    "coords": { "lat": 52.0705, "lng": 4.3007 },
+    "population": 721000
+  },
+  {
+    "id": "utrecht-nl",
+    "name": "Utrecht",
+    "native_name": "Utrecht",
+    "country_slug": "netherlands",
+    "region_slug": "utrecht",
+    "hardness_mg_l": 74,
+    "coords": { "lat": 52.0907, "lng": 5.1214 },
+    "population": 505000
+  },
+  {
+    "id": "eindhoven-nl",
+    "name": "Eindhoven",
+    "native_name": "Eindhoven",
+    "country_slug": "netherlands",
+    "region_slug": "north-brabant",
+    "hardness_mg_l": 61,
+    "coords": { "lat": 51.4416, "lng": 5.4697 },
+    "population": 377000
+  },
+  {
+    "id": "groningen-nl",
+    "name": "Groningen",
+    "native_name": "Groningen",
+    "country_slug": "netherlands",
+    "region_slug": "groningen",
+    "hardness_mg_l": 69,
+    "coords": { "lat": 53.2194, "lng": 6.5665 },
+    "population": 325000
+  },
+  {
+    "id": "tilburg-nl",
+    "name": "Tilburg",
+    "native_name": "Tilburg",
+    "country_slug": "netherlands",
+    "region_slug": "north-brabant",
+    "hardness_mg_l": 65,
+    "coords": { "lat": 51.5555, "lng": 5.0913 },
+    "population": 296000
+  },
+  {
+    "id": "almere-nl",
+    "name": "Almere",
+    "native_name": "Almere",
+    "country_slug": "netherlands",
+    "region_slug": "flevoland",
+    "hardness_mg_l": 71,
+    "coords": { "lat": 52.3508, "lng": 5.2647 },
+    "population": 281000
+  },
+  {
+    "id": "breda-nl",
+    "name": "Breda",
+    "native_name": "Breda",
+    "country_slug": "netherlands",
+    "region_slug": "north-brabant",
+    "hardness_mg_l": 67,
+    "coords": { "lat": 51.5719, "lng": 4.7683 },
+    "population": 217000
+  },
+  {
+    "id": "nijmegen-nl",
+    "name": "Nijmegen",
+    "native_name": "Nijmegen",
+    "country_slug": "netherlands",
+    "region_slug": "gelderland",
+    "hardness_mg_l": 78,
+    "coords": { "lat": 51.8126, "lng": 5.8372 },
+    "population": 208000
+  },
+  {
+    "id": "skopje-mk",
+    "name": "Skopje",
+    "native_name": "Скопје",
+    "country_slug": "north-macedonia",
+    "region_slug": "skopje",
+    "hardness_mg_l": 146,
+    "coords": { "lat": 41.9973, "lng": 21.4280 },
+    "population": 527000
+  },
+  {
+    "id": "bitola-mk",
+    "name": "Bitola",
+    "native_name": "Битола",
+    "country_slug": "north-macedonia",
+    "region_slug": "pelagonia",
+    "hardness_mg_l": 159,
+    "coords": { "lat": 41.0314, "lng": 21.3346 },
+    "population": 74000
+  },
+  {
+    "id": "kumanovo-mk",
+    "name": "Kumanovo",
+    "native_name": "Куманово",
+    "country_slug": "north-macedonia",
+    "region_slug": "northeastern",
+    "hardness_mg_l": 153,
+    "coords": { "lat": 42.1358, "lng": 21.7186 },
+    "population": 71000
+  },
+  {
+    "id": "prilep-mk",
+    "name": "Prilep",
+    "native_name": "Прилеп",
+    "country_slug": "north-macedonia",
+    "region_slug": "pelagonia",
+    "hardness_mg_l": 162,
+    "coords": { "lat": 41.3455, "lng": 21.5553 },
+    "population": 66000
+  },
+  {
+    "id": "tetovo-mk",
+    "name": "Tetovo",
+    "native_name": "Тетово",
+    "country_slug": "north-macedonia",
+    "region_slug": "polog",
+    "hardness_mg_l": 138,
+    "coords": { "lat": 42.0106, "lng": 20.9715 },
+    "population": 63000
+  },
+  {
+    "id": "oslo-no",
+    "name": "Oslo",
+    "native_name": "Oslo",
+    "country_slug": "norway",
+    "region_slug": "oslo",
+    "hardness_mg_l": 63,
+    "coords": { "lat": 59.9139, "lng": 10.7522 },
+    "population": 1066000
+  },
+  {
+    "id": "bergen-no",
+    "name": "Bergen",
+    "native_name": "Bergen",
+    "country_slug": "norway",
+    "region_slug": "vestland",
+    "hardness_mg_l": 51,
+    "coords": { "lat": 60.3913, "lng": 5.3221 },
+    "population": 259000
+  },
+  {
+    "id": "trondheim-no",
+    "name": "Trondheim",
+    "native_name": "Trondheim",
+    "country_slug": "norway",
+    "region_slug": "trondelag",
+    "hardness_mg_l": 47,
+    "coords": { "lat": 63.4305, "lng": 10.3951 },
+    "population": 196000
+  },
+  {
+    "id": "stavanger-no",
+    "name": "Stavanger",
+    "native_name": "Stavanger",
+    "country_slug": "norway",
+    "region_slug": "rogaland",
+    "hardness_mg_l": 69,
+    "coords": { "lat": 58.9700, "lng": 5.7331 },
+    "population": 144000
+  },
+  {
+    "id": "drammen-no",
+    "name": "Drammen",
+    "native_name": "Drammen",
+    "country_slug": "norway",
+    "region_slug": "viken",
+    "hardness_mg_l": 74,
+    "coords": { "lat": 59.7441, "lng": 10.2045 },
+    "population": 118000
+  },
+  {
+    "id": "fredrikstad-no",
+    "name": "Fredrikstad",
+    "native_name": "Fredrikstad",
+    "country_slug": "norway",
+    "region_slug": "viken",
+    "hardness_mg_l": 72,
+    "coords": { "lat": 59.2181, "lng": 10.9298 },
+    "population": 103000
+  },
+  {
+    "id": "warsaw-pl",
+    "name": "Warsaw",
+    "native_name": "Warszawa",
+    "country_slug": "poland",
+    "region_slug": "masovian",
+    "hardness_mg_l": 194,
+    "coords": { "lat": 52.2297, "lng": 21.0122 },
+    "population": 1790000
+  },
+  {
+    "id": "krakow-pl",
+    "name": "Kraków",
+    "native_name": "Kraków",
+    "country_slug": "poland",
+    "region_slug": "lesser-poland",
+    "hardness_mg_l": 208,
+    "coords": { "lat": 50.0647, "lng": 19.9450 },
+    "population": 780000
+  },
+  {
+    "id": "lodz-pl",
+    "name": "Łódź",
+    "native_name": "Łódź",
+    "country_slug": "poland",
+    "region_slug": "lodz",
+    "hardness_mg_l": 176,
+    "coords": { "lat": 51.7592, "lng": 19.4559 },
+    "population": 677000
+  },
+  {
+    "id": "wroclaw-pl",
+    "name": "Wrocław",
+    "native_name": "Wrocław",
+    "country_slug": "poland",
+    "region_slug": "lower-silesian",
+    "hardness_mg_l": 183,
+    "coords": { "lat": 51.1079, "lng": 17.0385 },
+    "population": 643000
+  },
+  {
+    "id": "poznan-pl",
+    "name": "Poznań",
+    "native_name": "Poznań",
+    "country_slug": "poland",
+    "region_slug": "greater-poland",
+    "hardness_mg_l": 215,
+    "coords": { "lat": 52.4064, "lng": 16.9252 },
+    "population": 534000
+  },
+  {
+    "id": "gdansk-pl",
+    "name": "Gdańsk",
+    "native_name": "Gdańsk",
+    "country_slug": "poland",
+    "region_slug": "pomeranian",
+    "hardness_mg_l": 142,
+    "coords": { "lat": 54.3520, "lng": 18.6466 },
+    "population": 471000
+  },
+  {
+    "id": "szczecin-pl",
+    "name": "Szczecin",
+    "native_name": "Szczecin",
+    "country_slug": "poland",
+    "region_slug": "west-pomeranian",
+    "hardness_mg_l": 157,
+    "coords": { "lat": 53.4285, "lng": 14.5528 },
+    "population": 401000
+  },
+  {
+    "id": "bydgoszcz-pl",
+    "name": "Bydgoszcz",
+    "native_name": "Bydgoszcz",
+    "country_slug": "poland",
+    "region_slug": "kuyavian-pomeranian",
+    "hardness_mg_l": 169,
+    "coords": { "lat": 53.1235, "lng": 18.0084 },
+    "population": 348000
+  },
+  {
+    "id": "lublin-pl",
+    "name": "Lublin",
+    "native_name": "Lublin",
+    "country_slug": "poland",
+    "region_slug": "lublin",
+    "hardness_mg_l": 184,
+    "coords": { "lat": 51.2465, "lng": 22.5684 },
+    "population": 339000
+  },
+  {
+    "id": "bialystok-pl",
+    "name": "Białystok",
+    "native_name": "Białystok",
+    "country_slug": "poland",
+    "region_slug": "podlaskie",
+    "hardness_mg_l": 156,
+    "coords": { "lat": 53.1325, "lng": 23.1688 },
+    "population": 297000
+  },
+  {
+    "id": "lisbon-pt",
+    "name": "Lisbon",
+    "native_name": "Lisboa",
+    "country_slug": "portugal",
+    "region_slug": "lisbon",
+    "hardness_mg_l": 156,
+    "coords": { "lat": 38.7223, "lng": -9.1393 },
+    "population": 2927000
+  },
+  {
+    "id": "porto-pt",
+    "name": "Porto",
+    "native_name": "Porto",
+    "country_slug": "portugal",
+    "region_slug": "north",
+    "hardness_mg_l": 148,
+    "coords": { "lat": 41.1579, "lng": -8.6291 },
+    "population": 1318000
+  },
+  {
+    "id": "braga-pt",
+    "name": "Braga",
+    "native_name": "Braga",
+    "country_slug": "portugal",
+    "region_slug": "north",
+    "hardness_mg_l": 141,
+    "coords": { "lat": 41.5454, "lng": -8.4265 },
+    "population": 193000
+  },
+  {
+    "id": "coimbra-pt",
+    "name": "Coimbra",
+    "native_name": "Coimbra",
+    "country_slug": "portugal",
+    "region_slug": "centro",
+    "hardness_mg_l": 137,
+    "coords": { "lat": 40.2033, "lng": -8.4103 },
+    "population": 157000
+  },
+  {
+    "id": "funchal-pt",
+    "name": "Funchal",
+    "native_name": "Funchal",
+    "country_slug": "portugal",
+    "region_slug": "madeira",
+    "hardness_mg_l": 128,
+    "coords": { "lat": 32.6669, "lng": -16.9241 },
+    "population": 112000
+  },
+  {
+    "id": "bucharest-ro",
+    "name": "Bucharest",
+    "native_name": "București",
+    "country_slug": "romania",
+    "region_slug": "bucharest",
+    "hardness_mg_l": 264,
+    "coords": { "lat": 44.4268, "lng": 26.1025 },
+    "population": 1883000
+  },
+  {
+    "id": "cluj-napoca-ro",
+    "name": "Cluj-Napoca",
+    "native_name": "Cluj-Napoca",
+    "country_slug": "romania",
+    "region_slug": "cluj",
+    "hardness_mg_l": 251,
+    "coords": { "lat": 46.7712, "lng": 23.6236 },
+    "population": 325000
+  },
+  {
+    "id": "timisoara-ro",
+    "name": "Timișoara",
+    "native_name": "Timișoara",
+    "country_slug": "romania",
+    "region_slug": "timis",
+    "hardness_mg_l": 237,
+    "coords": { "lat": 45.7489, "lng": 21.2087 },
+    "population": 307000
+  },
+  {
+    "id": "iasi-ro",
+    "name": "Iași",
+    "native_name": "Iași",
+    "country_slug": "romania",
+    "region_slug": "iasi",
+    "hardness_mg_l": 277,
+    "coords": { "lat": 47.1585, "lng": 27.6014 },
+    "population": 290000
+  },
+  {
+    "id": "constanta-ro",
+    "name": "Constanța",
+    "native_name": "Constanța",
+    "country_slug": "romania",
+    "region_slug": "constanta",
+    "hardness_mg_l": 248,
+    "coords": { "lat": 44.1598, "lng": 28.6348 },
+    "population": 283000
+  },
+  {
+    "id": "craiova-ro",
+    "name": "Craiova",
+    "native_name": "Craiova",
+    "country_slug": "romania",
+    "region_slug": "dolj",
+    "hardness_mg_l": 283,
+    "coords": { "lat": 44.3302, "lng": 23.7949 },
+    "population": 270000
+  },
+  {
+    "id": "brasov-ro",
+    "name": "Brașov",
+    "native_name": "Brașov",
+    "country_slug": "romania",
+    "region_slug": "brasov",
+    "hardness_mg_l": 209,
+    "coords": { "lat": 45.6579, "lng": 25.6012 },
+    "population": 253000
+  },
+  {
+    "id": "galati-ro",
+    "name": "Galați",
+    "native_name": "Galați",
+    "country_slug": "romania",
+    "region_slug": "galati",
+    "hardness_mg_l": 272,
+    "coords": { "lat": 45.4353, "lng": 28.0081 },
+    "population": 249000
+  },
+  {
+    "id": "ploiesti-ro",
+    "name": "Ploiești",
+    "native_name": "Ploiești",
+    "country_slug": "romania",
+    "region_slug": "prahova",
+    "hardness_mg_l": 266,
+    "coords": { "lat": 44.9367, "lng": 26.0129 },
+    "population": 209000
+  },
+  {
+    "id": "oradea-ro",
+    "name": "Oradea",
+    "native_name": "Oradea",
+    "country_slug": "romania",
+    "region_slug": "bihor",
+    "hardness_mg_l": 244,
+    "coords": { "lat": 47.0465, "lng": 21.9189 },
+    "population": 206000
+  },
+  {
+    "id": "moscow-ru",
+    "name": "Moscow",
+    "native_name": "Москва",
+    "country_slug": "russia",
+    "region_slug": "moscow",
+    "hardness_mg_l": 124,
+    "coords": { "lat": 55.7558, "lng": 37.6173 },
+    "population": 12506000
+  },
+  {
+    "id": "saint-petersburg-ru",
+    "name": "Saint Petersburg",
+    "native_name": "Санкт-Петербург",
+    "country_slug": "russia",
+    "region_slug": "leningrad-oblast",
+    "hardness_mg_l": 53,
+    "coords": { "lat": 59.9311, "lng": 30.3609 },
+    "population": 5384000
+  },
+  {
+    "id": "novosibirsk-ru",
+    "name": "Novosibirsk",
+    "native_name": "Новосибирск",
+    "country_slug": "russia",
+    "region_slug": "novosibirsk-oblast",
+    "hardness_mg_l": 106,
+    "coords": { "lat": 55.0302, "lng": 82.9204 },
+    "population": 1625000
+  },
+  {
+    "id": "yekaterinburg-ru",
+    "name": "Yekaterinburg",
+    "native_name": "Екатеринбург",
+    "country_slug": "russia",
+    "region_slug": "sverdlovsk-oblast",
+    "hardness_mg_l": 89,
+    "coords": { "lat": 56.8389, "lng": 60.6057 },
+    "population": 1495000
+  },
+  {
+    "id": "kazan-ru",
+    "name": "Kazan",
+    "native_name": "Казань",
+    "country_slug": "russia",
+    "region_slug": "tatarstan",
+    "hardness_mg_l": 115,
+    "coords": { "lat": 55.7887, "lng": 49.1221 },
+    "population": 1258000
+  },
+  {
+    "id": "nizhny-novgorod-ru",
+    "name": "Nizhny Novgorod",
+    "native_name": "Нижний Новгород",
+    "country_slug": "russia",
+    "region_slug": "nizhny-novgorod-oblast",
+    "hardness_mg_l": 98,
+    "coords": { "lat": 56.2965, "lng": 43.9361 },
+    "population": 1252000
+  },
+  {
+    "id": "samara-ru",
+    "name": "Samara",
+    "native_name": "Самара",
+    "country_slug": "russia",
+    "region_slug": "samara-oblast",
+    "hardness_mg_l": 134,
+    "coords": { "lat": 53.1959, "lng": 50.1008 },
+    "population": 1153000
+  },
+  {
+    "id": "omsk-ru",
+    "name": "Omsk",
+    "native_name": "Омск",
+    "country_slug": "russia",
+    "region_slug": "omsk-oblast",
+    "hardness_mg_l": 121,
+    "coords": { "lat": 54.9885, "lng": 73.3242 },
+    "population": 1152000
+  },
+  {
+    "id": "chelyabinsk-ru",
+    "name": "Chelyabinsk",
+    "native_name": "Челябинск",
+    "country_slug": "russia",
+    "region_slug": "chelyabinsk-oblast",
+    "hardness_mg_l": 142,
+    "coords": { "lat": 55.1644, "lng": 61.4368 },
+    "population": 1196000
+  },
+  {
+    "id": "rostov-on-don-ru",
+    "name": "Rostov-on-Don",
+    "native_name": "Ростов-на-Дону",
+    "country_slug": "russia",
+    "region_slug": "rostov-oblast",
+    "hardness_mg_l": 129,
+    "coords": { "lat": 47.2357, "lng": 39.7015 },
+    "population": 1133000
+  },
+  {
+    "id": "belgrade-rs",
+    "name": "Belgrade",
+    "native_name": "Београд",
+    "country_slug": "serbia",
+    "region_slug": "belgrade",
+    "hardness_mg_l": 182,
+    "coords": { "lat": 44.7866, "lng": 20.4489 },
+    "population": 1688000
+  },
+  {
+    "id": "novi-sad-rs",
+    "name": "Novi Sad",
+    "native_name": "Нови Сад",
+    "country_slug": "serbia",
+    "region_slug": "vojvodina",
+    "hardness_mg_l": 195,
+    "coords": { "lat": 45.2671, "lng": 19.8335 },
+    "population": 368000
+  },
+  {
+    "id": "nis-rs",
+    "name": "Niš",
+    "native_name": "Ниш",
+    "country_slug": "serbia",
+    "region_slug": "nisava",
+    "hardness_mg_l": 207,
+    "coords": { "lat": 43.3209, "lng": 21.8956 },
+    "population": 260000
+  },
+  {
+    "id": "kragujevac-rs",
+    "name": "Kragujevac",
+    "native_name": "Крагујевац",
+    "country_slug": "serbia",
+    "region_slug": "sumadija",
+    "hardness_mg_l": 188,
+    "coords": { "lat": 44.0128, "lng": 20.9114 },
+    "population": 150000
+  },
+  {
+    "id": "subotica-rs",
+    "name": "Subotica",
+    "native_name": "Суботица",
+    "country_slug": "serbia",
+    "region_slug": "vojvodina",
+    "hardness_mg_l": 176,
+    "coords": { "lat": 46.1005, "lng": 19.6651 },
+    "population": 97000
+  },
+  {
+    "id": "bratislava-sk",
+    "name": "Bratislava",
+    "native_name": "Bratislava",
+    "country_slug": "slovakia",
+    "region_slug": "bratislava",
+    "hardness_mg_l": 172,
+    "coords": { "lat": 48.1486, "lng": 17.1077 },
+    "population": 476000
+  },
+  {
+    "id": "kosice-sk",
+    "name": "Košice",
+    "native_name": "Košice",
+    "country_slug": "slovakia",
+    "region_slug": "kosice",
+    "hardness_mg_l": 185,
+    "coords": { "lat": 48.7164, "lng": 21.2611 },
+    "population": 239000
+  },
+  {
+    "id": "presov-sk",
+    "name": "Prešov",
+    "native_name": "Prešov",
+    "country_slug": "slovakia",
+    "region_slug": "presov",
+    "hardness_mg_l": 191,
+    "coords": { "lat": 48.9980, "lng": 21.2396 },
+    "population": 88000
+  },
+  {
+    "id": "zilina-sk",
+    "name": "Žilina",
+    "native_name": "Žilina",
+    "country_slug": "slovakia",
+    "region_slug": "zilina",
+    "hardness_mg_l": 163,
+    "coords": { "lat": 49.2244, "lng": 18.7392 },
+    "population": 81000
+  },
+  {
+    "id": "banska-bystrica-sk",
+    "name": "Banská Bystrica",
+    "native_name": "Banská Bystrica",
+    "country_slug": "slovakia",
+    "region_slug": "banska-bystrica",
+    "hardness_mg_l": 156,
+    "coords": { "lat": 48.7363, "lng": 19.1462 },
+    "population": 77000
+  },
+  {
+    "id": "ljubljana-si",
+    "name": "Ljubljana",
+    "native_name": "Ljubljana",
+    "country_slug": "slovenia",
+    "region_slug": "central-slovenia",
+    "hardness_mg_l": 141,
+    "coords": { "lat": 46.0569, "lng": 14.5058 },
+    "population": 295000
+  },
+  {
+    "id": "maribor-si",
+    "name": "Maribor",
+    "native_name": "Maribor",
+    "country_slug": "slovenia",
+    "region_slug": "drava",
+    "hardness_mg_l": 158,
+    "coords": { "lat": 46.5547, "lng": 15.6467 },
+    "population": 112000
+  },
+  {
+    "id": "kranj-si",
+    "name": "Kranj",
+    "native_name": "Kranj",
+    "country_slug": "slovenia",
+    "region_slug": "upper-carniola",
+    "hardness_mg_l": 149,
+    "coords": { "lat": 46.2389, "lng": 14.3556 },
+    "population": 57000
+  },
+  {
+    "id": "celje-si",
+    "name": "Celje",
+    "native_name": "Celje",
+    "country_slug": "slovenia",
+    "region_slug": "savinja",
+    "hardness_mg_l": 164,
+    "coords": { "lat": 46.2361, "lng": 15.2677 },
+    "population": 54000
+  },
+  {
+    "id": "koper-si",
+    "name": "Koper",
+    "native_name": "Koper",
+    "country_slug": "slovenia",
+    "region_slug": "coastal-karst",
+    "hardness_mg_l": 173,
+    "coords": { "lat": 45.5481, "lng": 13.7307 },
+    "population": 51000
+  },
+  {
+    "id": "madrid-es",
+    "name": "Madrid",
+    "native_name": "Madrid",
+    "country_slug": "spain",
+    "region_slug": "community-of-madrid",
+    "hardness_mg_l": 133,
+    "coords": { "lat": 40.4168, "lng": -3.7038 },
+    "population": 6672000
+  },
+  {
+    "id": "barcelona-es",
+    "name": "Barcelona",
+    "native_name": "Barcelona",
+    "country_slug": "spain",
+    "region_slug": "catalonia",
+    "hardness_mg_l": 181,
+    "coords": { "lat": 41.3851, "lng": 2.1734 },
+    "population": 5752000
+  },
+  {
+    "id": "valencia-es",
+    "name": "Valencia",
+    "native_name": "València",
+    "country_slug": "spain",
+    "region_slug": "valencian-community",
+    "hardness_mg_l": 276,
+    "coords": { "lat": 39.4699, "lng": -0.3763 },
+    "population": 1800000
+  },
+  {
+    "id": "seville-es",
+    "name": "Seville",
+    "native_name": "Sevilla",
+    "country_slug": "spain",
+    "region_slug": "andalusia",
+    "hardness_mg_l": 219,
+    "coords": { "lat": 37.3891, "lng": -5.9845 },
+    "population": 1529000
+  },
+  {
+    "id": "zaragoza-es",
+    "name": "Zaragoza",
+    "native_name": "Zaragoza",
+    "country_slug": "spain",
+    "region_slug": "aragon",
+    "hardness_mg_l": 207,
+    "coords": { "lat": 41.6488, "lng": -0.8891 },
+    "population": 775000
+  },
+  {
+    "id": "malaga-es",
+    "name": "Málaga",
+    "native_name": "Málaga",
+    "country_slug": "spain",
+    "region_slug": "andalusia",
+    "hardness_mg_l": 231,
+    "coords": { "lat": 36.7213, "lng": -4.4216 },
+    "population": 693000
+  },
+  {
+    "id": "murcia-es",
+    "name": "Murcia",
+    "native_name": "Murcia",
+    "country_slug": "spain",
+    "region_slug": "region-of-murcia",
+    "hardness_mg_l": 242,
+    "coords": { "lat": 37.9922, "lng": -1.1307 },
+    "population": 662000
+  },
+  {
+    "id": "palma-es",
+    "name": "Palma de Mallorca",
+    "native_name": "Palma",
+    "country_slug": "spain",
+    "region_slug": "balearic-islands",
+    "hardness_mg_l": 294,
+    "coords": { "lat": 39.5696, "lng": 2.6502 },
+    "population": 572000
+  },
+  {
+    "id": "bilbao-es",
+    "name": "Bilbao",
+    "native_name": "Bilbo",
+    "country_slug": "spain",
+    "region_slug": "basque-country",
+    "hardness_mg_l": 122,
+    "coords": { "lat": 43.2630, "lng": -2.9350 },
+    "population": 556000
+  },
+  {
+    "id": "alicante-es",
+    "name": "Alicante",
+    "native_name": "Alacant",
+    "country_slug": "spain",
+    "region_slug": "valencian-community",
+    "hardness_mg_l": 259,
+    "coords": { "lat": 38.3452, "lng": -0.4815 },
+    "population": 543000
+  },
+  {
+    "id": "stockholm-se",
+    "name": "Stockholm",
+    "native_name": "Stockholm",
+    "country_slug": "sweden",
+    "region_slug": "stockholm",
+    "hardness_mg_l": 64,
+    "coords": { "lat": 59.3293, "lng": 18.0686 },
+    "population": 1638000
+  },
+  {
+    "id": "gothenburg-se",
+    "name": "Gothenburg",
+    "native_name": "Göteborg",
+    "country_slug": "sweden",
+    "region_slug": "vastra-gotaland",
+    "hardness_mg_l": 72,
+    "coords": { "lat": 57.7089, "lng": 11.9746 },
+    "population": 607000
+  },
+  {
+    "id": "malmo-se",
+    "name": "Malmö",
+    "native_name": "Malmö",
+    "country_slug": "sweden",
+    "region_slug": "skane",
+    "hardness_mg_l": 89,
+    "coords": { "lat": 55.6050, "lng": 13.0038 },
+    "population": 347000
+  },
+  {
+    "id": "uppsala-se",
+    "name": "Uppsala",
+    "native_name": "Uppsala",
+    "country_slug": "sweden",
+    "region_slug": "uppsala",
+    "hardness_mg_l": 56,
+    "coords": { "lat": 59.8586, "lng": 17.6389 },
+    "population": 233000
+  },
+  {
+    "id": "vasteras-se",
+    "name": "Västerås",
+    "native_name": "Västerås",
+    "country_slug": "sweden",
+    "region_slug": "vastmanland",
+    "hardness_mg_l": 68,
+    "coords": { "lat": 59.6099, "lng": 16.5448 },
+    "population": 156000
+  },
+  {
+    "id": "orebro-se",
+    "name": "Örebro",
+    "native_name": "Örebro",
+    "country_slug": "sweden",
+    "region_slug": "orebro",
+    "hardness_mg_l": 77,
+    "coords": { "lat": 59.2741, "lng": 15.2066 },
+    "population": 126000
+  },
+  {
+    "id": "linkoping-se",
+    "name": "Linköping",
+    "native_name": "Linköping",
+    "country_slug": "sweden",
+    "region_slug": "ostergotland",
+    "hardness_mg_l": 82,
+    "coords": { "lat": 58.4108, "lng": 15.6214 },
+    "population": 165000
+  },
+  {
+    "id": "helsingborg-se",
+    "name": "Helsingborg",
+    "native_name": "Helsingborg",
+    "country_slug": "sweden",
+    "region_slug": "skane",
+    "hardness_mg_l": 93,
+    "coords": { "lat": 56.0465, "lng": 12.6945 },
+    "population": 149000
+  },
+  {
+    "id": "jonkoping-se",
+    "name": "Jönköping",
+    "native_name": "Jönköping",
+    "country_slug": "sweden",
+    "region_slug": "jonkoping",
+    "hardness_mg_l": 79,
+    "coords": { "lat": 57.7826, "lng": 14.1618 },
+    "population": 141000
+  },
+  {
+    "id": "umea-se",
+    "name": "Umeå",
+    "native_name": "Umeå",
+    "country_slug": "sweden",
+    "region_slug": "vasterbotten",
+    "hardness_mg_l": 47,
+    "coords": { "lat": 63.8258, "lng": 20.2630 },
+    "population": 131000
+  },
+  {
+    "id": "bern-ch",
+    "name": "Bern",
+    "native_name": "Bern",
+    "country_slug": "switzerland",
+    "region_slug": "bern",
+    "hardness_mg_l": 148,
+    "coords": { "lat": 46.9480, "lng": 7.4474 },
+    "population": 134000
+  },
+  {
+    "id": "zurich-ch",
+    "name": "Zurich",
+    "native_name": "Zürich",
+    "country_slug": "switzerland",
+    "region_slug": "zurich",
+    "hardness_mg_l": 166,
+    "coords": { "lat": 47.3769, "lng": 8.5417 },
+    "population": 434000
+  },
+  {
+    "id": "geneva-ch",
+    "name": "Geneva",
+    "native_name": "Genève",
+    "country_slug": "switzerland",
+    "region_slug": "geneva",
+    "hardness_mg_l": 159,
+    "coords": { "lat": 46.2044, "lng": 6.1432 },
+    "population": 204000
+  },
+  {
+    "id": "basel-ch",
+    "name": "Basel",
+    "native_name": "Basel",
+    "country_slug": "switzerland",
+    "region_slug": "basel-city",
+    "hardness_mg_l": 177,
+    "coords": { "lat": 47.5596, "lng": 7.5886 },
+    "population": 173000
+  },
+  {
+    "id": "lausanne-ch",
+    "name": "Lausanne",
+    "native_name": "Lausanne",
+    "country_slug": "switzerland",
+    "region_slug": "vaud",
+    "hardness_mg_l": 153,
+    "coords": { "lat": 46.5197, "lng": 6.6323 },
+    "population": 140000
+  },
+  {
+    "id": "ankara-tr",
+    "name": "Ankara",
+    "native_name": "Ankara",
+    "country_slug": "turkey",
+    "region_slug": "central-anatolia",
+    "hardness_mg_l": 217,
+    "coords": { "lat": 39.9334, "lng": 32.8597 },
+    "population": 5679000
+  },
+  {
+    "id": "istanbul-tr",
+    "name": "Istanbul",
+    "native_name": "İstanbul",
+    "country_slug": "turkey",
+    "region_slug": "marmara",
+    "hardness_mg_l": 204,
+    "coords": { "lat": 41.0082, "lng": 28.9784 },
+    "population": 15460000
+  },
+  {
+    "id": "izmir-tr",
+    "name": "İzmir",
+    "native_name": "İzmir",
+    "country_slug": "turkey",
+    "region_slug": "aegean",
+    "hardness_mg_l": 238,
+    "coords": { "lat": 38.4192, "lng": 27.1287 },
+    "population": 4375000
+  },
+  {
+    "id": "bursa-tr",
+    "name": "Bursa",
+    "native_name": "Bursa",
+    "country_slug": "turkey",
+    "region_slug": "marmara",
+    "hardness_mg_l": 191,
+    "coords": { "lat": 40.1885, "lng": 29.0610 },
+    "population": 3141000
+  },
+  {
+    "id": "adana-tr",
+    "name": "Adana",
+    "native_name": "Adana",
+    "country_slug": "turkey",
+    "region_slug": "mediterranean",
+    "hardness_mg_l": 226,
+    "coords": { "lat": 37.0000, "lng": 35.3213 },
+    "population": 2253000
+  },
+  {
+    "id": "gaziantep-tr",
+    "name": "Gaziantep",
+    "native_name": "Gaziantep",
+    "country_slug": "turkey",
+    "region_slug": "southeastern-anatolia",
+    "hardness_mg_l": 245,
+    "coords": { "lat": 37.0662, "lng": 37.3833 },
+    "population": 2131000
+  },
+  {
+    "id": "konya-tr",
+    "name": "Konya",
+    "native_name": "Konya",
+    "country_slug": "turkey",
+    "region_slug": "central-anatolia",
+    "hardness_mg_l": 209,
+    "coords": { "lat": 37.8746, "lng": 32.4932 },
+    "population": 2250000
+  },
+  {
+    "id": "antalya-tr",
+    "name": "Antalya",
+    "native_name": "Antalya",
+    "country_slug": "turkey",
+    "region_slug": "mediterranean",
+    "hardness_mg_l": 213,
+    "coords": { "lat": 36.8969, "lng": 30.7133 },
+    "population": 2548000
+  },
+  {
+    "id": "diyarbakir-tr",
+    "name": "Diyarbakır",
+    "native_name": "Diyarbakır",
+    "country_slug": "turkey",
+    "region_slug": "southeastern-anatolia",
+    "hardness_mg_l": 258,
+    "coords": { "lat": 37.9144, "lng": 40.2306 },
+    "population": 1781000
+  },
+  {
+    "id": "mersin-tr",
+    "name": "Mersin",
+    "native_name": "Mersin",
+    "country_slug": "turkey",
+    "region_slug": "mediterranean",
+    "hardness_mg_l": 235,
+    "coords": { "lat": 36.8000, "lng": 34.6333 },
+    "population": 1800000
+  },
+  {
+    "id": "kiev-ua",
+    "name": "Kyiv",
+    "native_name": "Київ",
+    "country_slug": "ukraine",
+    "region_slug": "kyiv",
+    "hardness_mg_l": 124,
+    "coords": { "lat": 50.4501, "lng": 30.5234 },
+    "population": 2962000
+  },
+  {
+    "id": "kharkiv-ua",
+    "name": "Kharkiv",
+    "native_name": "Харків",
+    "country_slug": "ukraine",
+    "region_slug": "kharkiv",
+    "hardness_mg_l": 131,
+    "coords": { "lat": 49.9935, "lng": 36.2304 },
+    "population": 1433000
+  },
+  {
+    "id": "odessa-ua",
+    "name": "Odesa",
+    "native_name": "Одеса",
+    "country_slug": "ukraine",
+    "region_slug": "odessa",
+    "hardness_mg_l": 118,
+    "coords": { "lat": 46.4825, "lng": 30.7233 },
+    "population": 1015000
+  },
+  {
+    "id": "dnipro-ua",
+    "name": "Dnipro",
+    "native_name": "Дніпро",
+    "country_slug": "ukraine",
+    "region_slug": "dnipropetrovsk",
+    "hardness_mg_l": 142,
+    "coords": { "lat": 48.4647, "lng": 35.0462 },
+    "population": 990000
+  },
+  {
+    "id": "donetsk-ua",
+    "name": "Donetsk",
+    "native_name": "Донецьк",
+    "country_slug": "ukraine",
+    "region_slug": "donetsk",
+    "hardness_mg_l": 157,
+    "coords": { "lat": 48.0159, "lng": 37.8029 },
+    "population": 905000
+  },
+  {
+    "id": "lviv-ua",
+    "name": "Lviv",
+    "native_name": "Львів",
+    "country_slug": "ukraine",
+    "region_slug": "lviv",
+    "hardness_mg_l": 106,
+    "coords": { "lat": 49.8397, "lng": 24.0297 },
+    "population": 724000
+  },
+  {
+    "id": "zaporizhzhia-ua",
+    "name": "Zaporizhzhia",
+    "native_name": "Запоріжжя",
+    "country_slug": "ukraine",
+    "region_slug": "zaporizhzhia",
+    "hardness_mg_l": 148,
+    "coords": { "lat": 47.8388, "lng": 35.1396 },
+    "population": 722000
+  },
+  {
+    "id": "london-gb",
+    "name": "London",
+    "native_name": "London",
+    "country_slug": "united-kingdom",
+    "region_slug": "greater-london",
+    "hardness_mg_l": 277,
+    "coords": { "lat": 51.5074, "lng": -0.1278 },
+    "population": 9425000
+  },
+  {
+    "id": "birmingham-gb",
+    "name": "Birmingham",
+    "native_name": "Birmingham",
+    "country_slug": "united-kingdom",
+    "region_slug": "west-midlands",
+    "hardness_mg_l": 108,
+    "coords": { "lat": 52.4862, "lng": -1.8904 },
+    "population": 2600000
+  },
+  {
+    "id": "manchester-gb",
+    "name": "Manchester",
+    "native_name": "Manchester",
+    "country_slug": "united-kingdom",
+    "region_slug": "north-west",
+    "hardness_mg_l": 73,
+    "coords": { "lat": 53.4808, "lng": -2.2426 },
+    "population": 2700000
+  },
+  {
+    "id": "glasgow-gb",
+    "name": "Glasgow",
+    "native_name": "Glasgow",
+    "country_slug": "united-kingdom",
+    "region_slug": "scotland",
+    "hardness_mg_l": 44,
+    "coords": { "lat": 55.8642, "lng": -4.2518 },
+    "population": 1685000
+  },
+  {
+    "id": "leeds-gb",
+    "name": "Leeds",
+    "native_name": "Leeds",
+    "country_slug": "united-kingdom",
+    "region_slug": "yorkshire-and-the-humber",
+    "hardness_mg_l": 89,
+    "coords": { "lat": 53.8008, "lng": -1.5491 },
+    "population": 780000
+  },
+  {
+    "id": "liverpool-gb",
+    "name": "Liverpool",
+    "native_name": "Liverpool",
+    "country_slug": "united-kingdom",
+    "region_slug": "north-west",
+    "hardness_mg_l": 52,
+    "coords": { "lat": 53.4084, "lng": -2.9916 },
+    "population": 864000
+  },
+  {
+    "id": "newcastle-gb",
+    "name": "Newcastle upon Tyne",
+    "native_name": "Newcastle upon Tyne",
+    "country_slug": "united-kingdom",
+    "region_slug": "north-east",
+    "hardness_mg_l": 105,
+    "coords": { "lat": 54.9784, "lng": -1.6174 },
+    "population": 800000
+  },
+  {
+    "id": "sheffield-gb",
+    "name": "Sheffield",
+    "native_name": "Sheffield",
+    "country_slug": "united-kingdom",
+    "region_slug": "yorkshire-and-the-humber",
+    "hardness_mg_l": 62,
+    "coords": { "lat": 53.3811, "lng": -1.4701 },
+    "population": 685000
+  },
+  {
+    "id": "bristol-gb",
+    "name": "Bristol",
+    "native_name": "Bristol",
+    "country_slug": "united-kingdom",
+    "region_slug": "south-west",
+    "hardness_mg_l": 195,
+    "coords": { "lat": 51.4545, "lng": -2.5879 },
+    "population": 617000
+  },
+  {
+    "id": "belfast-gb",
+    "name": "Belfast",
+    "native_name": "Belfast",
+    "country_slug": "united-kingdom",
+    "region_slug": "northern-ireland",
+    "hardness_mg_l": 121,
+    "coords": { "lat": 54.5973, "lng": -5.9301 },
+    "population": 634000
+  },
+  {
+    "id": "edinburgh-gb",
+    "name": "Edinburgh",
+    "native_name": "Edinburgh",
+    "country_slug": "united-kingdom",
+    "region_slug": "scotland",
+    "hardness_mg_l": 63,
+    "coords": { "lat": 55.9533, "lng": -3.1883 },
+    "population": 530000
+  },
+  {
+    "id": "cardiff-gb",
+    "name": "Cardiff",
+    "native_name": "Caerdydd",
+    "country_slug": "united-kingdom",
+    "region_slug": "wales",
+    "hardness_mg_l": 115,
+    "coords": { "lat": 51.4816, "lng": -3.1791 },
+    "population": 481000
+  }
+]

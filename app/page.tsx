@@ -84,6 +84,39 @@ export default function Home() {
       </section>
 
       {/* <AdUnit slot="content" /> */}
+
+      {/* Paste this at the bottom of app/[lang]/page.tsx (or your main index page) */}
+<article className="mt-24 prose prose-lg prose-blue max-w-none text-gray-700 border-t border-gray-200 pt-16">
+  <h2 className="text-3xl font-extrabold text-gray-900">The State of European Water Quality in 2026</h2>
+  
+  <p>
+    Access to clean, safe municipal water is a hallmark of modern European infrastructure. However, while the safety of the water is universally regulated, the <em>chemical composition</em>—specifically the mineral density—varies drastically street by street. AquaScale Europe was engineered to bridge the gap between complex municipal utility reports and actionable data for everyday homeowners, installers, and property managers.
+  </p>
+
+  <h3 className="text-2xl font-bold text-gray-900 mt-8">Beyond the Tap: Why Local Water Hardness Actually Matters</h3>
+  <p>
+    Most consumers only think about water hardness when dealing with aesthetic issues: stubborn limescale rings around the bathtub, cloudy drinking glasses, or the feeling of dry, irritated skin after a shower. Yet, the invisible impact of hard water is significantly more severe. 
+  </p>
+  <p>
+    High concentrations of dissolved calcium and magnesium act as silent destroyers of modern home infrastructure. As Europe pushes toward greener, highly-efficient home heating solutions, these sensitive thermal systems are increasingly vulnerable to scale-induced failure. Understanding your local water profile is no longer a luxury—it is a mandatory step in responsible home maintenance and energy conservation.
+  </p>
+
+  <h3 className="text-2xl font-bold text-gray-900 mt-8">The Problem with Generic "National" Water Data</h3>
+  <p>
+    Historically, consumers looking to calibrate their dishwashers or evaluate the need for a whole-house water filtration system were forced to rely on generalized national maps. These maps paint entire countries with a broad brush, ignoring the complex, localized nature of water sourcing. 
+  </p>
+  <p>
+    For example, one municipality might draw surface water from a local river (resulting in soft water), while a neighboring district just 10 kilometers away might draw from a deep chalk aquifer (resulting in extremely hard water). Generic data leads to incorrect appliance calibration, wasted detergent, and unoptimized energy consumption.
+  </p>
+
+  <h3 className="text-2xl font-bold text-gray-900 mt-8">How AquaScale Europe Aggregates Municipal Intelligence</h3>
+  <p>
+    AquaScale Europe operates the continent's most comprehensive and granular database of municipal water hardness. By aggregating thousands of localized water quality reports, translating varied measurement units (°dH, °fH, °e) into a universal standard (mg/L), and applying advanced digital interpolation, we provide exact, address-level insights.
+  </p>
+  <p>
+    Whether you are an installer generating an ROI report for a client, a café owner calibrating an espresso machine for optimal taste extraction, or a homeowner trying to extend the lifespan of your combi-boiler, our platform delivers the precise data required to make informed, financially sound decisions. 
+  </p>
+</article>
       
     </main>
   );

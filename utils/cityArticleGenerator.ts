@@ -1,51 +1,22 @@
-// import { Location } from '@/types';
-
-// export function generateCityHubArticle(location: Location, allLocations: Location[]): string[] {
-//   const paragraphs: string[] = [];
-//   const germanDegrees = (location.hardness_mg_l * 0.056).toFixed(1);
-  
-//   // Calculate National Averages for unique comparison
-//   const countryCities = allLocations.filter(l => l.country_slug === location.country_slug);
-//   const countryAvg = Math.round(countryCities.reduce((acc, curr) => acc + curr.hardness_mg_l, 0) / countryCities.length);
-//   const isHarderThanNational = location.hardness_mg_l > countryAvg;
-
-//   paragraphs.push(
-//     `The municipal tap water in ${location.name} is characterized by a base hardness of ${location.hardness_mg_l} mg/L (approximately ${germanDegrees} °dH). For the ${location.population.toLocaleString()} residents in the area, understanding this precise mineral composition is the first step toward protecting household infrastructure and optimizing daily water usage.`
-//   );
-
-//   if (Math.abs(location.hardness_mg_l - countryAvg) > 10) {
-//     paragraphs.push(
-//       `When compared to the broader national average of ${countryAvg} mg/L, ${location.name}'s water is notably ${isHarderThanNational ? 'harder' : 'softer'}. This geographical variance means that generic, nationwide advice often fails here; appliances and plumbing systems in ${location.name} require localized calibration.`
-//     );
-//   } else {
-//     paragraphs.push(
-//       `Interestingly, this local reading of ${location.hardness_mg_l} mg/L mirrors the national average of ${countryAvg} mg/L very closely, indicating a consistent regional geology that relies heavily on similar aquifer types.`
-//     );
-//   }
-
-//   if (location.hardness_mg_l > 140) {
-//     paragraphs.push(
-//       `Because the water falls into the 'Hard' category, dissolved calcium and magnesium will aggressively precipitate when heated. This leads to rapid limescale accumulation in boilers, kettles, and showerheads. Proactive scaling management is highly recommended for property owners in ${location.region_slug.replace('-', ' ')}.`
-//     );
-//   } else {
-//     paragraphs.push(
-//       `Falling into a softer spectrum, the local supply poses a minimal threat of rapid calcification. However, trace minerals are still present, meaning occasional descaling of high-temperature appliances will still maintain peak energy efficiency.`
-//     );
-//   }
-
-//   return paragraphs;
-// }
-
-
 // utils/cityArticleGenerator.ts
 
 import { Location } from '@/types';
 
+// Deterministic hash based on city name to ensure stable, but varied, content generation
+function getVariationIndex(str: string, max: number): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return Math.abs(hash % max);
+}
+
 export function generateCityHubArticle(location: Location, allLocations: Location[]): string[] {
   const paragraphs: string[] = [];
   const germanDegrees = (location.hardness_mg_l * 0.056).toFixed(1);
+  const variation = getVariationIndex(location.name, 3);
   
-  // 1. Generate Unique Statistical Context (Data Journalism approach)
+  // 1. Generate Unique Statistical Context
   const regionLocations = allLocations
     .filter(l => l.region_slug === location.region_slug)
     .sort((a, b) => b.hardness_mg_l - a.hardness_mg_l);
@@ -57,21 +28,34 @@ export function generateCityHubArticle(location: Location, allLocations: Locatio
   const regionRank = regionLocations.findIndex(l => l.id === location.id) + 1;
   const countryAvg = Math.round(countryLocations.reduce((acc, curr) => acc + curr.hardness_mg_l, 0) / (countryLocations.length || 1));
   const deltaFromNational = location.hardness_mg_l - countryAvg;
+  const hardnessCategory = getHardnessCategory(location.hardness_mg_l);
   
-  // 2. Core Factual Reporting (No flowery adjectives, purely factual)
-  paragraphs.push(
-    `Based on municipal water quality data, ${location.name} registers a water hardness of ${location.hardness_mg_l} mg/L (${germanDegrees} °dH). This specific measurement places the local water supply in the "${getHardnessCategory(location.hardness_mg_l)}" category under European water quality guidelines.`
-  );
+  // -- VARIATION 1: Core Factual Reporting --
+  const introVariations = [
+    `Based on recent municipal testing, the water supply in ${location.name} registers a hardness level of ${location.hardness_mg_l} mg/L (equivalent to ${germanDegrees} °dH). Under European water quality guidelines, this specific mineral concentration places the local supply firmly in the "${hardnessCategory}" category.`,
+    `Residents of ${location.name} receive tap water with a base mineral concentration of ${location.hardness_mg_l} mg/L (${germanDegrees} °dH). From a chemical standpoint, this categorizes the municipal supply as "${hardnessCategory}" water.`,
+    `The latest localized data indicates that ${location.name}'s water hardness sits at ${location.hardness_mg_l} mg/L, or roughly ${germanDegrees} °dH. This reading officially classifies the local drinking water as "${hardnessCategory}".`
+  ];
+  paragraphs.push(introVariations[variation]);
 
-  // 3. Unique Relational Insight (Defeats NLP Duplicate Content Checkers)
-  paragraphs.push(
-    `Statistically, ${location.name} ranks as the ${regionRank}${getOrdinal(regionRank)} hardest water source out of ${regionLocations.length} monitored districts in the ${location.region_slug.replace(/-/g, ' ')} region. On a national scale, it deviates by ${Math.abs(deltaFromNational)} mg/L from the country-wide average of ${countryAvg} mg/L, making the municipal supply ${deltaFromNational > 0 ? 'measurably harder' : 'measurably softer'} than standard national baselines.`
-  );
+  // -- VARIATION 2: Relational Insight --
+  const relativeVariations = [
+    `Statistically, ${location.name} ranks as the ${regionRank}${getOrdinal(regionRank)} hardest water source out of ${regionLocations.length} monitored districts in the ${location.region_slug.replace(/-/g, ' ')} region. Nationally, it deviates by ${Math.abs(deltaFromNational)} mg/L from the country-wide baseline of ${countryAvg} mg/L.`,
+    `When comparing local geology, ${location.name} is the ${regionRank}${getOrdinal(regionRank)} hardest out of the ${regionLocations.length} areas evaluated in ${location.region_slug.replace(/-/g, ' ')}. It is ${deltaFromNational > 0 ? 'measurably harder' : 'measurably softer'} than the national average of ${countryAvg} mg/L.`,
+    `In terms of regional rankings, out of ${regionLocations.length} municipalities in ${location.region_slug.replace(/-/g, ' ')}, ${location.name} holds the ${regionRank}${getOrdinal(regionRank)} position for water hardness. The local measurement of ${location.hardness_mg_l} mg/L sits ${Math.abs(deltaFromNational)} mg/L ${deltaFromNational > 0 ? 'above' : 'below'} the national norm.`
+  ];
+  paragraphs.push(relativeVariations[variation]);
 
-  // 4. Thermodynamic & Physical Impact (AdSense Safe, no exaggerated claims)
-  paragraphs.push(
-    `At a concentration of ${location.hardness_mg_l} mg/L, the calcium carbonate precipitation risk is classified as ${calculateScaleRisk(location.hardness_mg_l)}. Heating elements operating above 60°C in this specific zone will experience a baseline scaling rate of approximately ${(location.hardness_mg_l * 0.0015).toFixed(3)} mm per year if no targeted ion-exchange treatment is utilized.`
-  );
+  // -- VARIATION 3: Physical Impact --
+  const scaleRisk = calculateScaleRisk(location.hardness_mg_l);
+  const scalingRate = (location.hardness_mg_l * 0.0015).toFixed(3);
+  
+  const impactVariations = [
+    `With a concentration of ${location.hardness_mg_l} mg/L, the risk of calcium carbonate precipitation is considered ${scaleRisk}. Unmanaged heating elements operating above 60°C here may experience a baseline scaling rate of approximately ${scalingRate} mm annually.`,
+    `The thermodynamic impact of ${location.hardness_mg_l} mg/L means limescale risk is ${scaleRisk}. Household appliances running high-temperature cycles in this zone accumulate scale at an estimated rate of ${scalingRate} mm per year without intervention.`,
+    `Because the precipitation risk is ${scaleRisk}, property owners should be aware that water heated past 60°C will drop approximately ${scalingRate} mm of solid calcium carbonate scale per year onto internal plumbing elements.`
+  ];
+  paragraphs.push(impactVariations[variation]);
 
   return paragraphs;
 }

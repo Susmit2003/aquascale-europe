@@ -11,6 +11,7 @@
       "lng": 16.3738
     },
     "population": 1951000,
+    "source_utility": "Wiener Wasser (MA 31)",
     "nearby_locations": [
       "bratislava-sk",
       "stpolten-at",
@@ -31,6 +32,7 @@
       "lng": 15.4395
     },
     "population": 292000,
+    "source_utility": "Grazer Stadtwerke",
     "nearby_locations": [
       "maribor-si",
       "szombathely-hu",
@@ -51,6 +53,7 @@
       "lng": 14.2858
     },
     "population": 207000,
+    "source_utility": "Linz AG",
     "nearby_locations": [
       "wels-at",
       "stpolten-at",
@@ -71,6 +74,7 @@
       "lng": 13.055
     },
     "population": 157000,
+    "source_utility": "Salzburg AG",
     "nearby_locations": [
       "wels-at",
       "linz-at",
@@ -91,6 +95,7 @@
       "lng": 11.4041
     },
     "population": 132000,
+    "source_utility": "Innsbrucker Kommunalbetriebe",
     "nearby_locations": [
       "munich-de",
       "dornbirn-at",
@@ -111,6 +116,7 @@
       "lng": 14.305
     },
     "population": 102000,
+    "source_utility": "Stadtwerke Klagenfurt",
     "nearby_locations": [
       "villach-at",
       "kranj-si",
@@ -131,6 +137,7 @@
       "lng": 13.8558
     },
     "population": 63000,
+    "source_utility": "Stadtwerke Villach",
     "nearby_locations": [
       "klagenfurt-at",
       "kranj-si",
@@ -151,6 +158,7 @@
       "lng": 14.0289
     },
     "population": 63000,
+    "source_utility": "Stadtwerke Wels",
     "nearby_locations": [
       "linz-at",
       "salzburg-at",
@@ -171,6 +179,7 @@
       "lng": 15.6256
     },
     "population": 57000,
+    "source_utility": "Stadtwerke St. Pölten",
     "nearby_locations": [
       "vienna-at",
       "linz-at",
@@ -191,6 +200,7 @@
       "lng": 9.7417
     },
     "population": 51000,
+    "source_utility": "Stadtwerke Dornbirn",
     "nearby_locations": [
       "schaan-li",
       "vaduz-li",
@@ -211,6 +221,7 @@
       "lng": 4.3517
     },
     "population": 1880000,
+    "source_utility": "Vivaqua",
     "nearby_locations": [
       "antwerp-be",
       "charleroi-be",
@@ -231,6 +242,7 @@
       "lng": 4.4051
     },
     "population": 530000,
+    "source_utility": "Water-link",
     "nearby_locations": [
       "brussels-be",
       "breda-nl",
@@ -251,6 +263,7 @@
       "lng": 3.7174
     },
     "population": 266000,
+    "source_utility": "Farys",
     "nearby_locations": [
       "brussels-be",
       "antwerp-be",
@@ -271,6 +284,7 @@
       "lng": 4.4446
     },
     "population": 201000,
+    "source_utility": "SWDE",
     "nearby_locations": [
       "brussels-be",
       "liege-be",
@@ -291,6 +305,7 @@
       "lng": 5.5797
     },
     "population": 197000,
+    "source_utility": "CILE",
     "nearby_locations": [
       "charleroi-be",
       "brussels-be",
@@ -311,6 +326,7 @@
       "lng": 23.3219
     },
     "population": 1248000,
+    "source_utility": "Sofiyska voda",
     "nearby_locations": [
       "pleven-bg",
       "plovdiv-bg",
@@ -331,6 +347,7 @@
       "lng": 24.7453
     },
     "population": 347000,
+    "source_utility": "Plovdiv Water",
     "nearby_locations": [
       "stara-zagora-bg",
       "sofia-bg",
@@ -351,6 +368,7 @@
       "lng": 27.9147
     },
     "population": 336000,
+    "source_utility": "Varna Water",
     "nearby_locations": [
       "burgas-bg",
       "constanta-ro",
@@ -371,6 +389,7 @@
       "lng": 27.4626
     },
     "population": 203000,
+    "source_utility": "Burgas Water",
     "nearby_locations": [
       "varna-bg",
       "stara-zagora-bg",
@@ -391,6 +410,7 @@
       "lng": 25.9657
     },
     "population": 146000,
+    "source_utility": "Ruse Water",
     "nearby_locations": [
       "bucharest-ro",
       "pleven-bg",
@@ -411,6 +431,7 @@
       "lng": 25.6345
     },
     "population": 137000,
+    "source_utility": "Stara Zagora Water",
     "nearby_locations": [
       "plovdiv-bg",
       "pleven-bg",
@@ -431,6 +452,7 @@
       "lng": 24.6167
     },
     "population": 102000,
+    "source_utility": "Pleven Water",
     "nearby_locations": [
       "ruse-bg",
       "craiova-ro",
@@ -451,6 +473,7 @@
       "lng": 15.9819
     },
     "population": 769000,
+    "source_utility": "Zagrebački holding - Vodovod",
     "nearby_locations": [
       "celje-si",
       "maribor-si",
@@ -471,6 +494,7 @@
       "lng": 16.4402
     },
     "population": 161000,
+    "source_utility": "Vodovod Split",
     "nearby_locations": [
       "mostar-ba",
       "zadar-hr",
@@ -491,6 +515,7 @@
       "lng": 14.4422
     },
     "population": 128000,
+    "source_utility": "Komunalac Rijeka",
     "nearby_locations": [
       "koper-si",
       "ljubljana-si",
@@ -511,6 +536,7 @@
       "lng": 18.6955
     },
     "population": 108000,
+    "source_utility": "Vodovod Osijek",
     "nearby_locations": [
       "pecs-hu",
       "novi-sad-rs",
@@ -531,6 +557,7 @@
       "lng": 15.2314
     },
     "population": 75000,
+    "source_utility": "Vodovod Zadar",
     "nearby_locations": [
       "split-hr",
       "rijeka-hr",
@@ -551,6 +578,7 @@
       "lng": 14.4378
     },
     "population": 1350000,
+    "source_utility": "Pražské vodovody a kanalizace",
     "nearby_locations": [
       "plzen-cz",
       "liberec-cz",
@@ -571,6 +599,7 @@
       "lng": 16.6068
     },
     "population": 382000,
+    "source_utility": "Brněnské vodárny a kanalizace",
     "nearby_locations": [
       "vienna-at",
       "bratislava-sk",
@@ -591,6 +620,7 @@
       "lng": 18.2625
     },
     "population": 284000,
+    "source_utility": "Ostravské vodárny a kanalizace",
     "nearby_locations": [
       "zilina-sk",
       "krakow-pl",
@@ -611,6 +641,7 @@
       "lng": 13.3736
     },
     "population": 175000,
+    "source_utility": "Vodárna Plzeň",
     "nearby_locations": [
       "prague-cz",
       "dresden-de",
@@ -631,6 +662,7 @@
       "lng": 15.0565
     },
     "population": 105000,
+    "source_utility": "Severočeské vodovody a kanalizace",
     "nearby_locations": [
       "prague-cz",
       "dresden-de",
@@ -651,6 +683,7 @@
       "lng": 12.5683
     },
     "population": 1360000,
+    "source_utility": "HOFOR",
     "nearby_locations": [
       "malmo-se",
       "helsingborg-se",
@@ -671,6 +704,7 @@
       "lng": 10.2039
     },
     "population": 285000,
+    "source_utility": "Aarhus Vand",
     "nearby_locations": [
       "odense-dk",
       "aalborg-dk",
@@ -691,6 +725,7 @@
       "lng": 10.4024
     },
     "population": 181000,
+    "source_utility": "VandCenter Syd",
     "nearby_locations": [
       "aarhus-dk",
       "copenhagen-dk",
@@ -711,6 +746,7 @@
       "lng": 9.9217
     },
     "population": 143000,
+    "source_utility": "Aalborg Forsyning",
     "nearby_locations": [
       "aarhus-dk",
       "gothenburg-se",
@@ -731,6 +767,7 @@
       "lng": 24.9384
     },
     "population": 664000,
+    "source_utility": "Helsingin seudun ympäristöpalvelut (HSY)",
     "nearby_locations": [
       "vantaa-fi",
       "espoo-fi",
@@ -751,6 +788,7 @@
       "lng": 24.6559
     },
     "population": 300000,
+    "source_utility": "HSY",
     "nearby_locations": [
       "helsinki-fi",
       "vantaa-fi",
@@ -771,6 +809,7 @@
       "lng": 23.761
     },
     "population": 244000,
+    "source_utility": "Tampereen Vesi",
     "nearby_locations": [
       "turku-fi",
       "vantaa-fi",
@@ -791,6 +830,7 @@
       "lng": 25.0378
     },
     "population": 239000,
+    "source_utility": "HSY",
     "nearby_locations": [
       "helsinki-fi",
       "espoo-fi",
@@ -811,6 +851,7 @@
       "lng": 22.2666
     },
     "population": 196000,
+    "source_utility": "Turun Vesihuolto",
     "nearby_locations": [
       "espoo-fi",
       "tampere-fi",
@@ -831,6 +872,7 @@
       "lng": 25.4651
     },
     "population": 209000,
+    "source_utility": "Oulun Vesi",
     "nearby_locations": [
       "umea-se",
       "tampere-fi",
@@ -851,6 +893,7 @@
       "lng": 2.3522
     },
     "population": 11000000,
+    "source_utility": "Eau de Paris",
     "nearby_locations": [
       "charleroi-be",
       "ghent-be",
@@ -871,6 +914,7 @@
       "lng": 5.3698
     },
     "population": 1618000,
+    "source_utility": "Eau de Marseille Métropole",
     "nearby_locations": [
       "nice-fr",
       "turin-it",
@@ -891,6 +935,7 @@
       "lng": 4.8357
     },
     "population": 1729000,
+    "source_utility": "Eau du Grand Lyon",
     "nearby_locations": [
       "geneva-ch",
       "lausanne-ch",
@@ -911,6 +956,7 @@
       "lng": 1.4442
     },
     "population": 1021000,
+    "source_utility": "Eau de Toulouse Métropole",
     "nearby_locations": [
       "la-massana-ad",
       "encamp-ad",
@@ -931,6 +977,7 @@
       "lng": 7.262
     },
     "population": 942000,
+    "source_utility": "Régie Eau d'Azur",
     "nearby_locations": [
       "turin-it",
       "genoa-it",
@@ -951,6 +998,7 @@
       "lng": 13.405
     },
     "population": 3769000,
+    "source_utility": "Berliner Wasserbetriebe",
     "nearby_locations": [
       "szczecin-pl",
       "leipzig-de",
@@ -971,6 +1019,7 @@
       "lng": 9.9937
     },
     "population": 1854000,
+    "source_utility": "Hamburg Wasser",
     "nearby_locations": [
       "bremen-de",
       "hanover-de",
@@ -991,6 +1040,7 @@
       "lng": 11.582
     },
     "population": 1512000,
+    "source_utility": "Stadtwerke München",
     "nearby_locations": [
       "innsbruck-at",
       "salzburg-at",
@@ -1011,6 +1061,7 @@
       "lng": 6.9603
     },
     "population": 1086000,
+    "source_utility": "RheinEnergie",
     "nearby_locations": [
       "dusseldorf-de",
       "duisburg-de",
@@ -1031,6 +1082,7 @@
       "lng": 8.6821
     },
     "population": 764000,
+    "source_utility": "Mainova",
     "nearby_locations": [
       "cologne-de",
       "stuttgart-de",
@@ -1051,6 +1103,7 @@
       "lng": 9.1829
     },
     "population": 632000,
+    "source_utility": "Stuttgarter Netze",
     "nearby_locations": [
       "frankfurt-de",
       "dornbirn-at",
@@ -1071,6 +1124,7 @@
       "lng": 6.7735
     },
     "population": 621000,
+    "source_utility": "Stadtwerke Düsseldorf",
     "nearby_locations": [
       "duisburg-de",
       "essen-de",
@@ -1091,6 +1145,7 @@
       "lng": 12.3731
     },
     "population": 616000,
+    "source_utility": "Leipziger Wasserwerke",
     "nearby_locations": [
       "dresden-de",
       "berlin-de",
@@ -1111,6 +1166,7 @@
       "lng": 7.4653
     },
     "population": 588000,
+    "source_utility": "Dortmunder Stadtwerke",
     "nearby_locations": [
       "essen-de",
       "duisburg-de",
@@ -1131,6 +1187,7 @@
       "lng": 7.0116
     },
     "population": 583000,
+    "source_utility": "Stadtwerke Essen",
     "nearby_locations": [
       "duisburg-de",
       "dusseldorf-de",
@@ -1151,6 +1208,7 @@
       "lng": 8.8017
     },
     "population": 568000,
+    "source_utility": "swb",
     "nearby_locations": [
       "hamburg-de",
       "hanover-de",
@@ -1171,6 +1229,7 @@
       "lng": 13.7373
     },
     "population": 557000,
+    "source_utility": "DREWAG",
     "nearby_locations": [
       "liberec-cz",
       "leipzig-de",
@@ -1191,6 +1250,7 @@
       "lng": 9.732
     },
     "population": 536000,
+    "source_utility": "enercity",
     "nearby_locations": [
       "bremen-de",
       "hamburg-de",
@@ -1211,6 +1271,7 @@
       "lng": 11.0767
     },
     "population": 519000,
+    "source_utility": "N-ERGIE",
     "nearby_locations": [
       "munich-de",
       "stuttgart-de",
@@ -1231,6 +1292,7 @@
       "lng": 6.7623
     },
     "population": 498000,
+    "source_utility": "Stadtwerke Duisburg",
     "nearby_locations": [
       "essen-de",
       "dusseldorf-de",
@@ -1251,6 +1313,7 @@
       "lng": 19.0402
     },
     "population": 1752000,
+    "source_utility": "Budapesti Víz",
     "nearby_locations": [
       "szekesfehervar-hu",
       "kecskemet-hu",
@@ -1271,6 +1334,7 @@
       "lng": 21.6273
     },
     "population": 202000,
+    "source_utility": "Debreceni Víz",
     "nearby_locations": [
       "nyiregyhaza-hu",
       "oradea-ro",
@@ -1291,6 +1355,7 @@
       "lng": 20.1414
     },
     "population": 162000,
+    "source_utility": "Szegedi Víz",
     "nearby_locations": [
       "subotica-rs",
       "kecskemet-hu",
@@ -1311,6 +1376,7 @@
       "lng": 20.7784
     },
     "population": 150000,
+    "source_utility": "Miskolci Víz",
     "nearby_locations": [
       "paradsasvar-hu",
       "nyiregyhaza-hu",
@@ -1331,6 +1397,7 @@
       "lng": 18.2323
     },
     "population": 144000,
+    "source_utility": "Pécsi Víz",
     "nearby_locations": [
       "osijek-hr",
       "subotica-rs",
@@ -1351,6 +1418,7 @@
       "lng": 17.6504
     },
     "population": 132000,
+    "source_utility": "Győri Víz",
     "nearby_locations": [
       "bratislava-sk",
       "szekesfehervar-hu",
@@ -1371,6 +1439,7 @@
       "lng": 21.7244
     },
     "population": 118000,
+    "source_utility": "Nyíregyházi Víz",
     "nearby_locations": [
       "debrecen-hu",
       "miskolc-hu",
@@ -1391,6 +1460,7 @@
       "lng": 19.6897
     },
     "population": 111000,
+    "source_utility": "Kecskeméti Víz",
     "nearby_locations": [
       "szeged-hu",
       "budapest-hu",
@@ -1411,6 +1481,7 @@
       "lng": 18.4087
     },
     "population": 98000,
+    "source_utility": "Székesfehérvári Víz",
     "nearby_locations": [
       "budapest-hu",
       "gyor-hu",
@@ -1431,6 +1502,7 @@
       "lng": 16.6216
     },
     "population": 78000,
+    "source_utility": "Szombathelyi Víz",
     "nearby_locations": [
       "graz-at",
       "gyor-hu",
@@ -1451,6 +1523,7 @@
       "lng": 20.0333
     },
     "population": 5000,
+    "source_utility": "Parádi Víz",
     "nearby_locations": [
       "miskolc-hu",
       "budapest-hu",
@@ -1471,6 +1544,7 @@
       "lng": 19.8187
     },
     "population": 525000,
+    "source_utility": "Tirana Water",
     "nearby_locations": [
       "durres-al",
       "elbasan-al",
@@ -1491,6 +1565,7 @@
       "lng": 19.4561
     },
     "population": 175000,
+    "source_utility": "Durrës Water",
     "nearby_locations": [
       "tirana-al",
       "elbasan-al",
@@ -1511,6 +1586,7 @@
       "lng": 19.4836
     },
     "population": 130000,
+    "source_utility": "Vlorë Water",
     "nearby_locations": [
       "elbasan-al",
       "durres-al",
@@ -1531,6 +1607,7 @@
       "lng": 20.0822
     },
     "population": 115000,
+    "source_utility": "Elbasan Water",
     "nearby_locations": [
       "tirana-al",
       "durres-al",
@@ -1551,6 +1628,7 @@
       "lng": 19.5129
     },
     "population": 95000,
+    "source_utility": "Shkodër Water",
     "nearby_locations": [
       "durres-al",
       "tirana-al",
@@ -1571,6 +1649,7 @@
       "lng": 1.5218
     },
     "population": 23000,
+    "source_utility": "Andorra Water",
     "nearby_locations": [
       "escaldes-engordany-ad",
       "la-massana-ad",
@@ -1591,6 +1670,7 @@
       "lng": 1.539
     },
     "population": 15000,
+    "source_utility": "Escaldes Water",
     "nearby_locations": [
       "andorra-la-vella-ad",
       "la-massana-ad",
@@ -1611,6 +1691,7 @@
       "lng": 1.5833
     },
     "population": 13000,
+    "source_utility": "Encamp Water",
     "nearby_locations": [
       "escaldes-engordany-ad",
       "la-massana-ad",
@@ -1631,6 +1712,7 @@
       "lng": 1.5
     },
     "population": 9500,
+    "source_utility": "Sant Julià Water",
     "nearby_locations": [
       "andorra-la-vella-ad",
       "escaldes-engordany-ad",
@@ -1651,6 +1733,7 @@
       "lng": 1.5148
     },
     "population": 11000,
+    "source_utility": "La Massana Water",
     "nearby_locations": [
       "andorra-la-vella-ad",
       "escaldes-engordany-ad",
@@ -1671,6 +1754,7 @@
       "lng": 27.5615
     },
     "population": 1996000,
+    "source_utility": "Minskvodokanal",
     "nearby_locations": [
       "vilnius-lt",
       "mogilev-by",
@@ -1691,6 +1775,7 @@
       "lng": 30.9878
     },
     "population": 510000,
+    "source_utility": "Gomelvodokanal",
     "nearby_locations": [
       "mogilev-by",
       "kiev-ua",
@@ -1711,6 +1796,7 @@
       "lng": 30.331
     },
     "population": 357000,
+    "source_utility": "Mogilevvodokanal",
     "nearby_locations": [
       "vitebsk-by",
       "gomel-by",
@@ -1731,6 +1817,7 @@
       "lng": 30.2016
     },
     "population": 365000,
+    "source_utility": "Vitebskvodokanal",
     "nearby_locations": [
       "mogilev-by",
       "minsk-by",
@@ -1751,6 +1838,7 @@
       "lng": 23.8131
     },
     "population": 357000,
+    "source_utility": "Grodnovodokanal",
     "nearby_locations": [
       "bialystok-pl",
       "kaunas-lt",
@@ -1771,6 +1859,7 @@
       "lng": 23.7341
     },
     "population": 350000,
+    "source_utility": "Brestvodokanal",
     "nearby_locations": [
       "bialystok-pl",
       "lublin-pl",
@@ -1791,6 +1880,7 @@
       "lng": 18.4131
     },
     "population": 291000,
+    "source_utility": "Vodovod i kanalizacija Sarajevo",
     "nearby_locations": [
       "zenica-ba",
       "mostar-ba",
@@ -1811,6 +1901,7 @@
       "lng": 17.191
     },
     "population": 199000,
+    "source_utility": "Vodovod Banja Luka",
     "nearby_locations": [
       "zenica-ba",
       "tuzla-ba",
@@ -1831,6 +1922,7 @@
       "lng": 18.6764
     },
     "population": 120000,
+    "source_utility": "Vodovod Tuzla",
     "nearby_locations": [
       "zenica-ba",
       "sarajevo-ba",
@@ -1851,6 +1943,7 @@
       "lng": 17.9077
     },
     "population": 115000,
+    "source_utility": "Vodovod Zenica",
     "nearby_locations": [
       "sarajevo-ba",
       "tuzla-ba",
@@ -1871,6 +1964,7 @@
       "lng": 17.8078
     },
     "population": 113000,
+    "source_utility": "Vodovod Mostar",
     "nearby_locations": [
       "sarajevo-ba",
       "zenica-ba",
@@ -1891,6 +1985,7 @@
       "lng": 33.3823
     },
     "population": 330000,
+    "source_utility": "Nicosia Water",
     "nearby_locations": [
       "kyrenia-cy",
       "larnaca-cy",
@@ -1911,6 +2006,7 @@
       "lng": 33.0226
     },
     "population": 235000,
+    "source_utility": "Limassol Water",
     "nearby_locations": [
       "paphos-cy",
       "larnaca-cy",
@@ -1931,6 +2027,7 @@
       "lng": 33.6376
     },
     "population": 144000,
+    "source_utility": "Larnaca Water",
     "nearby_locations": [
       "nicosia-cy",
       "kyrenia-cy",
@@ -1951,6 +2048,7 @@
       "lng": 32.4243
     },
     "population": 63000,
+    "source_utility": "Paphos Water",
     "nearby_locations": [
       "limassol-cy",
       "nicosia-cy",
@@ -1971,6 +2069,7 @@
       "lng": 33.3174
     },
     "population": 73000,
+    "source_utility": "Kyrenia Water",
     "nearby_locations": [
       "nicosia-cy",
       "larnaca-cy",
@@ -1991,6 +2090,7 @@
       "lng": 24.7536
     },
     "population": 438000,
+    "source_utility": "Tallinna Vesi",
     "nearby_locations": [
       "helsinki-fi",
       "espoo-fi",
@@ -2011,6 +2111,7 @@
       "lng": 26.729
     },
     "population": 95000,
+    "source_utility": "Tartu Vesi",
     "nearby_locations": [
       "kohtla-jarve-ee",
       "parnu-ee",
@@ -2031,6 +2132,7 @@
       "lng": 28.1905
     },
     "population": 57000,
+    "source_utility": "Narva Vesi",
     "nearby_locations": [
       "kohtla-jarve-ee",
       "saint-petersburg-ru",
@@ -2051,6 +2153,7 @@
       "lng": 24.4971
     },
     "population": 40000,
+    "source_utility": "Pärnu Vesi",
     "nearby_locations": [
       "tallinn-ee",
       "tartu-ee",
@@ -2071,6 +2174,7 @@
       "lng": 27.2831
     },
     "population": 35000,
+    "source_utility": "Kohtla-Järve Vesi",
     "nearby_locations": [
       "narva-ee",
       "tartu-ee",
@@ -2091,6 +2195,7 @@
       "lng": -21.9426
     },
     "population": 131000,
+    "source_utility": "Reykjavík Energy",
     "nearby_locations": [
       "kopavogur-is",
       "hafnarfjordur-is",
@@ -2111,6 +2216,7 @@
       "lng": -21.913
     },
     "population": 37000,
+    "source_utility": "Kópavogur Water",
     "nearby_locations": [
       "reykjavik-is",
       "hafnarfjordur-is",
@@ -2131,6 +2237,7 @@
       "lng": -21.9375
     },
     "population": 29000,
+    "source_utility": "Hafnarfjörður Water",
     "nearby_locations": [
       "kopavogur-is",
       "reykjavik-is",
@@ -2151,6 +2258,7 @@
       "lng": -18.1262
     },
     "population": 19000,
+    "source_utility": "Akureyri Water",
     "nearby_locations": [
       "reykjavik-is",
       "kopavogur-is",
@@ -2171,6 +2279,7 @@
       "lng": -6.2603
     },
     "population": 1210000,
+    "source_utility": "Irish Water",
     "nearby_locations": [
       "drogheda-ie",
       "waterford-ie",
@@ -2191,6 +2300,7 @@
       "lng": -8.4756
     },
     "population": 222000,
+    "source_utility": "Irish Water",
     "nearby_locations": [
       "limerick-ie",
       "waterford-ie",
@@ -2211,6 +2321,7 @@
       "lng": -8.6267
     },
     "population": 94000,
+    "source_utility": "Irish Water",
     "nearby_locations": [
       "galway-ie",
       "cork-ie",
@@ -2231,6 +2342,7 @@
       "lng": -9.0568
     },
     "population": 83000,
+    "source_utility": "Irish Water",
     "nearby_locations": [
       "limerick-ie",
       "cork-ie",
@@ -2251,6 +2363,7 @@
       "lng": -7.1101
     },
     "population": 54000,
+    "source_utility": "Irish Water",
     "nearby_locations": [
       "cork-ie",
       "limerick-ie",
@@ -2271,6 +2384,7 @@
       "lng": -6.3502
     },
     "population": 41000,
+    "source_utility": "Irish Water",
     "nearby_locations": [
       "dublin-ie",
       "belfast-gb",
@@ -2291,6 +2405,7 @@
       "lng": 12.4964
     },
     "population": 4342000,
+    "source_utility": "ACEA ATO 2",
     "nearby_locations": [
       "naples-it",
       "florence-it",
@@ -2311,6 +2426,7 @@
       "lng": 9.19
     },
     "population": 3151000,
+    "source_utility": "MM",
     "nearby_locations": [
       "genoa-it",
       "turin-it",
@@ -2331,6 +2447,7 @@
       "lng": 14.2681
     },
     "population": 3073000,
+    "source_utility": "ABC Napoli",
     "nearby_locations": [
       "rome-it",
       "bari-it",
@@ -2351,6 +2468,7 @@
       "lng": 7.6869
     },
     "population": 1776000,
+    "source_utility": "SMAT",
     "nearby_locations": [
       "genoa-it",
       "milan-it",
@@ -2371,6 +2489,7 @@
       "lng": 13.3615
     },
     "population": 855000,
+    "source_utility": "AMAP",
     "nearby_locations": [
       "catania-it",
       "mosta-mt",
@@ -2391,6 +2510,7 @@
       "lng": 8.9463
     },
     "population": 580000,
+    "source_utility": "Iren",
     "nearby_locations": [
       "milan-it",
       "turin-it",
@@ -2411,6 +2531,7 @@
       "lng": 11.3426
     },
     "population": 392000,
+    "source_utility": "HERA",
     "nearby_locations": [
       "florence-it",
       "genoa-it",
@@ -2431,6 +2552,7 @@
       "lng": 11.2558
     },
     "population": 382000,
+    "source_utility": "Publiacqua",
     "nearby_locations": [
       "bologna-it",
       "genoa-it",
@@ -2451,6 +2573,7 @@
       "lng": 16.8719
     },
     "population": 322000,
+    "source_utility": "Acquedotto Pugliese",
     "nearby_locations": [
       "durres-al",
       "naples-it",
@@ -2471,6 +2594,7 @@
       "lng": 15.083
     },
     "population": 311000,
+    "source_utility": "SIDRA",
     "nearby_locations": [
       "palermo-it",
       "valletta-mt",
@@ -2491,6 +2615,7 @@
       "lng": 24.1052
     },
     "population": 620000,
+    "source_utility": "Rīgas ūdens",
     "nearby_locations": [
       "jelgava-lv",
       "siauliai-lt",
@@ -2511,6 +2636,7 @@
       "lng": 26.5362
     },
     "population": 82000,
+    "source_utility": "Daugavpils ūdens",
     "nearby_locations": [
       "panevezys-lt",
       "vilnius-lt",
@@ -2531,6 +2657,7 @@
       "lng": 21.0108
     },
     "population": 68000,
+    "source_utility": "Liepājas ūdens",
     "nearby_locations": [
       "klaipeda-lt",
       "ventspils-lv",
@@ -2551,6 +2678,7 @@
       "lng": 23.7214
     },
     "population": 56000,
+    "source_utility": "Jelgavas ūdens",
     "nearby_locations": [
       "riga-lv",
       "siauliai-lt",
@@ -2571,6 +2699,7 @@
       "lng": 21.5649
     },
     "population": 34000,
+    "source_utility": "Ventspils ūdens",
     "nearby_locations": [
       "liepaja-lv",
       "jelgava-lv",
@@ -2591,6 +2720,7 @@
       "lng": 9.5209
     },
     "population": 5700,
+    "source_utility": "Liechtenstein Water",
     "nearby_locations": [
       "schaan-li",
       "triesen-li",
@@ -2611,6 +2741,7 @@
       "lng": 9.5089
     },
     "population": 6000,
+    "source_utility": "Schaan Water",
     "nearby_locations": [
       "vaduz-li",
       "triesen-li",
@@ -2631,6 +2762,7 @@
       "lng": 9.5
     },
     "population": 4600,
+    "source_utility": "Balzers Water",
     "nearby_locations": [
       "triesen-li",
       "vaduz-li",
@@ -2651,6 +2783,7 @@
       "lng": 9.5252
     },
     "population": 5200,
+    "source_utility": "Triesen Water",
     "nearby_locations": [
       "vaduz-li",
       "balzers-li",
@@ -2671,6 +2804,7 @@
       "lng": 25.2797
     },
     "population": 581000,
+    "source_utility": "Vilniaus vandenys",
     "nearby_locations": [
       "kaunas-lt",
       "panevezys-lt",
@@ -2691,6 +2825,7 @@
       "lng": 23.9036
     },
     "population": 298000,
+    "source_utility": "Kauno vandenys",
     "nearby_locations": [
       "vilnius-lt",
       "panevezys-lt",
@@ -2711,6 +2846,7 @@
       "lng": 21.1443
     },
     "population": 149000,
+    "source_utility": "Klaipėdos vanduo",
     "nearby_locations": [
       "liepaja-lv",
       "siauliai-lt",
@@ -2731,6 +2867,7 @@
       "lng": 23.3137
     },
     "population": 107000,
+    "source_utility": "Šiaulių vandenys",
     "nearby_locations": [
       "panevezys-lt",
       "jelgava-lv",
@@ -2751,6 +2888,7 @@
       "lng": 24.3575
     },
     "population": 89000,
+    "source_utility": "Panevėžio vandenys",
     "nearby_locations": [
       "siauliai-lt",
       "kaunas-lt",
@@ -2771,6 +2909,7 @@
       "lng": 6.1319
     },
     "population": 132000,
+    "source_utility": "Ville de Luxembourg - Service des eaux",
     "nearby_locations": [
       "esch-sur-alzette-lu",
       "differdange-lu",
@@ -2791,6 +2930,7 @@
       "lng": 5.9806
     },
     "population": 36000,
+    "source_utility": "Esch Water",
     "nearby_locations": [
       "differdange-lu",
       "luxembourg-city-lu",
@@ -2811,6 +2951,7 @@
       "lng": 5.8912
     },
     "population": 28000,
+    "source_utility": "Differdange Water",
     "nearby_locations": [
       "esch-sur-alzette-lu",
       "luxembourg-city-lu",
@@ -2831,6 +2972,7 @@
       "lng": 14.5146
     },
     "population": 5800,
+    "source_utility": "Water Services Corporation",
     "nearby_locations": [
       "qormi-mt",
       "birkirkara-mt",
@@ -2851,6 +2993,7 @@
       "lng": 14.4611
     },
     "population": 25000,
+    "source_utility": "Water Services Corporation",
     "nearby_locations": [
       "qormi-mt",
       "mosta-mt",
@@ -2871,6 +3014,7 @@
       "lng": 14.4228
     },
     "population": 21000,
+    "source_utility": "Water Services Corporation",
     "nearby_locations": [
       "birkirkara-mt",
       "qormi-mt",
@@ -2891,6 +3035,7 @@
       "lng": 14.47
     },
     "population": 17000,
+    "source_utility": "Water Services Corporation",
     "nearby_locations": [
       "birkirkara-mt",
       "valletta-mt",
@@ -2911,6 +3056,7 @@
       "lng": 4.9041
     },
     "population": 1463000,
+    "source_utility": "Waternet",
     "nearby_locations": [
       "almere-nl",
       "utrecht-nl",
@@ -2931,6 +3077,7 @@
       "lng": 4.4777
     },
     "population": 1021000,
+    "source_utility": "Evides",
     "nearby_locations": [
       "the-hague-nl",
       "breda-nl",
@@ -2951,6 +3098,7 @@
       "lng": 4.3007
     },
     "population": 721000,
+    "source_utility": "Dunea",
     "nearby_locations": [
       "rotterdam-nl",
       "amsterdam-nl",
@@ -2971,6 +3119,7 @@
       "lng": 5.1214
     },
     "population": 505000,
+    "source_utility": "Vitens",
     "nearby_locations": [
       "almere-nl",
       "amsterdam-nl",
@@ -2991,6 +3140,7 @@
       "lng": 5.4697
     },
     "population": 377000,
+    "source_utility": "Brabant Water",
     "nearby_locations": [
       "tilburg-nl",
       "nijmegen-nl",
@@ -3011,6 +3161,7 @@
       "lng": 6.5665
     },
     "population": 325000,
+    "source_utility": "Waterbedrijf Groningen",
     "nearby_locations": [
       "almere-nl",
       "amsterdam-nl",
@@ -3031,6 +3182,7 @@
       "lng": 5.0913
     },
     "population": 296000,
+    "source_utility": "Brabant Water",
     "nearby_locations": [
       "breda-nl",
       "eindhoven-nl",
@@ -3051,6 +3203,7 @@
       "lng": 5.2647
     },
     "population": 281000,
+    "source_utility": "Vitens",
     "nearby_locations": [
       "amsterdam-nl",
       "utrecht-nl",
@@ -3071,6 +3224,7 @@
       "lng": 4.7683
     },
     "population": 217000,
+    "source_utility": "Brabant Water",
     "nearby_locations": [
       "tilburg-nl",
       "rotterdam-nl",
@@ -3091,6 +3245,7 @@
       "lng": 5.8372
     },
     "population": 208000,
+    "source_utility": "Vitens",
     "nearby_locations": [
       "eindhoven-nl",
       "utrecht-nl",
@@ -3111,6 +3266,7 @@
       "lng": 21.428
     },
     "population": 527000,
+    "source_utility": "JP Vodovod i kanalizacija Skopje",
     "nearby_locations": [
       "kumanovo-mk",
       "tetovo-mk",
@@ -3131,6 +3287,7 @@
       "lng": 21.3346
     },
     "population": 74000,
+    "source_utility": "Bitola Water",
     "nearby_locations": [
       "prilep-mk",
       "elbasan-al",
@@ -3151,6 +3308,7 @@
       "lng": 21.7186
     },
     "population": 71000,
+    "source_utility": "Kumanovo Water",
     "nearby_locations": [
       "skopje-mk",
       "tetovo-mk",
@@ -3171,6 +3329,7 @@
       "lng": 21.5553
     },
     "population": 66000,
+    "source_utility": "Prilep Water",
     "nearby_locations": [
       "bitola-mk",
       "skopje-mk",
@@ -3191,6 +3350,7 @@
       "lng": 20.9715
     },
     "population": 63000,
+    "source_utility": "Tetovo Water",
     "nearby_locations": [
       "skopje-mk",
       "kumanovo-mk",
@@ -3211,6 +3371,7 @@
       "lng": 10.7522
     },
     "population": 1066000,
+    "source_utility": "Oslo Vann",
     "nearby_locations": [
       "drammen-no",
       "fredrikstad-no",
@@ -3231,6 +3392,7 @@
       "lng": 5.3221
     },
     "population": 259000,
+    "source_utility": "Bergen Vann",
     "nearby_locations": [
       "stavanger-no",
       "drammen-no",
@@ -3251,6 +3413,7 @@
       "lng": 10.3951
     },
     "population": 196000,
+    "source_utility": "Trondheim Bydrift",
     "nearby_locations": [
       "oslo-no",
       "drammen-no",
@@ -3271,6 +3434,7 @@
       "lng": 5.7331
     },
     "population": 144000,
+    "source_utility": "Stavanger Vann",
     "nearby_locations": [
       "bergen-no",
       "drammen-no",
@@ -3291,6 +3455,7 @@
       "lng": 10.2045
     },
     "population": 118000,
+    "source_utility": "Drammen Vann",
     "nearby_locations": [
       "oslo-no",
       "fredrikstad-no",
@@ -3311,6 +3476,7 @@
       "lng": 10.9298
     },
     "population": 103000,
+    "source_utility": "Fredrikstad Vann",
     "nearby_locations": [
       "drammen-no",
       "oslo-no",
@@ -3331,6 +3497,7 @@
       "lng": 21.0122
     },
     "population": 1790000,
+    "source_utility": "Wodociągi Warszawskie",
     "nearby_locations": [
       "lodz-pl",
       "lublin-pl",
@@ -3351,6 +3518,7 @@
       "lng": 19.945
     },
     "population": 780000,
+    "source_utility": "Wodociągi Krakowskie",
     "nearby_locations": [
       "ostrava-cz",
       "zilina-sk",
@@ -3371,6 +3539,7 @@
       "lng": 19.4559
     },
     "population": 677000,
+    "source_utility": "ZWiK Łódź",
     "nearby_locations": [
       "warsaw-pl",
       "bydgoszcz-pl",
@@ -3391,6 +3560,7 @@
       "lng": 17.0385
     },
     "population": 643000,
+    "source_utility": "MPWiK Wrocław",
     "nearby_locations": [
       "liberec-cz",
       "poznan-pl",
@@ -3411,6 +3581,7 @@
       "lng": 16.9252
     },
     "population": 534000,
+    "source_utility": "Aquanet",
     "nearby_locations": [
       "bydgoszcz-pl",
       "wroclaw-pl",
@@ -3431,6 +3602,7 @@
       "lng": 18.6466
     },
     "population": 471000,
+    "source_utility": "GIWK",
     "nearby_locations": [
       "bydgoszcz-pl",
       "klaipeda-lt",
@@ -3451,6 +3623,7 @@
       "lng": 14.5528
     },
     "population": 401000,
+    "source_utility": "ZWiK Szczecin",
     "nearby_locations": [
       "berlin-de",
       "poznan-pl",
@@ -3471,6 +3644,7 @@
       "lng": 18.0084
     },
     "population": 348000,
+    "source_utility": "MWiK Bydgoszcz",
     "nearby_locations": [
       "poznan-pl",
       "gdansk-pl",
@@ -3491,6 +3665,7 @@
       "lng": 22.5684
     },
     "population": 339000,
+    "source_utility": "MPWiK Lublin",
     "nearby_locations": [
       "brest-by",
       "warsaw-pl",
@@ -3511,6 +3686,7 @@
       "lng": 23.1688
     },
     "population": 297000,
+    "source_utility": "Wodociągi Białostockie",
     "nearby_locations": [
       "grodno-by",
       "brest-by",
@@ -3531,6 +3707,7 @@
       "lng": -9.1393
     },
     "population": 2927000,
+    "source_utility": "EPAL",
     "nearby_locations": [
       "coimbra-pt",
       "porto-pt",
@@ -3551,6 +3728,7 @@
       "lng": -8.6291
     },
     "population": 1318000,
+    "source_utility": "Águas do Porto",
     "nearby_locations": [
       "braga-pt",
       "coimbra-pt",
@@ -3571,6 +3749,7 @@
       "lng": -8.4265
     },
     "population": 193000,
+    "source_utility": "Águas do Norte",
     "nearby_locations": [
       "porto-pt",
       "coimbra-pt",
@@ -3591,6 +3770,7 @@
       "lng": -8.4103
     },
     "population": 157000,
+    "source_utility": "Águas de Coimbra",
     "nearby_locations": [
       "porto-pt",
       "braga-pt",
@@ -3611,6 +3791,7 @@
       "lng": -16.9241
     },
     "population": 112000,
+    "source_utility": "Águas da Madeira",
     "nearby_locations": [
       "lisbon-pt",
       "seville-es",
@@ -3631,6 +3812,7 @@
       "lng": 26.1025
     },
     "population": 1883000,
+    "source_utility": "Apa Nova București",
     "nearby_locations": [
       "ploiesti-ro",
       "ruse-bg",
@@ -3651,6 +3833,7 @@
       "lng": 23.6236
     },
     "population": 325000,
+    "source_utility": "Compania de Apă Someș",
     "nearby_locations": [
       "oradea-ro",
       "debrecen-hu",
@@ -3671,6 +3854,7 @@
       "lng": 21.2087
     },
     "population": 307000,
+    "source_utility": "Aquatim",
     "nearby_locations": [
       "szeged-hu",
       "novi-sad-rs",
@@ -3691,6 +3875,7 @@
       "lng": 27.6014
     },
     "population": 290000,
+    "source_utility": "ApaVital",
     "nearby_locations": [
       "galati-ro",
       "brasov-ro",
@@ -3711,6 +3896,7 @@
       "lng": 28.6348
     },
     "population": 283000,
+    "source_utility": "RAJA Constanța",
     "nearby_locations": [
       "varna-bg",
       "galati-ro",
@@ -3731,6 +3917,7 @@
       "lng": 23.7949
     },
     "population": 270000,
+    "source_utility": "Compania de Apă Oltenia",
     "nearby_locations": [
       "pleven-bg",
       "ruse-bg",
@@ -3751,6 +3938,7 @@
       "lng": 25.6012
     },
     "population": 253000,
+    "source_utility": "Compania Apa Brașov",
     "nearby_locations": [
       "ploiesti-ro",
       "bucharest-ro",
@@ -3771,6 +3959,7 @@
       "lng": 28.0081
     },
     "population": 249000,
+    "source_utility": "Apă Canal Galați",
     "nearby_locations": [
       "constanta-ro",
       "ploiesti-ro",
@@ -3791,6 +3980,7 @@
       "lng": 26.0129
     },
     "population": 209000,
+    "source_utility": "Hidro Prahova",
     "nearby_locations": [
       "bucharest-ro",
       "brasov-ro",
@@ -3811,6 +4001,7 @@
       "lng": 21.9189
     },
     "population": 206000,
+    "source_utility": "Compania de Apă Oradea",
     "nearby_locations": [
       "debrecen-hu",
       "nyiregyhaza-hu",
@@ -3831,6 +4022,7 @@
       "lng": 37.6173
     },
     "population": 12506000,
+    "source_utility": "Mosvodokanal",
     "nearby_locations": [
       "nizhny-novgorod-ru",
       "vitebsk-by",
@@ -3851,6 +4043,7 @@
       "lng": 30.3609
     },
     "population": 5384000,
+    "source_utility": "Vodokanal St. Petersburg",
     "nearby_locations": [
       "narva-ee",
       "kohtla-jarve-ee",
@@ -3871,6 +4064,7 @@
       "lng": 82.9204
     },
     "population": 1625000,
+    "source_utility": "Novosibirskvodokanal",
     "nearby_locations": [
       "omsk-ru",
       "chelyabinsk-ru",
@@ -3891,6 +4085,7 @@
       "lng": 60.6057
     },
     "population": 1495000,
+    "source_utility": "Vodokanal Yekaterinburg",
     "nearby_locations": [
       "chelyabinsk-ru",
       "kazan-ru",
@@ -3911,6 +4106,7 @@
       "lng": 49.1221
     },
     "population": 1258000,
+    "source_utility": "Vodokanal Kazan",
     "nearby_locations": [
       "samara-ru",
       "nizhny-novgorod-ru",
@@ -3931,6 +4127,7 @@
       "lng": 43.9361
     },
     "population": 1252000,
+    "source_utility": "Nizhny Novgorod Vodokanal",
     "nearby_locations": [
       "kazan-ru",
       "moscow-ru",
@@ -3951,6 +4148,7 @@
       "lng": 50.1008
     },
     "population": 1153000,
+    "source_utility": "Samara Vodokanal",
     "nearby_locations": [
       "kazan-ru",
       "nizhny-novgorod-ru",
@@ -3971,6 +4169,7 @@
       "lng": 73.3242
     },
     "population": 1152000,
+    "source_utility": "Omsk Vodokanal",
     "nearby_locations": [
       "novosibirsk-ru",
       "chelyabinsk-ru",
@@ -3991,6 +4190,7 @@
       "lng": 61.4368
     },
     "population": 1196000,
+    "source_utility": "Chelyabinsk Vodokanal",
     "nearby_locations": [
       "yekaterinburg-ru",
       "omsk-ru",
@@ -4011,6 +4211,7 @@
       "lng": 39.7015
     },
     "population": 1133000,
+    "source_utility": "Rostov Vodokanal",
     "nearby_locations": [
       "donetsk-ua",
       "zaporizhzhia-ua",
@@ -4031,6 +4232,7 @@
       "lng": 20.4489
     },
     "population": 1688000,
+    "source_utility": "Belgrade Waterworks",
     "nearby_locations": [
       "novi-sad-rs",
       "kragujevac-rs",
@@ -4051,6 +4253,7 @@
       "lng": 19.8335
     },
     "population": 368000,
+    "source_utility": "Novi Sad Water",
     "nearby_locations": [
       "belgrade-rs",
       "subotica-rs",
@@ -4071,6 +4274,7 @@
       "lng": 21.8956
     },
     "population": 260000,
+    "source_utility": "Niš Water",
     "nearby_locations": [
       "kragujevac-rs",
       "kumanovo-mk",
@@ -4091,6 +4295,7 @@
       "lng": 20.9114
     },
     "population": 150000,
+    "source_utility": "Kragujevac Water",
     "nearby_locations": [
       "belgrade-rs",
       "nis-rs",
@@ -4111,6 +4316,7 @@
       "lng": 19.6651
     },
     "population": 97000,
+    "source_utility": "Subotica Water",
     "nearby_locations": [
       "szeged-hu",
       "kecskemet-hu",
@@ -4131,6 +4337,7 @@
       "lng": 17.1077
     },
     "population": 476000,
+    "source_utility": "Bratislavská vodárenská spoločnosť",
     "nearby_locations": [
       "vienna-at",
       "gyor-hu",
@@ -4151,6 +4358,7 @@
       "lng": 21.2611
     },
     "population": 239000,
+    "source_utility": "Východoslovenská vodárenská spoločnosť",
     "nearby_locations": [
       "presov-sk",
       "miskolc-hu",
@@ -4171,6 +4379,7 @@
       "lng": 21.2396
     },
     "population": 88000,
+    "source_utility": "Prešov Water",
     "nearby_locations": [
       "kosice-sk",
       "miskolc-hu",
@@ -4191,6 +4400,7 @@
       "lng": 18.7392
     },
     "population": 81000,
+    "source_utility": "Žilina Water",
     "nearby_locations": [
       "banska-bystrica-sk",
       "ostrava-cz",
@@ -4211,6 +4421,7 @@
       "lng": 19.1462
     },
     "population": 77000,
+    "source_utility": "Banská Bystrica Water",
     "nearby_locations": [
       "zilina-sk",
       "paradsasvar-hu",
@@ -4231,6 +4442,7 @@
       "lng": 14.5058
     },
     "population": 295000,
+    "source_utility": "Vodovod Kanalizacija Snaga",
     "nearby_locations": [
       "kranj-si",
       "celje-si",
@@ -4251,6 +4463,7 @@
       "lng": 15.6467
     },
     "population": 112000,
+    "source_utility": "Mariborski vodovod",
     "nearby_locations": [
       "celje-si",
       "graz-at",
@@ -4271,6 +4484,7 @@
       "lng": 14.3556
     },
     "population": 57000,
+    "source_utility": "Kranj Water",
     "nearby_locations": [
       "ljubljana-si",
       "klagenfurt-at",
@@ -4291,6 +4505,7 @@
       "lng": 15.2677
     },
     "population": 54000,
+    "source_utility": "Celje Water",
     "nearby_locations": [
       "maribor-si",
       "ljubljana-si",
@@ -4311,6 +4526,7 @@
       "lng": 13.7307
     },
     "population": 51000,
+    "source_utility": "Koper Water",
     "nearby_locations": [
       "rijeka-hr",
       "ljubljana-si",
@@ -4331,6 +4547,7 @@
       "lng": -3.7038
     },
     "population": 6672000,
+    "source_utility": "Canal de Isabel II",
     "nearby_locations": [
       "zaragoza-es",
       "valencia-es",
@@ -4351,6 +4568,7 @@
       "lng": 2.1734
     },
     "population": 5752000,
+    "source_utility": "Aigües de Barcelona",
     "nearby_locations": [
       "sant-julia-de-loria-ad",
       "escaldes-engordany-ad",
@@ -4371,6 +4589,7 @@
       "lng": -0.3763
     },
     "population": 1800000,
+    "source_utility": "EMIVASA",
     "nearby_locations": [
       "alicante-es",
       "murcia-es",
@@ -4391,6 +4610,7 @@
       "lng": -5.9845
     },
     "population": 1529000,
+    "source_utility": "EMASESA",
     "nearby_locations": [
       "malaga-es",
       "lisbon-pt",
@@ -4411,6 +4631,7 @@
       "lng": -0.8891
     },
     "population": 775000,
+    "source_utility": "ECZ",
     "nearby_locations": [
       "sant-julia-de-loria-ad",
       "andorra-la-vella-ad",
@@ -4431,6 +4652,7 @@
       "lng": -4.4216
     },
     "population": 693000,
+    "source_utility": "EMASA",
     "nearby_locations": [
       "seville-es",
       "murcia-es",
@@ -4451,6 +4673,7 @@
       "lng": -1.1307
     },
     "population": 662000,
+    "source_utility": "EMUASA",
     "nearby_locations": [
       "alicante-es",
       "valencia-es",
@@ -4471,6 +4694,7 @@
       "lng": 2.6502
     },
     "population": 572000,
+    "source_utility": "EMAYA",
     "nearby_locations": [
       "barcelona-es",
       "valencia-es",
@@ -4491,6 +4715,7 @@
       "lng": -2.935
     },
     "population": 556000,
+    "source_utility": "Bilbao Bizkaia Ur Partzuergoa",
     "nearby_locations": [
       "zaragoza-es",
       "madrid-es",
@@ -4511,6 +4736,7 @@
       "lng": -0.4815
     },
     "population": 543000,
+    "source_utility": "Aguas de Alicante",
     "nearby_locations": [
       "murcia-es",
       "valencia-es",
@@ -4531,6 +4757,7 @@
       "lng": 18.0686
     },
     "population": 1638000,
+    "source_utility": "Stockholm Vatten och Avfall",
     "nearby_locations": [
       "uppsala-se",
       "vasteras-se",
@@ -4551,6 +4778,7 @@
       "lng": 11.9746
     },
     "population": 607000,
+    "source_utility": "Göteborgs Kretslopp och Vatten",
     "nearby_locations": [
       "jonkoping-se",
       "aalborg-dk",
@@ -4571,6 +4799,7 @@
       "lng": 13.0038
     },
     "population": 347000,
+    "source_utility": "VA SYD",
     "nearby_locations": [
       "copenhagen-dk",
       "helsingborg-se",
@@ -4591,6 +4820,7 @@
       "lng": 17.6389
     },
     "population": 233000,
+    "source_utility": "Uppsala Vatten",
     "nearby_locations": [
       "stockholm-se",
       "vasteras-se",
@@ -4611,6 +4841,7 @@
       "lng": 16.5448
     },
     "population": 156000,
+    "source_utility": "Västerås Vatten",
     "nearby_locations": [
       "uppsala-se",
       "orebro-se",
@@ -4631,6 +4862,7 @@
       "lng": 15.2066
     },
     "population": 126000,
+    "source_utility": "Örebro Vatten",
     "nearby_locations": [
       "vasteras-se",
       "linkoping-se",
@@ -4651,6 +4883,7 @@
       "lng": 15.6214
     },
     "population": 165000,
+    "source_utility": "Linköping Vatten",
     "nearby_locations": [
       "orebro-se",
       "jonkoping-se",
@@ -4671,6 +4904,7 @@
       "lng": 12.6945
     },
     "population": 149000,
+    "source_utility": "Helsingborg Vatten",
     "nearby_locations": [
       "copenhagen-dk",
       "malmo-se",
@@ -4691,6 +4925,7 @@
       "lng": 14.1618
     },
     "population": 141000,
+    "source_utility": "Jönköping Vatten",
     "nearby_locations": [
       "linkoping-se",
       "gothenburg-se",
@@ -4711,6 +4946,7 @@
       "lng": 20.263
     },
     "population": 131000,
+    "source_utility": "Umeå Vatten",
     "nearby_locations": [
       "oulu-fi",
       "tampere-fi",
@@ -4731,6 +4967,7 @@
       "lng": 7.4474
     },
     "population": 134000,
+    "source_utility": "Energie Wasser Bern",
     "nearby_locations": [
       "basel-ch",
       "lausanne-ch",
@@ -4751,6 +4988,7 @@
       "lng": 8.5417
     },
     "population": 434000,
+    "source_utility": "Wasserversorgung Zürich",
     "nearby_locations": [
       "basel-ch",
       "schaan-li",
@@ -4771,6 +5009,7 @@
       "lng": 6.1432
     },
     "population": 204000,
+    "source_utility": "Services Industriels de Genève",
     "nearby_locations": [
       "lausanne-ch",
       "lyon-fr",
@@ -4791,6 +5030,7 @@
       "lng": 7.5886
     },
     "population": 173000,
+    "source_utility": "IWB",
     "nearby_locations": [
       "bern-ch",
       "zurich-ch",
@@ -4811,6 +5051,7 @@
       "lng": 6.6323
     },
     "population": 140000,
+    "source_utility": "Services Industriels de Lausanne",
     "nearby_locations": [
       "geneva-ch",
       "bern-ch",
@@ -4831,6 +5072,7 @@
       "lng": 32.8597
     },
     "population": 5679000,
+    "source_utility": "ASKİ",
     "nearby_locations": [
       "konya-tr",
       "bursa-tr",
@@ -4851,6 +5093,7 @@
       "lng": 28.9784
     },
     "population": 15460000,
+    "source_utility": "İSKİ",
     "nearby_locations": [
       "bursa-tr",
       "burgas-bg",
@@ -4871,6 +5114,7 @@
       "lng": 27.1287
     },
     "population": 4375000,
+    "source_utility": "İZSU",
     "nearby_locations": [
       "bursa-tr",
       "istanbul-tr",
@@ -4891,6 +5135,7 @@
       "lng": 29.061
     },
     "population": 3141000,
+    "source_utility": "BUSKİ",
     "nearby_locations": [
       "istanbul-tr",
       "izmir-tr",
@@ -4911,6 +5156,7 @@
       "lng": 35.3213
     },
     "population": 2253000,
+    "source_utility": "ASKİ",
     "nearby_locations": [
       "mersin-tr",
       "gaziantep-tr",
@@ -4931,6 +5177,7 @@
       "lng": 37.3833
     },
     "population": 2131000,
+    "source_utility": "GASKİ",
     "nearby_locations": [
       "adana-tr",
       "mersin-tr",
@@ -4951,6 +5198,7 @@
       "lng": 32.4932
     },
     "population": 2250000,
+    "source_utility": "KOSKİ",
     "nearby_locations": [
       "antalya-tr",
       "mersin-tr",
@@ -4971,6 +5219,7 @@
       "lng": 30.7133
     },
     "population": 2548000,
+    "source_utility": "ASAT",
     "nearby_locations": [
       "konya-tr",
       "paphos-cy",
@@ -4991,6 +5240,7 @@
       "lng": 40.2306
     },
     "population": 1781000,
+    "source_utility": "DİSKİ",
     "nearby_locations": [
       "gaziantep-tr",
       "adana-tr",
@@ -5011,6 +5261,7 @@
       "lng": 34.6333
     },
     "population": 1800000,
+    "source_utility": "MESKİ",
     "nearby_locations": [
       "adana-tr",
       "kyrenia-cy",
@@ -5031,6 +5282,7 @@
       "lng": 30.5234
     },
     "population": 2962000,
+    "source_utility": "Kyivvodokanal",
     "nearby_locations": [
       "gomel-by",
       "mogilev-by",
@@ -5051,6 +5303,7 @@
       "lng": 36.2304
     },
     "population": 1433000,
+    "source_utility": "Kharkivvodokanal",
     "nearby_locations": [
       "dnipro-ua",
       "donetsk-ua",
@@ -5071,6 +5324,7 @@
       "lng": 30.7233
     },
     "population": 1015000,
+    "source_utility": "Odesavodokanal",
     "nearby_locations": [
       "galati-ro",
       "iasi-ro",
@@ -5091,6 +5345,7 @@
       "lng": 35.0462
     },
     "population": 990000,
+    "source_utility": "Dniprovodokanal",
     "nearby_locations": [
       "zaporizhzhia-ua",
       "kharkiv-ua",
@@ -5111,6 +5366,7 @@
       "lng": 37.8029
     },
     "population": 905000,
+    "source_utility": "Donetskvodokanal",
     "nearby_locations": [
       "rostov-on-don-ru",
       "zaporizhzhia-ua",
@@ -5131,6 +5387,7 @@
       "lng": 24.0297
     },
     "population": 724000,
+    "source_utility": "Lvivvodokanal",
     "nearby_locations": [
       "lublin-pl",
       "presov-sk",
@@ -5151,6 +5408,7 @@
       "lng": 35.1396
     },
     "population": 722000,
+    "source_utility": "Zaporizhzhiavokanal",
     "nearby_locations": [
       "dnipro-ua",
       "donetsk-ua",
@@ -5171,6 +5429,7 @@
       "lng": -0.1278
     },
     "population": 9425000,
+    "source_utility": "Thames Water",
     "nearby_locations": [
       "birmingham-gb",
       "bristol-gb",
@@ -5191,6 +5450,7 @@
       "lng": -1.8904
     },
     "population": 2600000,
+    "source_utility": "Severn Trent Water",
     "nearby_locations": [
       "sheffield-gb",
       "manchester-gb",
@@ -5211,6 +5471,7 @@
       "lng": -2.2426
     },
     "population": 2700000,
+    "source_utility": "United Utilities",
     "nearby_locations": [
       "liverpool-gb",
       "sheffield-gb",
@@ -5231,6 +5492,7 @@
       "lng": -4.2518
     },
     "population": 1685000,
+    "source_utility": "Scottish Water",
     "nearby_locations": [
       "edinburgh-gb",
       "belfast-gb",
@@ -5251,6 +5513,7 @@
       "lng": -1.5491
     },
     "population": 780000,
+    "source_utility": "Yorkshire Water",
     "nearby_locations": [
       "sheffield-gb",
       "manchester-gb",
@@ -5271,6 +5534,7 @@
       "lng": -2.9916
     },
     "population": 864000,
+    "source_utility": "United Utilities",
     "nearby_locations": [
       "manchester-gb",
       "sheffield-gb",
@@ -5291,6 +5555,7 @@
       "lng": -1.6174
     },
     "population": 800000,
+    "source_utility": "Northumbrian Water",
     "nearby_locations": [
       "leeds-gb",
       "edinburgh-gb",
@@ -5311,6 +5576,7 @@
       "lng": -1.4701
     },
     "population": 685000,
+    "source_utility": "Yorkshire Water",
     "nearby_locations": [
       "leeds-gb",
       "manchester-gb",
@@ -5331,6 +5597,7 @@
       "lng": -2.5879
     },
     "population": 617000,
+    "source_utility": "Bristol Water",
     "nearby_locations": [
       "cardiff-gb",
       "birmingham-gb",
@@ -5351,6 +5618,7 @@
       "lng": -5.9301
     },
     "population": 634000,
+    "source_utility": "Northern Ireland Water",
     "nearby_locations": [
       "drogheda-ie",
       "dublin-ie",
@@ -5371,6 +5639,7 @@
       "lng": -3.1883
     },
     "population": 530000,
+    "source_utility": "Scottish Water",
     "nearby_locations": [
       "glasgow-gb",
       "newcastle-gb",
@@ -5391,6 +5660,7 @@
       "lng": -3.1791
     },
     "population": 481000,
+    "source_utility": "Welsh Water",
     "nearby_locations": [
       "bristol-gb",
       "birmingham-gb",

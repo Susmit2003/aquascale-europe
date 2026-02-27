@@ -61,6 +61,7 @@ export function SoftenerROICalculator({
         </div>
 
       </div>
+      <p className="text-[10px] text-slate-400 mt-4 italic">*ROI projections are theoretical estimates based on standard EU household consumption rates. Actual savings will vary based on individual usage and appliance efficiency.</p>
     </div>
   );
 }

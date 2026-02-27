@@ -5,6 +5,17 @@ import { Location } from '@/types';
 import computedLocationsData from '@/data/locations-computed.json';
 import { SoftenerROICalculator } from '@/components/calculators/SoftenerROICalculator';
 import { Search, MapPin, Settings2, Users } from 'lucide-react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Water Softener ROI Calculator',
+  description: 'Calculate your return on investment for a water softener system.',
+  // CRITICAL FIX: Prevent cannibalization of city pages
+  robots: {
+    index: false,
+    follow: true,
+  }
+};
 
 const allLocations = computedLocationsData as Location[];
 

@@ -7,7 +7,8 @@
     "region_slug": "vienna",
     "hardness_mg_l": 162,
     "coords": { "lat": 48.2082, "lng": 16.3738 },
-    "population": 1951000
+    "population": 1951000,
+    "source_utility": "Wiener Wasser (MA 31)"
   },
   {
     "id": "graz-at",
@@ -17,7 +18,8 @@
     "region_slug": "styria",
     "hardness_mg_l": 184,
     "coords": { "lat": 47.0707, "lng": 15.4395 },
-    "population": 292000
+    "population": 292000,
+    "source_utility": "Grazer Stadtwerke"
   },
   {
     "id": "linz-at",
@@ -27,7 +29,8 @@
     "region_slug": "upper-austria",
     "hardness_mg_l": 147,
     "coords": { "lat": 48.3069, "lng": 14.2858 },
-    "population": 207000
+    "population": 207000,
+    "source_utility": "Linz AG"
   },
   {
     "id": "salzburg-at",
@@ -37,7 +40,8 @@
     "region_slug": "salzburg",
     "hardness_mg_l": 153,
     "coords": { "lat": 47.8095, "lng": 13.0550 },
-    "population": 157000
+    "population": 157000,
+    "source_utility": "Salzburg AG"
   },
   {
     "id": "innsbruck-at",
@@ -47,7 +51,8 @@
     "region_slug": "tyrol",
     "hardness_mg_l": 124,
     "coords": { "lat": 47.2692, "lng": 11.4041 },
-    "population": 132000
+    "population": 132000,
+    "source_utility": "Innsbrucker Kommunalbetriebe"
   },
   {
     "id": "klagenfurt-at",
@@ -57,7 +62,8 @@
     "region_slug": "carinthia",
     "hardness_mg_l": 176,
     "coords": { "lat": 46.6249, "lng": 14.3050 },
-    "population": 102000
+    "population": 102000,
+    "source_utility": "Stadtwerke Klagenfurt"
   },
   {
     "id": "villach-at",
@@ -67,7 +73,8 @@
     "region_slug": "carinthia",
     "hardness_mg_l": 171,
     "coords": { "lat": 46.6103, "lng": 13.8558 },
-    "population": 63000
+    "population": 63000,
+    "source_utility": "Stadtwerke Villach"
   },
   {
     "id": "wels-at",
@@ -77,7 +84,8 @@
     "region_slug": "upper-austria",
     "hardness_mg_l": 151,
     "coords": { "lat": 48.1575, "lng": 14.0289 },
-    "population": 63000
+    "population": 63000,
+    "source_utility": "Stadtwerke Wels"
   },
   {
     "id": "stpolten-at",
@@ -87,7 +95,8 @@
     "region_slug": "lower-austria",
     "hardness_mg_l": 158,
     "coords": { "lat": 48.2047, "lng": 15.6256 },
-    "population": 57000
+    "population": 57000,
+    "source_utility": "Stadtwerke St. Pölten"
   },
   {
     "id": "dornbirn-at",
@@ -97,7 +106,8 @@
     "region_slug": "vorarlberg",
     "hardness_mg_l": 132,
     "coords": { "lat": 47.4169, "lng": 9.7417 },
-    "population": 51000
+    "population": 51000,
+    "source_utility": "Stadtwerke Dornbirn"
   },
   {
     "id": "brussels-be",
@@ -107,7 +117,8 @@
     "region_slug": "brussels-capital",
     "hardness_mg_l": 210,
     "coords": { "lat": 50.8503, "lng": 4.3517 },
-    "population": 1880000
+    "population": 1880000,
+    "source_utility": "Vivaqua"
   },
   {
     "id": "antwerp-be",
@@ -117,7 +128,8 @@
     "region_slug": "flanders",
     "hardness_mg_l": 238,
     "coords": { "lat": 51.2213, "lng": 4.4051 },
-    "population": 530000
+    "population": 530000,
+    "source_utility": "Water-link"
   },
   {
     "id": "ghent-be",
@@ -127,7 +139,8 @@
     "region_slug": "flanders",
     "hardness_mg_l": 195,
     "coords": { "lat": 51.0543, "lng": 3.7174 },
-    "population": 266000
+    "population": 266000,
+    "source_utility": "Farys"
   },
   {
     "id": "charleroi-be",
@@ -137,7 +150,8 @@
     "region_slug": "wallonia",
     "hardness_mg_l": 183,
     "coords": { "lat": 50.4108, "lng": 4.4446 },
-    "population": 201000
+    "population": 201000,
+    "source_utility": "SWDE"
   },
   {
     "id": "liege-be",
@@ -147,7 +161,8 @@
     "region_slug": "wallonia",
     "hardness_mg_l": 176,
     "coords": { "lat": 50.6326, "lng": 5.5797 },
-    "population": 197000
+    "population": 197000,
+    "source_utility": "CILE"
   },
   {
     "id": "sofia-bg",
@@ -157,7 +172,8 @@
     "region_slug": "sofia-capital",
     "hardness_mg_l": 122,
     "coords": { "lat": 42.6977, "lng": 23.3219 },
-    "population": 1248000
+    "population": 1248000,
+    "source_utility": "Sofiyska voda"
   },
   {
     "id": "plovdiv-bg",
@@ -167,7 +183,8 @@
     "region_slug": "plovdiv",
     "hardness_mg_l": 135,
     "coords": { "lat": 42.1354, "lng": 24.7453 },
-    "population": 347000
+    "population": 347000,
+    "source_utility": "Plovdiv Water"
   },
   {
     "id": "varna-bg",
@@ -177,7 +194,8 @@
     "region_slug": "varna",
     "hardness_mg_l": 94,
     "coords": { "lat": 43.2141, "lng": 27.9147 },
-    "population": 336000
+    "population": 336000,
+    "source_utility": "Varna Water"
   },
   {
     "id": "burgas-bg",
@@ -187,7 +205,8 @@
     "region_slug": "burgas",
     "hardness_mg_l": 88,
     "coords": { "lat": 42.5048, "lng": 27.4626 },
-    "population": 203000
+    "population": 203000,
+    "source_utility": "Burgas Water"
   },
   {
     "id": "ruse-bg",
@@ -197,7 +216,8 @@
     "region_slug": "ruse",
     "hardness_mg_l": 147,
     "coords": { "lat": 43.8356, "lng": 25.9657 },
-    "population": 146000
+    "population": 146000,
+    "source_utility": "Ruse Water"
   },
   {
     "id": "stara-zagora-bg",
@@ -207,7 +227,8 @@
     "region_slug": "stara-zagora",
     "hardness_mg_l": 141,
     "coords": { "lat": 42.4258, "lng": 25.6345 },
-    "population": 137000
+    "population": 137000,
+    "source_utility": "Stara Zagora Water"
   },
   {
     "id": "pleven-bg",
@@ -217,7 +238,8 @@
     "region_slug": "pleven",
     "hardness_mg_l": 153,
     "coords": { "lat": 43.4167, "lng": 24.6167 },
-    "population": 102000
+    "population": 102000,
+    "source_utility": "Pleven Water"
   },
   {
     "id": "zagreb-hr",
@@ -227,7 +249,8 @@
     "region_slug": "city-of-zagreb",
     "hardness_mg_l": 189,
     "coords": { "lat": 45.8150, "lng": 15.9819 },
-    "population": 769000
+    "population": 769000,
+    "source_utility": "Zagrebački holding - Vodovod"
   },
   {
     "id": "split-hr",
@@ -237,7 +260,8 @@
     "region_slug": "split-dalmatia",
     "hardness_mg_l": 204,
     "coords": { "lat": 43.5081, "lng": 16.4402 },
-    "population": 161000
+    "population": 161000,
+    "source_utility": "Vodovod Split"
   },
   {
     "id": "rijeka-hr",
@@ -247,7 +271,8 @@
     "region_slug": "primorje-gorski-kotar",
     "hardness_mg_l": 172,
     "coords": { "lat": 45.3271, "lng": 14.4422 },
-    "population": 128000
+    "population": 128000,
+    "source_utility": "Komunalac Rijeka"
   },
   {
     "id": "osijek-hr",
@@ -257,7 +282,8 @@
     "region_slug": "osijek-baranja",
     "hardness_mg_l": 195,
     "coords": { "lat": 45.5550, "lng": 18.6955 },
-    "population": 108000
+    "population": 108000,
+    "source_utility": "Vodovod Osijek"
   },
   {
     "id": "zadar-hr",
@@ -267,7 +293,8 @@
     "region_slug": "zadar",
     "hardness_mg_l": 211,
     "coords": { "lat": 44.1194, "lng": 15.2314 },
-    "population": 75000
+    "population": 75000,
+    "source_utility": "Vodovod Zadar"
   },
   {
     "id": "prague-cz",
@@ -277,7 +304,8 @@
     "region_slug": "prague",
     "hardness_mg_l": 119,
     "coords": { "lat": 50.0755, "lng": 14.4378 },
-    "population": 1350000
+    "population": 1350000,
+    "source_utility": "Pražské vodovody a kanalizace"
   },
   {
     "id": "brno-cz",
@@ -287,7 +315,8 @@
     "region_slug": "south-moravian",
     "hardness_mg_l": 156,
     "coords": { "lat": 49.1951, "lng": 16.6068 },
-    "population": 382000
+    "population": 382000,
+    "source_utility": "Brněnské vodárny a kanalizace"
   },
   {
     "id": "ostrava-cz",
@@ -297,7 +326,8 @@
     "region_slug": "moravian-silesian",
     "hardness_mg_l": 188,
     "coords": { "lat": 49.8209, "lng": 18.2625 },
-    "population": 284000
+    "population": 284000,
+    "source_utility": "Ostravské vodárny a kanalizace"
   },
   {
     "id": "plzen-cz",
@@ -307,7 +337,8 @@
     "region_slug": "plzen",
     "hardness_mg_l": 107,
     "coords": { "lat": 49.7384, "lng": 13.3736 },
-    "population": 175000
+    "population": 175000,
+    "source_utility": "Vodárna Plzeň"
   },
   {
     "id": "liberec-cz",
@@ -317,7 +348,8 @@
     "region_slug": "liberec",
     "hardness_mg_l": 71,
     "coords": { "lat": 50.7671, "lng": 15.0565 },
-    "population": 105000
+    "population": 105000,
+    "source_utility": "Severočeské vodovody a kanalizace"
   },
   {
     "id": "copenhagen-dk",
@@ -327,7 +359,8 @@
     "region_slug": "capital-region",
     "hardness_mg_l": 124,
     "coords": { "lat": 55.6761, "lng": 12.5683 },
-    "population": 1360000
+    "population": 1360000,
+    "source_utility": "HOFOR"
   },
   {
     "id": "aarhus-dk",
@@ -337,7 +370,8 @@
     "region_slug": "central-denmark",
     "hardness_mg_l": 98,
     "coords": { "lat": 56.1629, "lng": 10.2039 },
-    "population": 285000
+    "population": 285000,
+    "source_utility": "Aarhus Vand"
   },
   {
     "id": "odense-dk",
@@ -347,7 +381,8 @@
     "region_slug": "southern-denmark",
     "hardness_mg_l": 153,
     "coords": { "lat": 55.4038, "lng": 10.4024 },
-    "population": 181000
+    "population": 181000,
+    "source_utility": "VandCenter Syd"
   },
   {
     "id": "aalborg-dk",
@@ -357,7 +392,8 @@
     "region_slug": "north-denmark",
     "hardness_mg_l": 87,
     "coords": { "lat": 57.0488, "lng": 9.9217 },
-    "population": 143000
+    "population": 143000,
+    "source_utility": "Aalborg Forsyning"
   },
   {
     "id": "helsinki-fi",
@@ -367,7 +403,8 @@
     "region_slug": "uusimaa",
     "hardness_mg_l": 48,
     "coords": { "lat": 60.1699, "lng": 24.9384 },
-    "population": 664000
+    "population": 664000,
+    "source_utility": "Helsingin seudun ympäristöpalvelut (HSY)"
   },
   {
     "id": "espoo-fi",
@@ -377,7 +414,8 @@
     "region_slug": "uusimaa",
     "hardness_mg_l": 52,
     "coords": { "lat": 60.2055, "lng": 24.6559 },
-    "population": 300000
+    "population": 300000,
+    "source_utility": "HSY"
   },
   {
     "id": "tampere-fi",
@@ -387,7 +425,8 @@
     "region_slug": "pirkanmaa",
     "hardness_mg_l": 79,
     "coords": { "lat": 61.4978, "lng": 23.7610 },
-    "population": 244000
+    "population": 244000,
+    "source_utility": "Tampereen Vesi"
   },
   {
     "id": "vantaa-fi",
@@ -397,7 +436,8 @@
     "region_slug": "uusimaa",
     "hardness_mg_l": 55,
     "coords": { "lat": 60.2934, "lng": 25.0378 },
-    "population": 239000
+    "population": 239000,
+    "source_utility": "HSY"
   },
   {
     "id": "turku-fi",
@@ -407,7 +447,8 @@
     "region_slug": "finland-proper",
     "hardness_mg_l": 73,
     "coords": { "lat": 60.4518, "lng": 22.2666 },
-    "population": 196000
+    "population": 196000,
+    "source_utility": "Turun Vesihuolto"
   },
   {
     "id": "oulu-fi",
@@ -417,7 +458,8 @@
     "region_slug": "north-ostrobothnia",
     "hardness_mg_l": 43,
     "coords": { "lat": 65.0121, "lng": 25.4651 },
-    "population": 209000
+    "population": 209000,
+    "source_utility": "Oulun Vesi"
   },
   {
     "id": "paris-fr",
@@ -427,7 +469,8 @@
     "region_slug": "ile-de-france",
     "hardness_mg_l": 234,
     "coords": { "lat": 48.8566, "lng": 2.3522 },
-    "population": 11000000
+    "population": 11000000,
+    "source_utility": "Eau de Paris"
   },
   {
     "id": "marseille-fr",
@@ -437,7 +480,8 @@
     "region_slug": "provence-alpes-cote-dazur",
     "hardness_mg_l": 187,
     "coords": { "lat": 43.2965, "lng": 5.3698 },
-    "population": 1618000
+    "population": 1618000,
+    "source_utility": "Eau de Marseille Métropole"
   },
   {
     "id": "lyon-fr",
@@ -447,7 +491,8 @@
     "region_slug": "auvergne-rhone-alpes",
     "hardness_mg_l": 162,
     "coords": { "lat": 45.7640, "lng": 4.8357 },
-    "population": 1729000
+    "population": 1729000,
+    "source_utility": "Eau du Grand Lyon"
   },
   {
     "id": "toulouse-fr",
@@ -457,7 +502,8 @@
     "region_slug": "occitanie",
     "hardness_mg_l": 216,
     "coords": { "lat": 43.6047, "lng": 1.4442 },
-    "population": 1021000
+    "population": 1021000,
+    "source_utility": "Eau de Toulouse Métropole"
   },
   {
     "id": "nice-fr",
@@ -467,7 +513,8 @@
     "region_slug": "provence-alpes-cote-dazur",
     "hardness_mg_l": 178,
     "coords": { "lat": 43.7102, "lng": 7.2620 },
-    "population": 942000
+    "population": 942000,
+    "source_utility": "Régie Eau d'Azur"
   },
   {
     "id": "berlin-de",
@@ -477,7 +524,8 @@
     "region_slug": "berlin",
     "hardness_mg_l": 163,
     "coords": { "lat": 52.5200, "lng": 13.4050 },
-    "population": 3769000
+    "population": 3769000,
+    "source_utility": "Berliner Wasserbetriebe"
   },
   {
     "id": "hamburg-de",
@@ -487,7 +535,8 @@
     "region_slug": "hamburg",
     "hardness_mg_l": 174,
     "coords": { "lat": 53.5511, "lng": 9.9937 },
-    "population": 1854000
+    "population": 1854000,
+    "source_utility": "Hamburg Wasser"
   },
   {
     "id": "munich-de",
@@ -497,7 +546,8 @@
     "region_slug": "bavaria",
     "hardness_mg_l": 157,
     "coords": { "lat": 48.1351, "lng": 11.5820 },
-    "population": 1512000
+    "population": 1512000,
+    "source_utility": "Stadtwerke München"
   },
   {
     "id": "cologne-de",
@@ -507,7 +557,8 @@
     "region_slug": "north-rhine-westphalia",
     "hardness_mg_l": 166,
     "coords": { "lat": 50.9375, "lng": 6.9603 },
-    "population": 1086000
+    "population": 1086000,
+    "source_utility": "RheinEnergie"
   },
   {
     "id": "frankfurt-de",
@@ -517,7 +568,8 @@
     "region_slug": "hesse",
     "hardness_mg_l": 182,
     "coords": { "lat": 50.1109, "lng": 8.6821 },
-    "population": 764000
+    "population": 764000,
+    "source_utility": "Mainova"
   },
   {
     "id": "stuttgart-de",
@@ -527,7 +579,8 @@
     "region_slug": "baden-wurttemberg",
     "hardness_mg_l": 171,
     "coords": { "lat": 48.7758, "lng": 9.1829 },
-    "population": 632000
+    "population": 632000,
+    "source_utility": "Stuttgarter Netze"
   },
   {
     "id": "dusseldorf-de",
@@ -537,7 +590,8 @@
     "region_slug": "north-rhine-westphalia",
     "hardness_mg_l": 144,
     "coords": { "lat": 51.2277, "lng": 6.7735 },
-    "population": 621000
+    "population": 621000,
+    "source_utility": "Stadtwerke Düsseldorf"
   },
   {
     "id": "leipzig-de",
@@ -547,7 +601,8 @@
     "region_slug": "saxony",
     "hardness_mg_l": 135,
     "coords": { "lat": 51.3397, "lng": 12.3731 },
-    "population": 616000
+    "population": 616000,
+    "source_utility": "Leipziger Wasserwerke"
   },
   {
     "id": "dortmund-de",
@@ -557,7 +612,8 @@
     "region_slug": "north-rhine-westphalia",
     "hardness_mg_l": 159,
     "coords": { "lat": 51.5136, "lng": 7.4653 },
-    "population": 588000
+    "population": 588000,
+    "source_utility": "Dortmunder Stadtwerke"
   },
   {
     "id": "essen-de",
@@ -567,7 +623,8 @@
     "region_slug": "north-rhine-westphalia",
     "hardness_mg_l": 162,
     "coords": { "lat": 51.4556, "lng": 7.0116 },
-    "population": 583000
+    "population": 583000,
+    "source_utility": "Stadtwerke Essen"
   },
   {
     "id": "bremen-de",
@@ -577,7 +634,8 @@
     "region_slug": "bremen",
     "hardness_mg_l": 184,
     "coords": { "lat": 53.0793, "lng": 8.8017 },
-    "population": 568000
+    "population": 568000,
+    "source_utility": "swb"
   },
   {
     "id": "dresden-de",
@@ -587,7 +645,8 @@
     "region_slug": "saxony",
     "hardness_mg_l": 125,
     "coords": { "lat": 51.0504, "lng": 13.7373 },
-    "population": 557000
+    "population": 557000,
+    "source_utility": "DREWAG"
   },
   {
     "id": "hanover-de",
@@ -597,7 +656,8 @@
     "region_slug": "lower-saxony",
     "hardness_mg_l": 166,
     "coords": { "lat": 52.3759, "lng": 9.7320 },
-    "population": 536000
+    "population": 536000,
+    "source_utility": "enercity"
   },
   {
     "id": "nuremberg-de",
@@ -607,7 +667,8 @@
     "region_slug": "bavaria",
     "hardness_mg_l": 155,
     "coords": { "lat": 49.4521, "lng": 11.0767 },
-    "population": 519000
+    "population": 519000,
+    "source_utility": "N-ERGIE"
   },
   {
     "id": "duisburg-de",
@@ -617,7 +678,8 @@
     "region_slug": "north-rhine-westphalia",
     "hardness_mg_l": 169,
     "coords": { "lat": 51.4344, "lng": 6.7623 },
-    "population": 498000
+    "population": 498000,
+    "source_utility": "Stadtwerke Duisburg"
   },
   {
     "id": "budapest-hu",
@@ -627,7 +689,8 @@
     "region_slug": "budapest",
     "hardness_mg_l": 177,
     "coords": { "lat": 47.4979, "lng": 19.0402 },
-    "population": 1752000
+    "population": 1752000,
+    "source_utility": "Budapesti Víz"
   },
   {
     "id": "debrecen-hu",
@@ -637,7 +700,8 @@
     "region_slug": "hajdu-bihar",
     "hardness_mg_l": 188,
     "coords": { "lat": 47.5316, "lng": 21.6273 },
-    "population": 202000
+    "population": 202000,
+    "source_utility": "Debreceni Víz"
   },
   {
     "id": "szeged-hu",
@@ -647,7 +711,8 @@
     "region_slug": "csongrad",
     "hardness_mg_l": 196,
     "coords": { "lat": 46.2530, "lng": 20.1414 },
-    "population": 162000
+    "population": 162000,
+    "source_utility": "Szegedi Víz"
   },
   {
     "id": "miskolc-hu",
@@ -657,7 +722,8 @@
     "region_slug": "borsod-abauj-zemplen",
     "hardness_mg_l": 183,
     "coords": { "lat": 48.1035, "lng": 20.7784 },
-    "population": 150000
+    "population": 150000,
+    "source_utility": "Miskolci Víz"
   },
   {
     "id": "pecs-hu",
@@ -667,7 +733,8 @@
     "region_slug": "baranya",
     "hardness_mg_l": 204,
     "coords": { "lat": 46.0725, "lng": 18.2323 },
-    "population": 144000
+    "population": 144000,
+    "source_utility": "Pécsi Víz"
   },
   {
     "id": "gyor-hu",
@@ -677,7 +744,8 @@
     "region_slug": "gyor-moson-sopron",
     "hardness_mg_l": 179,
     "coords": { "lat": 47.6875, "lng": 17.6504 },
-    "population": 132000
+    "population": 132000,
+    "source_utility": "Győri Víz"
   },
   {
     "id": "nyiregyhaza-hu",
@@ -687,7 +755,8 @@
     "region_slug": "szabolcs-szatmar-bereg",
     "hardness_mg_l": 192,
     "coords": { "lat": 47.9495, "lng": 21.7244 },
-    "population": 118000
+    "population": 118000,
+    "source_utility": "Nyíregyházi Víz"
   },
   {
     "id": "kecskemet-hu",
@@ -697,7 +766,8 @@
     "region_slug": "bacs-kiskun",
     "hardness_mg_l": 215,
     "coords": { "lat": 46.8964, "lng": 19.6897 },
-    "population": 111000
+    "population": 111000,
+    "source_utility": "Kecskeméti Víz"
   },
   {
     "id": "szekesfehervar-hu",
@@ -707,7 +777,8 @@
     "region_slug": "fejer",
     "hardness_mg_l": 197,
     "coords": { "lat": 47.1947, "lng": 18.4087 },
-    "population": 98000
+    "population": 98000,
+    "source_utility": "Székesfehérvári Víz"
   },
   {
     "id": "szombathely-hu",
@@ -717,7 +788,8 @@
     "region_slug": "vas",
     "hardness_mg_l": 169,
     "coords": { "lat": 47.2309, "lng": 16.6216 },
-    "population": 78000
+    "population": 78000,
+    "source_utility": "Szombathelyi Víz"
   },
   {
     "id": "paradsasvar-hu",
@@ -727,7 +799,8 @@
     "region_slug": "heves",
     "hardness_mg_l": 142,
     "coords": { "lat": 47.9167, "lng": 20.0333 },
-    "population": 5000
+    "population": 5000,
+    "source_utility": "Parádi Víz"
   },
   {
     "id": "tirana-al",
@@ -737,7 +810,8 @@
     "region_slug": "tirana",
     "hardness_mg_l": 199,
     "coords": { "lat": 41.3275, "lng": 19.8187 },
-    "population": 525000
+    "population": 525000,
+    "source_utility": "Tirana Water"
   },
   {
     "id": "durres-al",
@@ -747,7 +821,8 @@
     "region_slug": "durres",
     "hardness_mg_l": 204,
     "coords": { "lat": 41.3231, "lng": 19.4561 },
-    "population": 175000
+    "population": 175000,
+    "source_utility": "Durrës Water"
   },
   {
     "id": "vlore-al",
@@ -757,7 +832,8 @@
     "region_slug": "vlore",
     "hardness_mg_l": 215,
     "coords": { "lat": 40.4691, "lng": 19.4836 },
-    "population": 130000
+    "population": 130000,
+    "source_utility": "Vlorë Water"
   },
   {
     "id": "elbasan-al",
@@ -767,7 +843,8 @@
     "region_slug": "elbasan",
     "hardness_mg_l": 188,
     "coords": { "lat": 41.1126, "lng": 20.0822 },
-    "population": 115000
+    "population": 115000,
+    "source_utility": "Elbasan Water"
   },
   {
     "id": "shkoder-al",
@@ -777,7 +854,8 @@
     "region_slug": "shkoder",
     "hardness_mg_l": 176,
     "coords": { "lat": 42.0693, "lng": 19.5129 },
-    "population": 95000
+    "population": 95000,
+    "source_utility": "Shkodër Water"
   },
   {
     "id": "andorra-la-vella-ad",
@@ -787,7 +865,8 @@
     "region_slug": "andorra-la-vella",
     "hardness_mg_l": 145,
     "coords": { "lat": 42.5063, "lng": 1.5218 },
-    "population": 23000
+    "population": 23000,
+    "source_utility": "Andorra Water"
   },
   {
     "id": "escaldes-engordany-ad",
@@ -797,7 +876,8 @@
     "region_slug": "escaldes-engordany",
     "hardness_mg_l": 148,
     "coords": { "lat": 42.5075, "lng": 1.5390 },
-    "population": 15000
+    "population": 15000,
+    "source_utility": "Escaldes Water"
   },
   {
     "id": "encamp-ad",
@@ -807,7 +887,8 @@
     "region_slug": "encamp",
     "hardness_mg_l": 151,
     "coords": { "lat": 42.5350, "lng": 1.5833 },
-    "population": 13000
+    "population": 13000,
+    "source_utility": "Encamp Water"
   },
   {
     "id": "sant-julia-de-loria-ad",
@@ -817,7 +898,8 @@
     "region_slug": "sant-julia-de-loria",
     "hardness_mg_l": 154,
     "coords": { "lat": 42.4667, "lng": 1.5000 },
-    "population": 9500
+    "population": 9500,
+    "source_utility": "Sant Julià Water"
   },
   {
     "id": "la-massana-ad",
@@ -827,7 +909,8 @@
     "region_slug": "la-massana",
     "hardness_mg_l": 142,
     "coords": { "lat": 42.5449, "lng": 1.5148 },
-    "population": 11000
+    "population": 11000,
+    "source_utility": "La Massana Water"
   },
   {
     "id": "minsk-by",
@@ -837,7 +920,8 @@
     "region_slug": "minsk",
     "hardness_mg_l": 126,
     "coords": { "lat": 53.9045, "lng": 27.5615 },
-    "population": 1996000
+    "population": 1996000,
+    "source_utility": "Minskvodokanal"
   },
   {
     "id": "gomel-by",
@@ -847,7 +931,8 @@
     "region_slug": "gomel",
     "hardness_mg_l": 138,
     "coords": { "lat": 52.4412, "lng": 30.9878 },
-    "population": 510000
+    "population": 510000,
+    "source_utility": "Gomelvodokanal"
   },
   {
     "id": "mogilev-by",
@@ -857,7 +942,8 @@
     "region_slug": "mogilev",
     "hardness_mg_l": 143,
     "coords": { "lat": 53.8945, "lng": 30.3310 },
-    "population": 357000
+    "population": 357000,
+    "source_utility": "Mogilevvodokanal"
   },
   {
     "id": "vitebsk-by",
@@ -867,7 +953,8 @@
     "region_slug": "vitebsk",
     "hardness_mg_l": 119,
     "coords": { "lat": 55.1848, "lng": 30.2016 },
-    "population": 365000
+    "population": 365000,
+    "source_utility": "Vitebskvodokanal"
   },
   {
     "id": "grodno-by",
@@ -877,7 +964,8 @@
     "region_slug": "grodno",
     "hardness_mg_l": 135,
     "coords": { "lat": 53.6694, "lng": 23.8131 },
-    "population": 357000
+    "population": 357000,
+    "source_utility": "Grodnovodokanal"
   },
   {
     "id": "brest-by",
@@ -887,7 +975,8 @@
     "region_slug": "brest",
     "hardness_mg_l": 148,
     "coords": { "lat": 52.0976, "lng": 23.7341 },
-    "population": 350000
+    "population": 350000,
+    "source_utility": "Brestvodokanal"
   },
   {
     "id": "sarajevo-ba",
@@ -897,7 +986,8 @@
     "region_slug": "federation-of-bosnia-and-herzegovina",
     "hardness_mg_l": 165,
     "coords": { "lat": 43.8563, "lng": 18.4131 },
-    "population": 291000
+    "population": 291000,
+    "source_utility": "Vodovod i kanalizacija Sarajevo"
   },
   {
     "id": "banja-luka-ba",
@@ -907,7 +997,8 @@
     "region_slug": "republika-srpska",
     "hardness_mg_l": 179,
     "coords": { "lat": 44.7722, "lng": 17.1910 },
-    "population": 199000
+    "population": 199000,
+    "source_utility": "Vodovod Banja Luka"
   },
   {
     "id": "tuzla-ba",
@@ -917,7 +1008,8 @@
     "region_slug": "federation-of-bosnia-and-herzegovina",
     "hardness_mg_l": 183,
     "coords": { "lat": 44.5377, "lng": 18.6764 },
-    "population": 120000
+    "population": 120000,
+    "source_utility": "Vodovod Tuzla"
   },
   {
     "id": "zenica-ba",
@@ -927,7 +1019,8 @@
     "region_slug": "federation-of-bosnia-and-herzegovina",
     "hardness_mg_l": 188,
     "coords": { "lat": 44.2034, "lng": 17.9077 },
-    "population": 115000
+    "population": 115000,
+    "source_utility": "Vodovod Zenica"
   },
   {
     "id": "mostar-ba",
@@ -937,7 +1030,8 @@
     "region_slug": "federation-of-bosnia-and-herzegovina",
     "hardness_mg_l": 204,
     "coords": { "lat": 43.3438, "lng": 17.8078 },
-    "population": 113000
+    "population": 113000,
+    "source_utility": "Vodovod Mostar"
   },
   {
     "id": "nicosia-cy",
@@ -947,7 +1041,8 @@
     "region_slug": "nicosia",
     "hardness_mg_l": 196,
     "coords": { "lat": 35.1856, "lng": 33.3823 },
-    "population": 330000
+    "population": 330000,
+    "source_utility": "Nicosia Water"
   },
   {
     "id": "limassol-cy",
@@ -957,7 +1052,8 @@
     "region_slug": "limassol",
     "hardness_mg_l": 211,
     "coords": { "lat": 34.7071, "lng": 33.0226 },
-    "population": 235000
+    "population": 235000,
+    "source_utility": "Limassol Water"
   },
   {
     "id": "larnaca-cy",
@@ -967,7 +1063,8 @@
     "region_slug": "larnaca",
     "hardness_mg_l": 222,
     "coords": { "lat": 34.9169, "lng": 33.6376 },
-    "population": 144000
+    "population": 144000,
+    "source_utility": "Larnaca Water"
   },
   {
     "id": "paphos-cy",
@@ -977,7 +1074,8 @@
     "region_slug": "paphos",
     "hardness_mg_l": 218,
     "coords": { "lat": 34.7754, "lng": 32.4243 },
-    "population": 63000
+    "population": 63000,
+    "source_utility": "Paphos Water"
   },
   {
     "id": "kyrenia-cy",
@@ -987,7 +1085,8 @@
     "region_slug": "kyrenia",
     "hardness_mg_l": 207,
     "coords": { "lat": 35.3398, "lng": 33.3174 },
-    "population": 73000
+    "population": 73000,
+    "source_utility": "Kyrenia Water"
   },
   {
     "id": "tallinn-ee",
@@ -997,7 +1096,8 @@
     "region_slug": "harju",
     "hardness_mg_l": 84,
     "coords": { "lat": 59.4370, "lng": 24.7536 },
-    "population": 438000
+    "population": 438000,
+    "source_utility": "Tallinna Vesi"
   },
   {
     "id": "tartu-ee",
@@ -1007,7 +1107,8 @@
     "region_slug": "tartu",
     "hardness_mg_l": 102,
     "coords": { "lat": 58.3776, "lng": 26.7290 },
-    "population": 95000
+    "population": 95000,
+    "source_utility": "Tartu Vesi"
   },
   {
     "id": "narva-ee",
@@ -1017,7 +1118,8 @@
     "region_slug": "ida-viru",
     "hardness_mg_l": 115,
     "coords": { "lat": 59.3796, "lng": 28.1905 },
-    "population": 57000
+    "population": 57000,
+    "source_utility": "Narva Vesi"
   },
   {
     "id": "parnu-ee",
@@ -1027,7 +1129,8 @@
     "region_slug": "parnu",
     "hardness_mg_l": 97,
     "coords": { "lat": 58.3859, "lng": 24.4971 },
-    "population": 40000
+    "population": 40000,
+    "source_utility": "Pärnu Vesi"
   },
   {
     "id": "kohtla-jarve-ee",
@@ -1037,7 +1140,8 @@
     "region_slug": "ida-viru",
     "hardness_mg_l": 119,
     "coords": { "lat": 59.3989, "lng": 27.2831 },
-    "population": 35000
+    "population": 35000,
+    "source_utility": "Kohtla-Järve Vesi"
   },
   {
     "id": "reykjavik-is",
@@ -1047,7 +1151,8 @@
     "region_slug": "capital-region",
     "hardness_mg_l": 58,
     "coords": { "lat": 64.1466, "lng": -21.9426 },
-    "population": 131000
+    "population": 131000,
+    "source_utility": "Reykjavík Energy"
   },
   {
     "id": "kopavogur-is",
@@ -1057,7 +1162,8 @@
     "region_slug": "capital-region",
     "hardness_mg_l": 62,
     "coords": { "lat": 64.1125, "lng": -21.9130 },
-    "population": 37000
+    "population": 37000,
+    "source_utility": "Kópavogur Water"
   },
   {
     "id": "hafnarfjordur-is",
@@ -1067,7 +1173,8 @@
     "region_slug": "capital-region",
     "hardness_mg_l": 65,
     "coords": { "lat": 64.0671, "lng": -21.9375 },
-    "population": 29000
+    "population": 29000,
+    "source_utility": "Hafnarfjörður Water"
   },
   {
     "id": "akureyri-is",
@@ -1077,7 +1184,8 @@
     "region_slug": "northeastern",
     "hardness_mg_l": 44,
     "coords": { "lat": 65.6885, "lng": -18.1262 },
-    "population": 19000
+    "population": 19000,
+    "source_utility": "Akureyri Water"
   },
   {
     "id": "dublin-ie",
@@ -1087,7 +1195,8 @@
     "region_slug": "dublin",
     "hardness_mg_l": 177,
     "coords": { "lat": 53.3498, "lng": -6.2603 },
-    "population": 1210000
+    "population": 1210000,
+    "source_utility": "Irish Water"
   },
   {
     "id": "cork-ie",
@@ -1097,7 +1206,8 @@
     "region_slug": "cork",
     "hardness_mg_l": 188,
     "coords": { "lat": 51.8985, "lng": -8.4756 },
-    "population": 222000
+    "population": 222000,
+    "source_utility": "Irish Water"
   },
   {
     "id": "limerick-ie",
@@ -1107,7 +1217,8 @@
     "region_slug": "limerick",
     "hardness_mg_l": 195,
     "coords": { "lat": 52.6638, "lng": -8.6267 },
-    "population": 94000
+    "population": 94000,
+    "source_utility": "Irish Water"
   },
   {
     "id": "galway-ie",
@@ -1117,7 +1228,8 @@
     "region_slug": "galway",
     "hardness_mg_l": 166,
     "coords": { "lat": 53.2707, "lng": -9.0568 },
-    "population": 83000
+    "population": 83000,
+    "source_utility": "Irish Water"
   },
   {
     "id": "waterford-ie",
@@ -1127,7 +1239,8 @@
     "region_slug": "waterford",
     "hardness_mg_l": 182,
     "coords": { "lat": 52.2593, "lng": -7.1101 },
-    "population": 54000
+    "population": 54000,
+    "source_utility": "Irish Water"
   },
   {
     "id": "drogheda-ie",
@@ -1137,7 +1250,8 @@
     "region_slug": "louth",
     "hardness_mg_l": 203,
     "coords": { "lat": 53.7151, "lng": -6.3502 },
-    "population": 41000
+    "population": 41000,
+    "source_utility": "Irish Water"
   },
   {
     "id": "rome-it",
@@ -1147,7 +1261,8 @@
     "region_slug": "lazio",
     "hardness_mg_l": 198,
     "coords": { "lat": 41.9028, "lng": 12.4964 },
-    "population": 4342000
+    "population": 4342000,
+    "source_utility": "ACEA ATO 2"
   },
   {
     "id": "milan-it",
@@ -1157,7 +1272,8 @@
     "region_slug": "lombardy",
     "hardness_mg_l": 214,
     "coords": { "lat": 45.4642, "lng": 9.1900 },
-    "population": 3151000
+    "population": 3151000,
+    "source_utility": "MM"
   },
   {
     "id": "naples-it",
@@ -1167,7 +1283,8 @@
     "region_slug": "campania",
     "hardness_mg_l": 236,
     "coords": { "lat": 40.8518, "lng": 14.2681 },
-    "population": 3073000
+    "population": 3073000,
+    "source_utility": "ABC Napoli"
   },
   {
     "id": "turin-it",
@@ -1177,7 +1294,8 @@
     "region_slug": "piedmont",
     "hardness_mg_l": 172,
     "coords": { "lat": 45.0703, "lng": 7.6869 },
-    "population": 1776000
+    "population": 1776000,
+    "source_utility": "SMAT"
   },
   {
     "id": "palermo-it",
@@ -1187,7 +1305,8 @@
     "region_slug": "sicily",
     "hardness_mg_l": 225,
     "coords": { "lat": 38.1157, "lng": 13.3615 },
-    "population": 855000
+    "population": 855000,
+    "source_utility": "AMAP"
   },
   {
     "id": "genoa-it",
@@ -1197,7 +1316,8 @@
     "region_slug": "liguria",
     "hardness_mg_l": 166,
     "coords": { "lat": 44.4056, "lng": 8.9463 },
-    "population": 580000
+    "population": 580000,
+    "source_utility": "Iren"
   },
   {
     "id": "bologna-it",
@@ -1207,7 +1327,8 @@
     "region_slug": "emilia-romagna",
     "hardness_mg_l": 256,
     "coords": { "lat": 44.4949, "lng": 11.3426 },
-    "population": 392000
+    "population": 392000,
+    "source_utility": "HERA"
   },
   {
     "id": "florence-it",
@@ -1217,7 +1338,8 @@
     "region_slug": "tuscany",
     "hardness_mg_l": 179,
     "coords": { "lat": 43.7696, "lng": 11.2558 },
-    "population": 382000
+    "population": 382000,
+    "source_utility": "Publiacqua"
   },
   {
     "id": "bari-it",
@@ -1227,7 +1349,8 @@
     "region_slug": "apulia",
     "hardness_mg_l": 243,
     "coords": { "lat": 41.1171, "lng": 16.8719 },
-    "population": 322000
+    "population": 322000,
+    "source_utility": "Acquedotto Pugliese"
   },
   {
     "id": "catania-it",
@@ -1237,7 +1360,8 @@
     "region_slug": "sicily",
     "hardness_mg_l": 228,
     "coords": { "lat": 37.5079, "lng": 15.0830 },
-    "population": 311000
+    "population": 311000,
+    "source_utility": "SIDRA"
   },
   {
     "id": "riga-lv",
@@ -1247,7 +1371,8 @@
     "region_slug": "riga",
     "hardness_mg_l": 115,
     "coords": { "lat": 56.9496, "lng": 24.1052 },
-    "population": 620000
+    "population": 620000,
+    "source_utility": "Rīgas ūdens"
   },
   {
     "id": "daugavpils-lv",
@@ -1257,7 +1382,8 @@
     "region_slug": "latgale",
     "hardness_mg_l": 127,
     "coords": { "lat": 55.8747, "lng": 26.5362 },
-    "population": 82000
+    "population": 82000,
+    "source_utility": "Daugavpils ūdens"
   },
   {
     "id": "liepaja-lv",
@@ -1267,7 +1393,8 @@
     "region_slug": "kurzeme",
     "hardness_mg_l": 106,
     "coords": { "lat": 56.5047, "lng": 21.0108 },
-    "population": 68000
+    "population": 68000,
+    "source_utility": "Liepājas ūdens"
   },
   {
     "id": "jelgava-lv",
@@ -1277,7 +1404,8 @@
     "region_slug": "zemgale",
     "hardness_mg_l": 133,
     "coords": { "lat": 56.6511, "lng": 23.7214 },
-    "population": 56000
+    "population": 56000,
+    "source_utility": "Jelgavas ūdens"
   },
   {
     "id": "ventspils-lv",
@@ -1287,7 +1415,8 @@
     "region_slug": "kurzeme",
     "hardness_mg_l": 112,
     "coords": { "lat": 57.3939, "lng": 21.5649 },
-    "population": 34000
+    "population": 34000,
+    "source_utility": "Ventspils ūdens"
   },
   {
     "id": "vaduz-li",
@@ -1297,7 +1426,8 @@
     "region_slug": "oberland",
     "hardness_mg_l": 138,
     "coords": { "lat": 47.1410, "lng": 9.5209 },
-    "population": 5700
+    "population": 5700,
+    "source_utility": "Liechtenstein Water"
   },
   {
     "id": "schaan-li",
@@ -1307,7 +1437,8 @@
     "region_slug": "oberland",
     "hardness_mg_l": 142,
     "coords": { "lat": 47.1649, "lng": 9.5089 },
-    "population": 6000
+    "population": 6000,
+    "source_utility": "Schaan Water"
   },
   {
     "id": "balzers-li",
@@ -1317,7 +1448,8 @@
     "region_slug": "oberland",
     "hardness_mg_l": 145,
     "coords": { "lat": 47.0667, "lng": 9.5000 },
-    "population": 4600
+    "population": 4600,
+    "source_utility": "Balzers Water"
   },
   {
     "id": "triesen-li",
@@ -1327,7 +1459,8 @@
     "region_slug": "oberland",
     "hardness_mg_l": 140,
     "coords": { "lat": 47.1095, "lng": 9.5252 },
-    "population": 5200
+    "population": 5200,
+    "source_utility": "Triesen Water"
   },
   {
     "id": "vilnius-lt",
@@ -1337,7 +1470,8 @@
     "region_slug": "vilnius",
     "hardness_mg_l": 108,
     "coords": { "lat": 54.6872, "lng": 25.2797 },
-    "population": 581000
+    "population": 581000,
+    "source_utility": "Vilniaus vandenys"
   },
   {
     "id": "kaunas-lt",
@@ -1347,7 +1481,8 @@
     "region_slug": "kaunas",
     "hardness_mg_l": 124,
     "coords": { "lat": 54.8985, "lng": 23.9036 },
-    "population": 298000
+    "population": 298000,
+    "source_utility": "Kauno vandenys"
   },
   {
     "id": "klaipeda-lt",
@@ -1357,7 +1492,8 @@
     "region_slug": "klaipeda",
     "hardness_mg_l": 116,
     "coords": { "lat": 55.7033, "lng": 21.1443 },
-    "population": 149000
+    "population": 149000,
+    "source_utility": "Klaipėdos vanduo"
   },
   {
     "id": "siauliai-lt",
@@ -1367,7 +1503,8 @@
     "region_slug": "siauliai",
     "hardness_mg_l": 131,
     "coords": { "lat": 55.9349, "lng": 23.3137 },
-    "population": 107000
+    "population": 107000,
+    "source_utility": "Šiaulių vandenys"
   },
   {
     "id": "panevezys-lt",
@@ -1377,7 +1514,8 @@
     "region_slug": "panevezys",
     "hardness_mg_l": 133,
     "coords": { "lat": 55.7348, "lng": 24.3575 },
-    "population": 89000
+    "population": 89000,
+    "source_utility": "Panevėžio vandenys"
   },
   {
     "id": "luxembourg-city-lu",
@@ -1387,7 +1525,8 @@
     "region_slug": "luxembourg",
     "hardness_mg_l": 118,
     "coords": { "lat": 49.6117, "lng": 6.1319 },
-    "population": 132000
+    "population": 132000,
+    "source_utility": "Ville de Luxembourg - Service des eaux"
   },
   {
     "id": "esch-sur-alzette-lu",
@@ -1397,7 +1536,8 @@
     "region_slug": "esch-sur-alzette",
     "hardness_mg_l": 126,
     "coords": { "lat": 49.4959, "lng": 5.9806 },
-    "population": 36000
+    "population": 36000,
+    "source_utility": "Esch Water"
   },
   {
     "id": "differdange-lu",
@@ -1407,7 +1547,8 @@
     "region_slug": "differdange",
     "hardness_mg_l": 130,
     "coords": { "lat": 49.5241, "lng": 5.8912 },
-    "population": 28000
+    "population": 28000,
+    "source_utility": "Differdange Water"
   },
   {
     "id": "valletta-mt",
@@ -1417,7 +1558,8 @@
     "region_slug": "south-eastern",
     "hardness_mg_l": 244,
     "coords": { "lat": 35.8989, "lng": 14.5146 },
-    "population": 5800
+    "population": 5800,
+    "source_utility": "Water Services Corporation"
   },
   {
     "id": "birkirkara-mt",
@@ -1427,7 +1569,8 @@
     "region_slug": "central",
     "hardness_mg_l": 253,
     "coords": { "lat": 35.8972, "lng": 14.4611 },
-    "population": 25000
+    "population": 25000,
+    "source_utility": "Water Services Corporation"
   },
   {
     "id": "mosta-mt",
@@ -1437,7 +1580,8 @@
     "region_slug": "northern",
     "hardness_mg_l": 257,
     "coords": { "lat": 35.9143, "lng": 14.4228 },
-    "population": 21000
+    "population": 21000,
+    "source_utility": "Water Services Corporation"
   },
   {
     "id": "qormi-mt",
@@ -1447,7 +1591,8 @@
     "region_slug": "south-eastern",
     "hardness_mg_l": 248,
     "coords": { "lat": 35.8780, "lng": 14.4700 },
-    "population": 17000
+    "population": 17000,
+    "source_utility": "Water Services Corporation"
   },
   {
     "id": "amsterdam-nl",
@@ -1457,7 +1602,8 @@
     "region_slug": "north-holland",
     "hardness_mg_l": 77,
     "coords": { "lat": 52.3676, "lng": 4.9041 },
-    "population": 1463000
+    "population": 1463000,
+    "source_utility": "Waternet"
   },
   {
     "id": "rotterdam-nl",
@@ -1467,7 +1613,8 @@
     "region_slug": "south-holland",
     "hardness_mg_l": 83,
     "coords": { "lat": 51.9244, "lng": 4.4777 },
-    "population": 1021000
+    "population": 1021000,
+    "source_utility": "Evides"
   },
   {
     "id": "the-hague-nl",
@@ -1477,7 +1624,8 @@
     "region_slug": "south-holland",
     "hardness_mg_l": 86,
     "coords": { "lat": 52.0705, "lng": 4.3007 },
-    "population": 721000
+    "population": 721000,
+    "source_utility": "Dunea"
   },
   {
     "id": "utrecht-nl",
@@ -1487,7 +1635,8 @@
     "region_slug": "utrecht",
     "hardness_mg_l": 74,
     "coords": { "lat": 52.0907, "lng": 5.1214 },
-    "population": 505000
+    "population": 505000,
+    "source_utility": "Vitens"
   },
   {
     "id": "eindhoven-nl",
@@ -1497,7 +1646,8 @@
     "region_slug": "north-brabant",
     "hardness_mg_l": 61,
     "coords": { "lat": 51.4416, "lng": 5.4697 },
-    "population": 377000
+    "population": 377000,
+    "source_utility": "Brabant Water"
   },
   {
     "id": "groningen-nl",
@@ -1507,7 +1657,8 @@
     "region_slug": "groningen",
     "hardness_mg_l": 69,
     "coords": { "lat": 53.2194, "lng": 6.5665 },
-    "population": 325000
+    "population": 325000,
+    "source_utility": "Waterbedrijf Groningen"
   },
   {
     "id": "tilburg-nl",
@@ -1517,7 +1668,8 @@
     "region_slug": "north-brabant",
     "hardness_mg_l": 65,
     "coords": { "lat": 51.5555, "lng": 5.0913 },
-    "population": 296000
+    "population": 296000,
+    "source_utility": "Brabant Water"
   },
   {
     "id": "almere-nl",
@@ -1527,7 +1679,8 @@
     "region_slug": "flevoland",
     "hardness_mg_l": 71,
     "coords": { "lat": 52.3508, "lng": 5.2647 },
-    "population": 281000
+    "population": 281000,
+    "source_utility": "Vitens"
   },
   {
     "id": "breda-nl",
@@ -1537,7 +1690,8 @@
     "region_slug": "north-brabant",
     "hardness_mg_l": 67,
     "coords": { "lat": 51.5719, "lng": 4.7683 },
-    "population": 217000
+    "population": 217000,
+    "source_utility": "Brabant Water"
   },
   {
     "id": "nijmegen-nl",
@@ -1547,7 +1701,8 @@
     "region_slug": "gelderland",
     "hardness_mg_l": 78,
     "coords": { "lat": 51.8126, "lng": 5.8372 },
-    "population": 208000
+    "population": 208000,
+    "source_utility": "Vitens"
   },
   {
     "id": "skopje-mk",
@@ -1557,7 +1712,8 @@
     "region_slug": "skopje",
     "hardness_mg_l": 146,
     "coords": { "lat": 41.9973, "lng": 21.4280 },
-    "population": 527000
+    "population": 527000,
+    "source_utility": "JP Vodovod i kanalizacija Skopje"
   },
   {
     "id": "bitola-mk",
@@ -1567,7 +1723,8 @@
     "region_slug": "pelagonia",
     "hardness_mg_l": 159,
     "coords": { "lat": 41.0314, "lng": 21.3346 },
-    "population": 74000
+    "population": 74000,
+    "source_utility": "Bitola Water"
   },
   {
     "id": "kumanovo-mk",
@@ -1577,7 +1734,8 @@
     "region_slug": "northeastern",
     "hardness_mg_l": 153,
     "coords": { "lat": 42.1358, "lng": 21.7186 },
-    "population": 71000
+    "population": 71000,
+    "source_utility": "Kumanovo Water"
   },
   {
     "id": "prilep-mk",
@@ -1587,7 +1745,8 @@
     "region_slug": "pelagonia",
     "hardness_mg_l": 162,
     "coords": { "lat": 41.3455, "lng": 21.5553 },
-    "population": 66000
+    "population": 66000,
+    "source_utility": "Prilep Water"
   },
   {
     "id": "tetovo-mk",
@@ -1597,7 +1756,8 @@
     "region_slug": "polog",
     "hardness_mg_l": 138,
     "coords": { "lat": 42.0106, "lng": 20.9715 },
-    "population": 63000
+    "population": 63000,
+    "source_utility": "Tetovo Water"
   },
   {
     "id": "oslo-no",
@@ -1607,7 +1767,8 @@
     "region_slug": "oslo",
     "hardness_mg_l": 63,
     "coords": { "lat": 59.9139, "lng": 10.7522 },
-    "population": 1066000
+    "population": 1066000,
+    "source_utility": "Oslo Vann"
   },
   {
     "id": "bergen-no",
@@ -1617,7 +1778,8 @@
     "region_slug": "vestland",
     "hardness_mg_l": 51,
     "coords": { "lat": 60.3913, "lng": 5.3221 },
-    "population": 259000
+    "population": 259000,
+    "source_utility": "Bergen Vann"
   },
   {
     "id": "trondheim-no",
@@ -1627,7 +1789,8 @@
     "region_slug": "trondelag",
     "hardness_mg_l": 47,
     "coords": { "lat": 63.4305, "lng": 10.3951 },
-    "population": 196000
+    "population": 196000,
+    "source_utility": "Trondheim Bydrift"
   },
   {
     "id": "stavanger-no",
@@ -1637,7 +1800,8 @@
     "region_slug": "rogaland",
     "hardness_mg_l": 69,
     "coords": { "lat": 58.9700, "lng": 5.7331 },
-    "population": 144000
+    "population": 144000,
+    "source_utility": "Stavanger Vann"
   },
   {
     "id": "drammen-no",
@@ -1647,7 +1811,8 @@
     "region_slug": "viken",
     "hardness_mg_l": 74,
     "coords": { "lat": 59.7441, "lng": 10.2045 },
-    "population": 118000
+    "population": 118000,
+    "source_utility": "Drammen Vann"
   },
   {
     "id": "fredrikstad-no",
@@ -1657,7 +1822,8 @@
     "region_slug": "viken",
     "hardness_mg_l": 72,
     "coords": { "lat": 59.2181, "lng": 10.9298 },
-    "population": 103000
+    "population": 103000,
+    "source_utility": "Fredrikstad Vann"
   },
   {
     "id": "warsaw-pl",
@@ -1667,7 +1833,8 @@
     "region_slug": "masovian",
     "hardness_mg_l": 194,
     "coords": { "lat": 52.2297, "lng": 21.0122 },
-    "population": 1790000
+    "population": 1790000,
+    "source_utility": "Wodociągi Warszawskie"
   },
   {
     "id": "krakow-pl",
@@ -1677,7 +1844,8 @@
     "region_slug": "lesser-poland",
     "hardness_mg_l": 208,
     "coords": { "lat": 50.0647, "lng": 19.9450 },
-    "population": 780000
+    "population": 780000,
+    "source_utility": "Wodociągi Krakowskie"
   },
   {
     "id": "lodz-pl",
@@ -1687,7 +1855,8 @@
     "region_slug": "lodz",
     "hardness_mg_l": 176,
     "coords": { "lat": 51.7592, "lng": 19.4559 },
-    "population": 677000
+    "population": 677000,
+    "source_utility": "ZWiK Łódź"
   },
   {
     "id": "wroclaw-pl",
@@ -1697,7 +1866,8 @@
     "region_slug": "lower-silesian",
     "hardness_mg_l": 183,
     "coords": { "lat": 51.1079, "lng": 17.0385 },
-    "population": 643000
+    "population": 643000,
+    "source_utility": "MPWiK Wrocław"
   },
   {
     "id": "poznan-pl",
@@ -1707,7 +1877,8 @@
     "region_slug": "greater-poland",
     "hardness_mg_l": 215,
     "coords": { "lat": 52.4064, "lng": 16.9252 },
-    "population": 534000
+    "population": 534000,
+    "source_utility": "Aquanet"
   },
   {
     "id": "gdansk-pl",
@@ -1717,7 +1888,8 @@
     "region_slug": "pomeranian",
     "hardness_mg_l": 142,
     "coords": { "lat": 54.3520, "lng": 18.6466 },
-    "population": 471000
+    "population": 471000,
+    "source_utility": "GIWK"
   },
   {
     "id": "szczecin-pl",
@@ -1727,7 +1899,8 @@
     "region_slug": "west-pomeranian",
     "hardness_mg_l": 157,
     "coords": { "lat": 53.4285, "lng": 14.5528 },
-    "population": 401000
+    "population": 401000,
+    "source_utility": "ZWiK Szczecin"
   },
   {
     "id": "bydgoszcz-pl",
@@ -1737,7 +1910,8 @@
     "region_slug": "kuyavian-pomeranian",
     "hardness_mg_l": 169,
     "coords": { "lat": 53.1235, "lng": 18.0084 },
-    "population": 348000
+    "population": 348000,
+    "source_utility": "MWiK Bydgoszcz"
   },
   {
     "id": "lublin-pl",
@@ -1747,7 +1921,8 @@
     "region_slug": "lublin",
     "hardness_mg_l": 184,
     "coords": { "lat": 51.2465, "lng": 22.5684 },
-    "population": 339000
+    "population": 339000,
+    "source_utility": "MPWiK Lublin"
   },
   {
     "id": "bialystok-pl",
@@ -1757,7 +1932,8 @@
     "region_slug": "podlaskie",
     "hardness_mg_l": 156,
     "coords": { "lat": 53.1325, "lng": 23.1688 },
-    "population": 297000
+    "population": 297000,
+    "source_utility": "Wodociągi Białostockie"
   },
   {
     "id": "lisbon-pt",
@@ -1767,7 +1943,8 @@
     "region_slug": "lisbon",
     "hardness_mg_l": 156,
     "coords": { "lat": 38.7223, "lng": -9.1393 },
-    "population": 2927000
+    "population": 2927000,
+    "source_utility": "EPAL"
   },
   {
     "id": "porto-pt",
@@ -1777,7 +1954,8 @@
     "region_slug": "north",
     "hardness_mg_l": 148,
     "coords": { "lat": 41.1579, "lng": -8.6291 },
-    "population": 1318000
+    "population": 1318000,
+    "source_utility": "Águas do Porto"
   },
   {
     "id": "braga-pt",
@@ -1787,7 +1965,8 @@
     "region_slug": "north",
     "hardness_mg_l": 141,
     "coords": { "lat": 41.5454, "lng": -8.4265 },
-    "population": 193000
+    "population": 193000,
+    "source_utility": "Águas do Norte"
   },
   {
     "id": "coimbra-pt",
@@ -1797,7 +1976,8 @@
     "region_slug": "centro",
     "hardness_mg_l": 137,
     "coords": { "lat": 40.2033, "lng": -8.4103 },
-    "population": 157000
+    "population": 157000,
+    "source_utility": "Águas de Coimbra"
   },
   {
     "id": "funchal-pt",
@@ -1807,7 +1987,8 @@
     "region_slug": "madeira",
     "hardness_mg_l": 128,
     "coords": { "lat": 32.6669, "lng": -16.9241 },
-    "population": 112000
+    "population": 112000,
+    "source_utility": "Águas da Madeira"
   },
   {
     "id": "bucharest-ro",
@@ -1817,7 +1998,8 @@
     "region_slug": "bucharest",
     "hardness_mg_l": 264,
     "coords": { "lat": 44.4268, "lng": 26.1025 },
-    "population": 1883000
+    "population": 1883000,
+    "source_utility": "Apa Nova București"
   },
   {
     "id": "cluj-napoca-ro",
@@ -1827,7 +2009,8 @@
     "region_slug": "cluj",
     "hardness_mg_l": 251,
     "coords": { "lat": 46.7712, "lng": 23.6236 },
-    "population": 325000
+    "population": 325000,
+    "source_utility": "Compania de Apă Someș"
   },
   {
     "id": "timisoara-ro",
@@ -1837,7 +2020,8 @@
     "region_slug": "timis",
     "hardness_mg_l": 237,
     "coords": { "lat": 45.7489, "lng": 21.2087 },
-    "population": 307000
+    "population": 307000,
+    "source_utility": "Aquatim"
   },
   {
     "id": "iasi-ro",
@@ -1847,7 +2031,8 @@
     "region_slug": "iasi",
     "hardness_mg_l": 277,
     "coords": { "lat": 47.1585, "lng": 27.6014 },
-    "population": 290000
+    "population": 290000,
+    "source_utility": "ApaVital"
   },
   {
     "id": "constanta-ro",
@@ -1857,7 +2042,8 @@
     "region_slug": "constanta",
     "hardness_mg_l": 248,
     "coords": { "lat": 44.1598, "lng": 28.6348 },
-    "population": 283000
+    "population": 283000,
+    "source_utility": "RAJA Constanța"
   },
   {
     "id": "craiova-ro",
@@ -1867,7 +2053,8 @@
     "region_slug": "dolj",
     "hardness_mg_l": 283,
     "coords": { "lat": 44.3302, "lng": 23.7949 },
-    "population": 270000
+    "population": 270000,
+    "source_utility": "Compania de Apă Oltenia"
   },
   {
     "id": "brasov-ro",
@@ -1877,7 +2064,8 @@
     "region_slug": "brasov",
     "hardness_mg_l": 209,
     "coords": { "lat": 45.6579, "lng": 25.6012 },
-    "population": 253000
+    "population": 253000,
+    "source_utility": "Compania Apa Brașov"
   },
   {
     "id": "galati-ro",
@@ -1887,7 +2075,8 @@
     "region_slug": "galati",
     "hardness_mg_l": 272,
     "coords": { "lat": 45.4353, "lng": 28.0081 },
-    "population": 249000
+    "population": 249000,
+    "source_utility": "Apă Canal Galați"
   },
   {
     "id": "ploiesti-ro",
@@ -1897,7 +2086,8 @@
     "region_slug": "prahova",
     "hardness_mg_l": 266,
     "coords": { "lat": 44.9367, "lng": 26.0129 },
-    "population": 209000
+    "population": 209000,
+    "source_utility": "Hidro Prahova"
   },
   {
     "id": "oradea-ro",
@@ -1907,7 +2097,8 @@
     "region_slug": "bihor",
     "hardness_mg_l": 244,
     "coords": { "lat": 47.0465, "lng": 21.9189 },
-    "population": 206000
+    "population": 206000,
+    "source_utility": "Compania de Apă Oradea"
   },
   {
     "id": "moscow-ru",
@@ -1917,7 +2108,8 @@
     "region_slug": "moscow",
     "hardness_mg_l": 124,
     "coords": { "lat": 55.7558, "lng": 37.6173 },
-    "population": 12506000
+    "population": 12506000,
+    "source_utility": "Mosvodokanal"
   },
   {
     "id": "saint-petersburg-ru",
@@ -1927,7 +2119,8 @@
     "region_slug": "leningrad-oblast",
     "hardness_mg_l": 53,
     "coords": { "lat": 59.9311, "lng": 30.3609 },
-    "population": 5384000
+    "population": 5384000,
+    "source_utility": "Vodokanal St. Petersburg"
   },
   {
     "id": "novosibirsk-ru",
@@ -1937,7 +2130,8 @@
     "region_slug": "novosibirsk-oblast",
     "hardness_mg_l": 106,
     "coords": { "lat": 55.0302, "lng": 82.9204 },
-    "population": 1625000
+    "population": 1625000,
+    "source_utility": "Novosibirskvodokanal"
   },
   {
     "id": "yekaterinburg-ru",
@@ -1947,7 +2141,8 @@
     "region_slug": "sverdlovsk-oblast",
     "hardness_mg_l": 89,
     "coords": { "lat": 56.8389, "lng": 60.6057 },
-    "population": 1495000
+    "population": 1495000,
+    "source_utility": "Vodokanal Yekaterinburg"
   },
   {
     "id": "kazan-ru",
@@ -1957,7 +2152,8 @@
     "region_slug": "tatarstan",
     "hardness_mg_l": 115,
     "coords": { "lat": 55.7887, "lng": 49.1221 },
-    "population": 1258000
+    "population": 1258000,
+    "source_utility": "Vodokanal Kazan"
   },
   {
     "id": "nizhny-novgorod-ru",
@@ -1967,7 +2163,8 @@
     "region_slug": "nizhny-novgorod-oblast",
     "hardness_mg_l": 98,
     "coords": { "lat": 56.2965, "lng": 43.9361 },
-    "population": 1252000
+    "population": 1252000,
+    "source_utility": "Nizhny Novgorod Vodokanal"
   },
   {
     "id": "samara-ru",
@@ -1977,7 +2174,8 @@
     "region_slug": "samara-oblast",
     "hardness_mg_l": 134,
     "coords": { "lat": 53.1959, "lng": 50.1008 },
-    "population": 1153000
+    "population": 1153000,
+    "source_utility": "Samara Vodokanal"
   },
   {
     "id": "omsk-ru",
@@ -1987,7 +2185,8 @@
     "region_slug": "omsk-oblast",
     "hardness_mg_l": 121,
     "coords": { "lat": 54.9885, "lng": 73.3242 },
-    "population": 1152000
+    "population": 1152000,
+    "source_utility": "Omsk Vodokanal"
   },
   {
     "id": "chelyabinsk-ru",
@@ -1997,7 +2196,8 @@
     "region_slug": "chelyabinsk-oblast",
     "hardness_mg_l": 142,
     "coords": { "lat": 55.1644, "lng": 61.4368 },
-    "population": 1196000
+    "population": 1196000,
+    "source_utility": "Chelyabinsk Vodokanal"
   },
   {
     "id": "rostov-on-don-ru",
@@ -2007,7 +2207,8 @@
     "region_slug": "rostov-oblast",
     "hardness_mg_l": 129,
     "coords": { "lat": 47.2357, "lng": 39.7015 },
-    "population": 1133000
+    "population": 1133000,
+    "source_utility": "Rostov Vodokanal"
   },
   {
     "id": "belgrade-rs",
@@ -2017,7 +2218,8 @@
     "region_slug": "belgrade",
     "hardness_mg_l": 182,
     "coords": { "lat": 44.7866, "lng": 20.4489 },
-    "population": 1688000
+    "population": 1688000,
+    "source_utility": "Belgrade Waterworks"
   },
   {
     "id": "novi-sad-rs",
@@ -2027,7 +2229,8 @@
     "region_slug": "vojvodina",
     "hardness_mg_l": 195,
     "coords": { "lat": 45.2671, "lng": 19.8335 },
-    "population": 368000
+    "population": 368000,
+    "source_utility": "Novi Sad Water"
   },
   {
     "id": "nis-rs",
@@ -2037,7 +2240,8 @@
     "region_slug": "nisava",
     "hardness_mg_l": 207,
     "coords": { "lat": 43.3209, "lng": 21.8956 },
-    "population": 260000
+    "population": 260000,
+    "source_utility": "Niš Water"
   },
   {
     "id": "kragujevac-rs",
@@ -2047,7 +2251,8 @@
     "region_slug": "sumadija",
     "hardness_mg_l": 188,
     "coords": { "lat": 44.0128, "lng": 20.9114 },
-    "population": 150000
+    "population": 150000,
+    "source_utility": "Kragujevac Water"
   },
   {
     "id": "subotica-rs",
@@ -2057,7 +2262,8 @@
     "region_slug": "vojvodina",
     "hardness_mg_l": 176,
     "coords": { "lat": 46.1005, "lng": 19.6651 },
-    "population": 97000
+    "population": 97000,
+    "source_utility": "Subotica Water"
   },
   {
     "id": "bratislava-sk",
@@ -2067,7 +2273,8 @@
     "region_slug": "bratislava",
     "hardness_mg_l": 172,
     "coords": { "lat": 48.1486, "lng": 17.1077 },
-    "population": 476000
+    "population": 476000,
+    "source_utility": "Bratislavská vodárenská spoločnosť"
   },
   {
     "id": "kosice-sk",
@@ -2077,7 +2284,8 @@
     "region_slug": "kosice",
     "hardness_mg_l": 185,
     "coords": { "lat": 48.7164, "lng": 21.2611 },
-    "population": 239000
+    "population": 239000,
+    "source_utility": "Východoslovenská vodárenská spoločnosť"
   },
   {
     "id": "presov-sk",
@@ -2087,7 +2295,8 @@
     "region_slug": "presov",
     "hardness_mg_l": 191,
     "coords": { "lat": 48.9980, "lng": 21.2396 },
-    "population": 88000
+    "population": 88000,
+    "source_utility": "Prešov Water"
   },
   {
     "id": "zilina-sk",
@@ -2097,7 +2306,8 @@
     "region_slug": "zilina",
     "hardness_mg_l": 163,
     "coords": { "lat": 49.2244, "lng": 18.7392 },
-    "population": 81000
+    "population": 81000,
+    "source_utility": "Žilina Water"
   },
   {
     "id": "banska-bystrica-sk",
@@ -2107,7 +2317,8 @@
     "region_slug": "banska-bystrica",
     "hardness_mg_l": 156,
     "coords": { "lat": 48.7363, "lng": 19.1462 },
-    "population": 77000
+    "population": 77000,
+    "source_utility": "Banská Bystrica Water"
   },
   {
     "id": "ljubljana-si",
@@ -2117,7 +2328,8 @@
     "region_slug": "central-slovenia",
     "hardness_mg_l": 141,
     "coords": { "lat": 46.0569, "lng": 14.5058 },
-    "population": 295000
+    "population": 295000,
+    "source_utility": "Vodovod Kanalizacija Snaga"
   },
   {
     "id": "maribor-si",
@@ -2127,7 +2339,8 @@
     "region_slug": "drava",
     "hardness_mg_l": 158,
     "coords": { "lat": 46.5547, "lng": 15.6467 },
-    "population": 112000
+    "population": 112000,
+    "source_utility": "Mariborski vodovod"
   },
   {
     "id": "kranj-si",
@@ -2137,7 +2350,8 @@
     "region_slug": "upper-carniola",
     "hardness_mg_l": 149,
     "coords": { "lat": 46.2389, "lng": 14.3556 },
-    "population": 57000
+    "population": 57000,
+    "source_utility": "Kranj Water"
   },
   {
     "id": "celje-si",
@@ -2147,7 +2361,8 @@
     "region_slug": "savinja",
     "hardness_mg_l": 164,
     "coords": { "lat": 46.2361, "lng": 15.2677 },
-    "population": 54000
+    "population": 54000,
+    "source_utility": "Celje Water"
   },
   {
     "id": "koper-si",
@@ -2157,7 +2372,8 @@
     "region_slug": "coastal-karst",
     "hardness_mg_l": 173,
     "coords": { "lat": 45.5481, "lng": 13.7307 },
-    "population": 51000
+    "population": 51000,
+    "source_utility": "Koper Water"
   },
   {
     "id": "madrid-es",
@@ -2167,7 +2383,8 @@
     "region_slug": "community-of-madrid",
     "hardness_mg_l": 133,
     "coords": { "lat": 40.4168, "lng": -3.7038 },
-    "population": 6672000
+    "population": 6672000,
+    "source_utility": "Canal de Isabel II"
   },
   {
     "id": "barcelona-es",
@@ -2177,7 +2394,8 @@
     "region_slug": "catalonia",
     "hardness_mg_l": 181,
     "coords": { "lat": 41.3851, "lng": 2.1734 },
-    "population": 5752000
+    "population": 5752000,
+    "source_utility": "Aigües de Barcelona"
   },
   {
     "id": "valencia-es",
@@ -2187,7 +2405,8 @@
     "region_slug": "valencian-community",
     "hardness_mg_l": 276,
     "coords": { "lat": 39.4699, "lng": -0.3763 },
-    "population": 1800000
+    "population": 1800000,
+    "source_utility": "EMIVASA"
   },
   {
     "id": "seville-es",
@@ -2197,7 +2416,8 @@
     "region_slug": "andalusia",
     "hardness_mg_l": 219,
     "coords": { "lat": 37.3891, "lng": -5.9845 },
-    "population": 1529000
+    "population": 1529000,
+    "source_utility": "EMASESA"
   },
   {
     "id": "zaragoza-es",
@@ -2207,7 +2427,8 @@
     "region_slug": "aragon",
     "hardness_mg_l": 207,
     "coords": { "lat": 41.6488, "lng": -0.8891 },
-    "population": 775000
+    "population": 775000,
+    "source_utility": "ECZ"
   },
   {
     "id": "malaga-es",
@@ -2217,7 +2438,8 @@
     "region_slug": "andalusia",
     "hardness_mg_l": 231,
     "coords": { "lat": 36.7213, "lng": -4.4216 },
-    "population": 693000
+    "population": 693000,
+    "source_utility": "EMASA"
   },
   {
     "id": "murcia-es",
@@ -2227,7 +2449,8 @@
     "region_slug": "region-of-murcia",
     "hardness_mg_l": 242,
     "coords": { "lat": 37.9922, "lng": -1.1307 },
-    "population": 662000
+    "population": 662000,
+    "source_utility": "EMUASA"
   },
   {
     "id": "palma-es",
@@ -2237,7 +2460,8 @@
     "region_slug": "balearic-islands",
     "hardness_mg_l": 294,
     "coords": { "lat": 39.5696, "lng": 2.6502 },
-    "population": 572000
+    "population": 572000,
+    "source_utility": "EMAYA"
   },
   {
     "id": "bilbao-es",
@@ -2247,7 +2471,8 @@
     "region_slug": "basque-country",
     "hardness_mg_l": 122,
     "coords": { "lat": 43.2630, "lng": -2.9350 },
-    "population": 556000
+    "population": 556000,
+    "source_utility": "Bilbao Bizkaia Ur Partzuergoa"
   },
   {
     "id": "alicante-es",
@@ -2257,7 +2482,8 @@
     "region_slug": "valencian-community",
     "hardness_mg_l": 259,
     "coords": { "lat": 38.3452, "lng": -0.4815 },
-    "population": 543000
+    "population": 543000,
+    "source_utility": "Aguas de Alicante"
   },
   {
     "id": "stockholm-se",
@@ -2267,7 +2493,8 @@
     "region_slug": "stockholm",
     "hardness_mg_l": 64,
     "coords": { "lat": 59.3293, "lng": 18.0686 },
-    "population": 1638000
+    "population": 1638000,
+    "source_utility": "Stockholm Vatten och Avfall"
   },
   {
     "id": "gothenburg-se",
@@ -2277,7 +2504,8 @@
     "region_slug": "vastra-gotaland",
     "hardness_mg_l": 72,
     "coords": { "lat": 57.7089, "lng": 11.9746 },
-    "population": 607000
+    "population": 607000,
+    "source_utility": "Göteborgs Kretslopp och Vatten"
   },
   {
     "id": "malmo-se",
@@ -2287,7 +2515,8 @@
     "region_slug": "skane",
     "hardness_mg_l": 89,
     "coords": { "lat": 55.6050, "lng": 13.0038 },
-    "population": 347000
+    "population": 347000,
+    "source_utility": "VA SYD"
   },
   {
     "id": "uppsala-se",
@@ -2297,7 +2526,8 @@
     "region_slug": "uppsala",
     "hardness_mg_l": 56,
     "coords": { "lat": 59.8586, "lng": 17.6389 },
-    "population": 233000
+    "population": 233000,
+    "source_utility": "Uppsala Vatten"
   },
   {
     "id": "vasteras-se",
@@ -2307,7 +2537,8 @@
     "region_slug": "vastmanland",
     "hardness_mg_l": 68,
     "coords": { "lat": 59.6099, "lng": 16.5448 },
-    "population": 156000
+    "population": 156000,
+    "source_utility": "Västerås Vatten"
   },
   {
     "id": "orebro-se",
@@ -2317,7 +2548,8 @@
     "region_slug": "orebro",
     "hardness_mg_l": 77,
     "coords": { "lat": 59.2741, "lng": 15.2066 },
-    "population": 126000
+    "population": 126000,
+    "source_utility": "Örebro Vatten"
   },
   {
     "id": "linkoping-se",
@@ -2327,7 +2559,8 @@
     "region_slug": "ostergotland",
     "hardness_mg_l": 82,
     "coords": { "lat": 58.4108, "lng": 15.6214 },
-    "population": 165000
+    "population": 165000,
+    "source_utility": "Linköping Vatten"
   },
   {
     "id": "helsingborg-se",
@@ -2337,7 +2570,8 @@
     "region_slug": "skane",
     "hardness_mg_l": 93,
     "coords": { "lat": 56.0465, "lng": 12.6945 },
-    "population": 149000
+    "population": 149000,
+    "source_utility": "Helsingborg Vatten"
   },
   {
     "id": "jonkoping-se",
@@ -2347,7 +2581,8 @@
     "region_slug": "jonkoping",
     "hardness_mg_l": 79,
     "coords": { "lat": 57.7826, "lng": 14.1618 },
-    "population": 141000
+    "population": 141000,
+    "source_utility": "Jönköping Vatten"
   },
   {
     "id": "umea-se",
@@ -2357,7 +2592,8 @@
     "region_slug": "vasterbotten",
     "hardness_mg_l": 47,
     "coords": { "lat": 63.8258, "lng": 20.2630 },
-    "population": 131000
+    "population": 131000,
+    "source_utility": "Umeå Vatten"
   },
   {
     "id": "bern-ch",
@@ -2367,7 +2603,8 @@
     "region_slug": "bern",
     "hardness_mg_l": 148,
     "coords": { "lat": 46.9480, "lng": 7.4474 },
-    "population": 134000
+    "population": 134000,
+    "source_utility": "Energie Wasser Bern"
   },
   {
     "id": "zurich-ch",
@@ -2377,7 +2614,8 @@
     "region_slug": "zurich",
     "hardness_mg_l": 166,
     "coords": { "lat": 47.3769, "lng": 8.5417 },
-    "population": 434000
+    "population": 434000,
+    "source_utility": "Wasserversorgung Zürich"
   },
   {
     "id": "geneva-ch",
@@ -2387,7 +2625,8 @@
     "region_slug": "geneva",
     "hardness_mg_l": 159,
     "coords": { "lat": 46.2044, "lng": 6.1432 },
-    "population": 204000
+    "population": 204000,
+    "source_utility": "Services Industriels de Genève"
   },
   {
     "id": "basel-ch",
@@ -2397,7 +2636,8 @@
     "region_slug": "basel-city",
     "hardness_mg_l": 177,
     "coords": { "lat": 47.5596, "lng": 7.5886 },
-    "population": 173000
+    "population": 173000,
+    "source_utility": "IWB"
   },
   {
     "id": "lausanne-ch",
@@ -2407,7 +2647,8 @@
     "region_slug": "vaud",
     "hardness_mg_l": 153,
     "coords": { "lat": 46.5197, "lng": 6.6323 },
-    "population": 140000
+    "population": 140000,
+    "source_utility": "Services Industriels de Lausanne"
   },
   {
     "id": "ankara-tr",
@@ -2417,7 +2658,8 @@
     "region_slug": "central-anatolia",
     "hardness_mg_l": 217,
     "coords": { "lat": 39.9334, "lng": 32.8597 },
-    "population": 5679000
+    "population": 5679000,
+    "source_utility": "ASKİ"
   },
   {
     "id": "istanbul-tr",
@@ -2427,7 +2669,8 @@
     "region_slug": "marmara",
     "hardness_mg_l": 204,
     "coords": { "lat": 41.0082, "lng": 28.9784 },
-    "population": 15460000
+    "population": 15460000,
+    "source_utility": "İSKİ"
   },
   {
     "id": "izmir-tr",
@@ -2437,7 +2680,8 @@
     "region_slug": "aegean",
     "hardness_mg_l": 238,
     "coords": { "lat": 38.4192, "lng": 27.1287 },
-    "population": 4375000
+    "population": 4375000,
+    "source_utility": "İZSU"
   },
   {
     "id": "bursa-tr",
@@ -2447,7 +2691,8 @@
     "region_slug": "marmara",
     "hardness_mg_l": 191,
     "coords": { "lat": 40.1885, "lng": 29.0610 },
-    "population": 3141000
+    "population": 3141000,
+    "source_utility": "BUSKİ"
   },
   {
     "id": "adana-tr",
@@ -2457,7 +2702,8 @@
     "region_slug": "mediterranean",
     "hardness_mg_l": 226,
     "coords": { "lat": 37.0000, "lng": 35.3213 },
-    "population": 2253000
+    "population": 2253000,
+    "source_utility": "ASKİ"
   },
   {
     "id": "gaziantep-tr",
@@ -2467,7 +2713,8 @@
     "region_slug": "southeastern-anatolia",
     "hardness_mg_l": 245,
     "coords": { "lat": 37.0662, "lng": 37.3833 },
-    "population": 2131000
+    "population": 2131000,
+    "source_utility": "GASKİ"
   },
   {
     "id": "konya-tr",
@@ -2477,7 +2724,8 @@
     "region_slug": "central-anatolia",
     "hardness_mg_l": 209,
     "coords": { "lat": 37.8746, "lng": 32.4932 },
-    "population": 2250000
+    "population": 2250000,
+    "source_utility": "KOSKİ"
   },
   {
     "id": "antalya-tr",
@@ -2487,7 +2735,8 @@
     "region_slug": "mediterranean",
     "hardness_mg_l": 213,
     "coords": { "lat": 36.8969, "lng": 30.7133 },
-    "population": 2548000
+    "population": 2548000,
+    "source_utility": "ASAT"
   },
   {
     "id": "diyarbakir-tr",
@@ -2497,7 +2746,8 @@
     "region_slug": "southeastern-anatolia",
     "hardness_mg_l": 258,
     "coords": { "lat": 37.9144, "lng": 40.2306 },
-    "population": 1781000
+    "population": 1781000,
+    "source_utility": "DİSKİ"
   },
   {
     "id": "mersin-tr",
@@ -2507,7 +2757,8 @@
     "region_slug": "mediterranean",
     "hardness_mg_l": 235,
     "coords": { "lat": 36.8000, "lng": 34.6333 },
-    "population": 1800000
+    "population": 1800000,
+    "source_utility": "MESKİ"
   },
   {
     "id": "kiev-ua",
@@ -2517,7 +2768,8 @@
     "region_slug": "kyiv",
     "hardness_mg_l": 124,
     "coords": { "lat": 50.4501, "lng": 30.5234 },
-    "population": 2962000
+    "population": 2962000,
+    "source_utility": "Kyivvodokanal"
   },
   {
     "id": "kharkiv-ua",
@@ -2527,7 +2779,8 @@
     "region_slug": "kharkiv",
     "hardness_mg_l": 131,
     "coords": { "lat": 49.9935, "lng": 36.2304 },
-    "population": 1433000
+    "population": 1433000,
+    "source_utility": "Kharkivvodokanal"
   },
   {
     "id": "odessa-ua",
@@ -2537,7 +2790,8 @@
     "region_slug": "odessa",
     "hardness_mg_l": 118,
     "coords": { "lat": 46.4825, "lng": 30.7233 },
-    "population": 1015000
+    "population": 1015000,
+    "source_utility": "Odesavodokanal"
   },
   {
     "id": "dnipro-ua",
@@ -2547,7 +2801,8 @@
     "region_slug": "dnipropetrovsk",
     "hardness_mg_l": 142,
     "coords": { "lat": 48.4647, "lng": 35.0462 },
-    "population": 990000
+    "population": 990000,
+    "source_utility": "Dniprovodokanal"
   },
   {
     "id": "donetsk-ua",
@@ -2557,7 +2812,8 @@
     "region_slug": "donetsk",
     "hardness_mg_l": 157,
     "coords": { "lat": 48.0159, "lng": 37.8029 },
-    "population": 905000
+    "population": 905000,
+    "source_utility": "Donetskvodokanal"
   },
   {
     "id": "lviv-ua",
@@ -2567,7 +2823,8 @@
     "region_slug": "lviv",
     "hardness_mg_l": 106,
     "coords": { "lat": 49.8397, "lng": 24.0297 },
-    "population": 724000
+    "population": 724000,
+    "source_utility": "Lvivvodokanal"
   },
   {
     "id": "zaporizhzhia-ua",
@@ -2577,7 +2834,8 @@
     "region_slug": "zaporizhzhia",
     "hardness_mg_l": 148,
     "coords": { "lat": 47.8388, "lng": 35.1396 },
-    "population": 722000
+    "population": 722000,
+    "source_utility": "Zaporizhzhiavokanal"
   },
   {
     "id": "london-gb",
@@ -2587,7 +2845,8 @@
     "region_slug": "greater-london",
     "hardness_mg_l": 277,
     "coords": { "lat": 51.5074, "lng": -0.1278 },
-    "population": 9425000
+    "population": 9425000,
+    "source_utility": "Thames Water"
   },
   {
     "id": "birmingham-gb",
@@ -2597,7 +2856,8 @@
     "region_slug": "west-midlands",
     "hardness_mg_l": 108,
     "coords": { "lat": 52.4862, "lng": -1.8904 },
-    "population": 2600000
+    "population": 2600000,
+    "source_utility": "Severn Trent Water"
   },
   {
     "id": "manchester-gb",
@@ -2607,7 +2867,8 @@
     "region_slug": "north-west",
     "hardness_mg_l": 73,
     "coords": { "lat": 53.4808, "lng": -2.2426 },
-    "population": 2700000
+    "population": 2700000,
+    "source_utility": "United Utilities"
   },
   {
     "id": "glasgow-gb",
@@ -2617,7 +2878,8 @@
     "region_slug": "scotland",
     "hardness_mg_l": 44,
     "coords": { "lat": 55.8642, "lng": -4.2518 },
-    "population": 1685000
+    "population": 1685000,
+    "source_utility": "Scottish Water"
   },
   {
     "id": "leeds-gb",
@@ -2627,7 +2889,8 @@
     "region_slug": "yorkshire-and-the-humber",
     "hardness_mg_l": 89,
     "coords": { "lat": 53.8008, "lng": -1.5491 },
-    "population": 780000
+    "population": 780000,
+    "source_utility": "Yorkshire Water"
   },
   {
     "id": "liverpool-gb",
@@ -2637,7 +2900,8 @@
     "region_slug": "north-west",
     "hardness_mg_l": 52,
     "coords": { "lat": 53.4084, "lng": -2.9916 },
-    "population": 864000
+    "population": 864000,
+    "source_utility": "United Utilities"
   },
   {
     "id": "newcastle-gb",
@@ -2647,7 +2911,8 @@
     "region_slug": "north-east",
     "hardness_mg_l": 105,
     "coords": { "lat": 54.9784, "lng": -1.6174 },
-    "population": 800000
+    "population": 800000,
+    "source_utility": "Northumbrian Water"
   },
   {
     "id": "sheffield-gb",
@@ -2657,7 +2922,8 @@
     "region_slug": "yorkshire-and-the-humber",
     "hardness_mg_l": 62,
     "coords": { "lat": 53.3811, "lng": -1.4701 },
-    "population": 685000
+    "population": 685000,
+    "source_utility": "Yorkshire Water"
   },
   {
     "id": "bristol-gb",
@@ -2667,7 +2933,8 @@
     "region_slug": "south-west",
     "hardness_mg_l": 195,
     "coords": { "lat": 51.4545, "lng": -2.5879 },
-    "population": 617000
+    "population": 617000,
+    "source_utility": "Bristol Water"
   },
   {
     "id": "belfast-gb",
@@ -2677,7 +2944,8 @@
     "region_slug": "northern-ireland",
     "hardness_mg_l": 121,
     "coords": { "lat": 54.5973, "lng": -5.9301 },
-    "population": 634000
+    "population": 634000,
+    "source_utility": "Northern Ireland Water"
   },
   {
     "id": "edinburgh-gb",
@@ -2687,7 +2955,8 @@
     "region_slug": "scotland",
     "hardness_mg_l": 63,
     "coords": { "lat": 55.9533, "lng": -3.1883 },
-    "population": 530000
+    "population": 530000,
+    "source_utility": "Scottish Water"
   },
   {
     "id": "cardiff-gb",
@@ -2697,6 +2966,7 @@
     "region_slug": "wales",
     "hardness_mg_l": 115,
     "coords": { "lat": 51.4816, "lng": -3.1791 },
-    "population": 481000
+    "population": 481000,
+    "source_utility": "Welsh Water"
   }
 ]

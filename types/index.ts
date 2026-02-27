@@ -18,6 +18,7 @@ export interface Location {
   population: number;
   // Added for pre-computed internal linking silo
   nearby_locations?: string[]; 
+  source_utility: string;
 }
 
 // 3. i18n Types

@@ -2,8 +2,10 @@
   "name": "aquascale-europe",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+ "scripts": {
+    "predev": "node scripts/precompute-locations.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/precompute-locations.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

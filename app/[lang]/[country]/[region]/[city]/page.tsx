@@ -1,137 +1,150 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { Location, SupportedLanguage, Translations } from '@/types';
-import locationsData from '@/data/locations.json';
-import translationsData from '@/data/translations.json';
-import InternalLinking from '@/components/InternalLinking';
-import HardnessGauge from '@/components/HardnessGauge';
+import Link from 'next/link';
+import { Location, SupportedLanguage } from '@/types';
+import computedLocationsData from '@/data/locations-computed.json';
+import { LOCAL_TOPICS } from '@/config/taxonomy';
+
+// Components
 import Breadcrumbs from '@/components/Breadcrumbs';
+import HardnessGauge from '@/components/HardnessGauge';
+import ComparisonChart from '@/components/ComparisonChart';
+import ApplianceCalculator from '@/components/ApplianceCalculator';
+import InternalLinking from '@/components/InternalLinking';
+import { generateCityHubArticle } from '@/utils/cityArticleGenerator';
 
-// 🚨 NEW: Import your Spintax utility to defeat the AI/Spam filters
-import { spinText, introVariations } from '@/utils/spintax';
-
-const allLocations = locationsData as Location[];
-const translations = translationsData as unknown as Translations;
-
-export const dynamicParams = true;
-export const revalidate = 604800; // ISR cache for 7 days
+const allLocations = computedLocationsData as Location[];
+export const dynamicParams = false; 
 
 interface PageProps {
   params: Promise<{ lang: SupportedLanguage; country: string; region: string; city: string }>;
 }
 
 export async function generateStaticParams() {
-  const topCities = allLocations.sort((a, b) => b.population - a.population).slice(0, 100);
-  return topCities.map((loc) => ({
-    lang: 'en',
-    country: loc.country_slug,
-    region: loc.region_slug,
-    city: loc.name.toLowerCase(),
-  }));
+  const languages: SupportedLanguage[] = ['en', 'de', 'fr', 'es'];
+  const params: any[] = [];
+  for (const lang of languages) {
+    for (const loc of allLocations) {
+      params.push({
+        lang,
+        country: loc.country_slug,
+        region: loc.region_slug,
+        city: loc.name.toLowerCase(),
+      });
+    }
+  }
+  return params;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { lang, country, region, city } = await params;
-  const baseUrl = 'https://aquascale-europe.com';
-  
+  const { city, country } = await params;
   const decodedCity = decodeURIComponent(city);
   const displayCity = decodedCity.charAt(0).toUpperCase() + decodedCity.slice(1);
+  const location = allLocations.find(l => l.name.toLowerCase() === decodedCity.toLowerCase());
   
   return {
-    title: `${displayCity} Water Hardness | AquaScale Europe`,
-    description: `Check the exact water hardness level, appliance settings, and solutions for ${displayCity}, ${country}.`,
-    alternates: {
-      canonical: `${baseUrl}/${lang}/${country}/${region}/${city}`,
-      languages: {
-        'en': `${baseUrl}/en/${country}/${region}/${city}`,
-        'de': `${baseUrl}/de/${country}/${region}/${city}`,
-        'fr': `${baseUrl}/fr/${country}/${region}/${city}`,
-        'es': `${baseUrl}/es/${country}/${region}/${city}`,
-      },
-    },
+    title: `${displayCity} Water Hardness (2026) | Exact mg/L & Limescale Guide`,
+    description: `Complete water quality report for ${displayCity}. Discover the exact hardness (${location?.hardness_mg_l} mg/L), appliance settings, and solutions.`,
   };
 }
 
 export default async function CityDashboard({ params }: PageProps) {
   const { lang, city, country, region } = await params;
-  
   const decodedCity = decodeURIComponent(city);
   const location = allLocations.find(l => l.name.toLowerCase() === decodedCity.toLowerCase());
   
   if (!location) return notFound();
 
-  const t = translations[lang] || translations['en'];
-  const isHardWater = location.hardness_mg_l > 120;
+  // 1. Generate Unique Content
+  const articleParagraphs = generateCityHubArticle(location, allLocations);
+  const introParagraph = articleParagraphs.shift(); // Take the first paragraph for the top
 
-  // Breadcrumb Path
+  // 2. Breadcrumbs
   const breadcrumbItems = [
     { label: 'Home', href: '/' },
-    { label: location.country_slug.replace('-', ' '), href: `/${lang}/${location.country_slug}` },
-    { label: location.region_slug.replace('-', ' '), href: `/${lang}/${location.country_slug}/${location.region_slug}` },
-    { label: location.name, href: `/${lang}/${location.country_slug}/${location.region_slug}/${location.name.toLowerCase()}` }
+    { label: country.replace(/-/g, ' '), href: `/${lang}/${country}` },
+    { label: region.replace(/-/g, ' '), href: `/${lang}/${country}/${region}` },
+    { label: location.name, href: '#' }
   ];
-
-  // 🚨 NEW: Generate the programmatic spun text for AdSense compliance
-  // This ensures Berlin's HTML footprint looks structurally different from Paris's
-  const introParagraph = spinText(location.name, introVariations)
-    .replace('{city}', location.name)
-    .replace('{mg}', location.hardness_mg_l.toString());
-
-  // JSON-LD Schema (Dataset & FAQ)
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [{
-      '@type': 'Question',
-      name: `What is the water hardness in ${location.name}?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `The base water hardness in ${location.name} is ${location.hardness_mg_l} mg/L CaCO3.`
-      }
-    }]
-  };
 
   return (
     <main className="max-w-5xl mx-auto p-4 md:p-8">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       
-      <header className="mb-10 text-center md:text-left">
+      {/* 1. Header & Intro */}
+      <header className="mb-8">
         <Breadcrumbs items={breadcrumbItems} />
-        
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mt-4">
-          {t.water_hardness_in} {location.name}
+        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mt-6">
+          Water Hardness in {location.name}
         </h1>
         <p className="text-sm font-medium text-gray-500 mt-2 uppercase tracking-wide">
-          {location.region_slug.replace('-', ' ')} • {location.native_name}
+          {location.region_slug.replace(/-/g, ' ')} Region • Population: {location.population.toLocaleString()}
         </p>
-
-        {/* 🚨 NEW: Inject the spun text right at the top for maximum SEO value */}
         <p className="text-xl text-gray-700 mt-6 leading-relaxed max-w-3xl border-l-4 border-blue-500 pl-4 bg-blue-50/50 py-3 rounded-r-lg">
           {introParagraph}
         </p>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-        <section className="col-span-1 md:col-span-2 flex flex-col items-center md:items-start">
+      {/* 2. Primary Data Visualization (Gauge & Chart Side-by-Side) */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        <div className="flex justify-center items-start">
           <HardnessGauge hardnessMgL={location.hardness_mg_l} lang={lang} />
-        </section>
-
-        <aside className="col-span-1">
-          <h2 className="text-2xl font-bold mb-4 text-gray-900">{t.recommended_solutions}</h2>
-          
-          {isHardWater ? (
-            <div className="bg-red-50 p-5 rounded-xl border border-red-100 shadow-sm">
-              <p className="text-red-800 font-medium mb-4">⚠️ {t.hard_water_warning}</p>
-            </div>
-          ) : (
-            <div className="bg-green-50 p-5 rounded-xl border border-green-100 shadow-sm">
-              <p className="text-green-800 font-medium mb-4">✅ {t.soft_water_ok}</p>
-            </div>
-          )}
-        </aside>
+        </div>
+        <div className="mt-[-2rem]"> 
+          <ComparisonChart currentCity={location} allLocations={allLocations} />
+        </div>
       </div>
 
-      <InternalLinking currentCity={location} lang={lang} />
+      {/* 3. The Interactive Calculator (Massive SEO UX Signal) */}
+      <ApplianceCalculator cityName={location.name} hardnessMgL={location.hardness_mg_l} />
+
+      {/* AdSense Slot */}
+      <div className="my-10 w-full bg-gray-50 border border-gray-200 p-4 text-center text-gray-400 text-sm">
+        [ AdSense Display Unit - Mid Article ]
+      </div>
+
+      {/* 4. Deep Dive Hubs (Internal Reverse Silo Links) */}
+      <section className="mt-12 mb-12">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Deep Dive Guides for {location.name}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {Object.entries(LOCAL_TOPICS).map(([key, topic]) => (
+            <div key={key} className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold capitalize text-blue-900 mb-3">
+                {topic.slug.replace(/-/g, ' ')}
+              </h3>
+              <ul className="space-y-2">
+                {topic.subcategories.slice(0, 4).map(sub => (
+                  <li key={sub}>
+                    <Link 
+                      href={`/${lang}/${country}/${region}/${city}/${topic.slug}/${sub}`}
+                      className="text-blue-600 hover:text-blue-800 hover:underline text-sm font-medium capitalize"
+                    >
+                      → {sub.replace(/-/g, ' ')}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5. Comprehensive Article Conclusion */}
+      <article className="prose prose-lg prose-blue max-w-none mb-12 border-t border-gray-200 pt-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Detailed Water Quality Analysis</h2>
+        {articleParagraphs.map((paragraph, index) => (
+          <p key={index} className="text-gray-700 leading-relaxed mb-6">
+            {paragraph}
+          </p>
+        ))}
+      </article>
+
+      {/* 6. Geographic Silo (Nearby Cities) */}
+      <InternalLinking 
+        currentCity={location} 
+        nearbyIds={location.nearby_locations} 
+        allLocations={allLocations} 
+        lang={lang} 
+      />
     </main>
   );
 }

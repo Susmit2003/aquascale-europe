@@ -1,22 +1,33 @@
 import Link from 'next/link';
 import { Location, SupportedLanguage, Translations } from '@/types';
-import { getNearbyCities, convertHardness, getLocalUnit } from '@/utils/calculations';
-import locationsData from '@/data/locations.json';
+import { convertHardness, getLocalUnit } from '@/utils/calculations';
 import translationsData from '@/data/translations.json';
 
-const allLocations = locationsData as Location[];
 const translations = translationsData as unknown as Translations;
 
-export default function InternalLinking({ currentCity, lang }: { currentCity: Location, lang: SupportedLanguage }) {
-  const nearbyCities = getNearbyCities(currentCity, allLocations);
+// Define the new props interface to accept the pre-computed data
+interface InternalLinkingProps {
+  currentCity: Location;
+  nearbyIds?: string[];
+  allLocations: Location[];
+  lang: SupportedLanguage;
+}
+
+export default function InternalLinking({ currentCity, nearbyIds = [], allLocations, lang }: InternalLinkingProps) {
+  // Map the pre-computed IDs to actual Location objects
+  const nearbyCities = nearbyIds
+    .map(id => allLocations.find(loc => loc.id === id))
+    .filter((city): city is Location => city !== undefined);
   
   // 1. Fetch Localized Dictionary & Unit
   const t = translations[lang] || translations['en'];
   const localUnit = getLocalUnit(lang);
 
+  if (nearbyCities.length === 0) return null;
+
   return (
     <nav className="mt-12 border-t border-gray-200 pt-8">
-      <h3 className="text-xl font-bold mb-4 text-gray-900">{t.nearby_cities}</h3>
+      <h3 className="text-xl font-bold mb-4 text-gray-900">{t.nearby_cities || 'Nearby Cities'}</h3>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {nearbyCities.map(city => {
           // Convert the metric for each nearby city link

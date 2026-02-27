@@ -1,31 +1,12 @@
-// 📍 Geo-Dependent Topics (Renders at: /en/uk/england/london/[category]/[subcategory])
-export const LOCAL_TOPICS = {
-  appliances: {
-    slug: 'appliances',
-    subcategories: [
-      'dishwasher-settings',
-      'washing-machine-settings',
-      'coffee-machine-settings',
-      'boiler-and-heating-system', 
-    ],
-  },
-  health: {
-    slug: 'health-and-wellness',
-    subcategories: [
-      'skin-care-hard-water',
-      'hair-care-hard-water',
-    ],
-  },
-  plumbing: {
-    slug: 'plumbing-and-infrastructure',
-    subcategories: [
-      'pipe-scaling-risk',
-      'appliance-maintenance-schedule',
-    ],
-  }
-};
+// config/taxonomy.ts
+
+// 🚨 DOORWAY PAGE FIX: Removed LOCAL_TOPICS routing arrays.
+// All local data must be consolidated onto the main City Hub page to prevent 
+// keyword cannibalization and Scaled Content Abuse penalties.
 
 // 🌍 Geo-Agnostic Topics (Renders at: /en/buying-guides/[subcategory] etc.)
+// These are safe because they are global, highly-researched, human-written editorial pages, 
+// not mass-generated programmatic pages.
 export const GLOBAL_TOPICS = {
   'home-solutions': {
     slug: 'home-water-solutions',
@@ -59,5 +40,4 @@ export const GLOBAL_TOPICS = {
   }
 };
 
-export type LocalCategorySlug = keyof typeof LOCAL_TOPICS;
 export type GlobalCategorySlug = keyof typeof GLOBAL_TOPICS;

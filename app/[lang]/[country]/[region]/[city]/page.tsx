@@ -4,7 +4,7 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { Location, SupportedLanguage } from '@/types';
 import computedLocationsData from '@/data/locations-computed.json';
-import { LOCAL_TOPICS } from '@/config/taxonomy';
+
 
 // Existing Core Components & Utilities
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -138,7 +138,7 @@ export default async function CityDashboard({ params }: PageProps) {
     "publisher": { "@type": "Organization", "name": "AquaScale Europe" }
   };
 
-  const faqSchema = generateFAQSchema(location.name, hardness);
+  
   const datasetSchema = generateDatasetSchema(location.name, hardness);
 
   // 3. Modular Variation Blocks (Anti-Template Detection)
@@ -158,7 +158,6 @@ export default async function CityDashboard({ params }: PageProps) {
       {/* Structural Data Injection */}
       <StructuredData schema={breadcrumbSchema} />
       <StructuredData schema={articleSchema} />
-      <StructuredData schema={faqSchema} />
       <StructuredData schema={datasetSchema} />
       
       {/* Header & E-E-A-T */}
@@ -224,31 +223,8 @@ export default async function CityDashboard({ params }: PageProps) {
             countryAvg={countryAvg} 
           />
 
-          {/* Deep Dive Hubs (SEO Silo Clusters) */}
-          <section className="mt-16 mb-12 border-t border-gray-200 pt-10">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Deep Dive Guides for {location.name}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {Object.entries(LOCAL_TOPICS).map(([key, topic]) => (
-                <div key={key} className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-bold capitalize text-blue-900 mb-3">
-                    {topic.slug.replace(/-/g, ' ')}
-                  </h3>
-                  <ul className="space-y-2">
-                    {topic.subcategories.slice(0, 4).map(sub => (
-                      <li key={sub}>
-                        <Link 
-                          href={`/${lang}/${country}/${region}/${city}/${topic.slug}/${sub}`}
-                          className="text-blue-600 hover:text-blue-800 hover:underline text-sm font-medium capitalize flex items-center gap-1"
-                        >
-                          → {sub.replace(/-/g, ' ')}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
+          
+         
 
           {/* PDF Lead Capture */}
           <PDFLeadCapture city={location.name} hardness={hardness} />

@@ -1,0 +1,18 @@
+
+{
+  "default": {
+    "type": "Mixed",
+    "treatment": "Standard coagulation, filtration, and chlorination",
+    "eu_compliance": "Fully compliant with EU Drinking Water Directive (2020/2184)"
+  },
+  "tirana": {
+    "type": "Surface Water & Groundwater",
+    "treatment": "Chlorine dioxide disinfection and sand filtration",
+    "eu_compliance": "Aligned with EU parameters; ongoing modernization of the Bovilla treatment plant."
+  },
+  "berlin": {
+    "type": "100% Groundwater",
+    "treatment": "Aeration and rapid sand filtration (no added chlorine)",
+    "eu_compliance": "Exceeds EU Drinking Water Directive (2020/2184) standards."
+  }
+}

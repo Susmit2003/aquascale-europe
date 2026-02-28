@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { MessageSquare, ThumbsUp, AlertCircle, Loader2, CheckCircle2 } from 'lucide-react';
 import { supabase } from '@/utils/supabase/client';
-
+import { SupportedLanguage } from '@/types';
 interface Report {
   id: number;
   district: string;
@@ -11,9 +11,10 @@ interface Report {
   scale_level: string;
   content: string;
   created_at: string;
+  lang: SupportedLanguage;
 }
 
-export function LocalTapReport({ city }: { city: string }) {
+export function LocalTapReport({ city, lang }: { city: string; lang: SupportedLanguage }) {
   const [reports, setReports] = useState<Report[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [loading, setLoading] = useState(true);

@@ -1,6 +1,13 @@
 // utils/d2t.ts
 
 import { Location, SupportedLanguage } from '@/types';
+import translations from '@/data/translations.json';
+
+// --- ADD THIS HELPER FUNCTION ---
+export function t(key: keyof typeof translations['en'], lang: SupportedLanguage): string {
+  const dictionary = translations[lang] || translations['en'];
+  return dictionary[key] || translations['en'][key] || key;
+}
 
 function getVariationIndex(str: string, max: number): number {
   let hash = 0;
@@ -68,5 +75,10 @@ export function generateCityIntro(location: Location, lang: SupportedLanguage): 
   }
 
   // Fallback for other languages
+  
+  const introBase = `${t('water_hardness_in', lang)} ${name} ${t('is_classified_as', lang) || 'is'} ${hardness_mg_l} mg/L.`;
+  const recommendation = isHard ? t('hard_water_warning', lang) : t('soft_water_ok', lang);
+
+  return `${introBase} ${recommendation}`;
   return `The water hardness in ${name} is ${hardness_mg_l} mg/L.`; 
 }

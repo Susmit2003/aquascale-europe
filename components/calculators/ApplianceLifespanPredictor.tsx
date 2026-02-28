@@ -1,11 +1,12 @@
 // components/calculators/ApplianceLifespanPredictor.tsx
 import { Flame, Droplet, Coffee, AlertTriangle } from 'lucide-react';
-
+import { SupportedLanguage } from '@/types'
 interface ApplianceLifespanPredictorProps {
   hardnessMgL: number;
+  lang: SupportedLanguage;
 }
 
-export function ApplianceLifespanPredictor({ hardnessMgL }: ApplianceLifespanPredictorProps) {
+export function ApplianceLifespanPredictor({ hardnessMgL, lang }: ApplianceLifespanPredictorProps) {
   // EU Conversions
   const germanDegree = (hardnessMgL * 0.056).toFixed(1); // °dH
   const frenchDegree = (hardnessMgL * 0.1).toFixed(1);   // °fH

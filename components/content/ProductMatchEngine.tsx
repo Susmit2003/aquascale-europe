@@ -155,6 +155,88 @@
 
 // components/content/ProductMatchEngine.tsx
 
+// import affiliateRules from '@/data/affiliate-rules.json';
+
+// interface ProductMatchProps {
+//   city: string;
+//   hardness: number;
+//   lang?: 'en' | 'de' | 'fr' | 'es';
+// }
+
+// export function ProductMatchEngine({ city, hardness, lang = 'en' }: ProductMatchProps) {
+//   // Determine if city needs RO (Severe) or just Taste Improvement (Soft/Moderate)
+//   const productCategory = hardness > 150 ? 'hard-water-hero' : 'taste-improver';
+  
+//   // Type assertion for affiliate rules safety
+//   const rules = affiliateRules as Record<string, Record<string, { name: string, url: string }>>;
+//   const product = rules[productCategory]?.[lang] || rules[productCategory]?.['default'];
+
+//   if (!product) return null;
+
+//   return (
+//     <section className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 my-10 relative overflow-hidden">
+//       {/* 🛡️ EEAT FIX: Clear, unavoidable Affiliate Disclosure */}
+//       <div className="absolute top-0 right-0 bg-slate-100 text-slate-500 text-[10px] px-3 py-1 rounded-bl-lg border-b border-l border-slate-200 uppercase tracking-wider">
+//         Sponsored / Affiliate Link
+//       </div>
+
+//       <h2 className="text-2xl font-bold text-slate-900 mb-4">
+//         Data-Matched System for {city}
+//       </h2>
+      
+//       <p className="text-slate-600 mb-6">
+//         Based on the localized reading of <strong>{hardness} mg/L</strong>, our data team recommends the <strong>{product.name}</strong> to handle this specific mineral concentration efficiently without excess waste.
+//       </p>
+
+//       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+//         <div className="bg-green-50 rounded-lg p-4 border border-green-100">
+//           <h4 className="font-bold text-green-800 mb-2">Why it fits {city}:</h4>
+//           <ul className="list-disc pl-5 text-sm text-green-700 space-y-1">
+//             {hardness > 150 ? (
+//               <>
+//                 <li>Rated to handle high-calcium loads up to 300 mg/L</li>
+//                 <li>Protects downstream appliances from rapid scaling</li>
+//                 <li>Reduces energy efficiency loss in local boilers</li>
+//               </>
+//             ) : (
+//               <>
+//                 <li>Preserves safe baseline minerals while improving taste</li>
+//                 <li>Cost-effective for moderate {hardness} mg/L zones</li>
+//                 <li>No complex plumbing alterations required</li>
+//               </>
+//             )}
+//           </ul>
+//         </div>
+        
+//         <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+//           <h4 className="font-bold text-slate-800 mb-2">Editorial Considerations:</h4>
+//           <ul className="list-disc pl-5 text-sm text-slate-600 space-y-1">
+//             <li>Requires annual filter replacement</li>
+//             <li>Best suited for indoor, temperature-controlled installation</li>
+//             <li>Check local {city} municipal rules on brine discharge if upgrading to full softening</li>
+//           </ul>
+//         </div>
+//       </div>
+
+//       <div className="flex flex-col sm:flex-row items-center justify-between mt-8 pt-6 border-t border-slate-100">
+//         <p className="text-xs text-slate-400 max-w-sm mb-4 sm:mb-0">
+//           *We independently evaluate all recommended products. If you click on links we provide, we may receive compensation.
+//         </p>
+//         <a 
+//           href={product.url} 
+//           target="_blank" 
+//           rel="nofollow sponsored"
+//           className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-md transition-colors w-full sm:w-auto text-center"
+//         >
+//           Check Price on Amazon
+//         </a>
+//       </div>
+//     </section>
+//   );
+// }
+
+
+
 import affiliateRules from '@/data/affiliate-rules.json';
 
 interface ProductMatchProps {
@@ -174,43 +256,43 @@ export function ProductMatchEngine({ city, hardness, lang = 'en' }: ProductMatch
   if (!product) return null;
 
   return (
-    <section className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 my-10 relative overflow-hidden">
+    <section className="bg-white rounded-2xl md:rounded-[2rem] border border-zinc-200 shadow-sm hover:shadow-xl hover:shadow-zinc-100/50 transition-all duration-300 p-8 md:p-10 my-12 relative overflow-hidden font-sans">
       {/* 🛡️ EEAT FIX: Clear, unavoidable Affiliate Disclosure */}
-      <div className="absolute top-0 right-0 bg-slate-100 text-slate-500 text-[10px] px-3 py-1 rounded-bl-lg border-b border-l border-slate-200 uppercase tracking-wider">
+      <div className="absolute top-0 right-0 bg-zinc-50 border-b border-l border-zinc-200 text-zinc-400 text-[10px] font-bold px-4 py-2 rounded-bl-2xl uppercase tracking-widest">
         Sponsored / Affiliate Link
       </div>
 
-      <h2 className="text-2xl font-bold text-slate-900 mb-4">
+      <h2 className="text-2xl md:text-3xl font-semibold text-zinc-900 tracking-tight mb-5">
         Data-Matched System for {city}
       </h2>
       
-      <p className="text-slate-600 mb-6">
-        Based on the localized reading of <strong>{hardness} mg/L</strong>, our data team recommends the <strong>{product.name}</strong> to handle this specific mineral concentration efficiently without excess waste.
+      <p className="text-lg text-zinc-600 font-light leading-relaxed mb-10">
+        Based on the localized reading of <strong className="font-medium text-zinc-800 tabular-nums">{hardness} mg/L</strong>, our data team recommends the <strong className="font-medium text-zinc-900">{product.name}</strong> to handle this specific mineral concentration efficiently without excess waste.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        <div className="bg-green-50 rounded-lg p-4 border border-green-100">
-          <h4 className="font-bold text-green-800 mb-2">Why it fits {city}:</h4>
-          <ul className="list-disc pl-5 text-sm text-green-700 space-y-1">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-10">
+        <div className="bg-emerald-50/50 rounded-2xl p-6 md:p-8 border border-emerald-100/50">
+          <h4 className="font-semibold text-emerald-950 tracking-tight mb-4 text-lg">Why it fits {city}:</h4>
+          <ul className="list-disc pl-5 text-emerald-800/90 font-light space-y-2.5 marker:text-emerald-400">
             {hardness > 150 ? (
               <>
-                <li>Rated to handle high-calcium loads up to 300 mg/L</li>
+                <li>Rated to handle high-calcium loads up to <span className="tabular-nums font-medium">300</span> mg/L</li>
                 <li>Protects downstream appliances from rapid scaling</li>
                 <li>Reduces energy efficiency loss in local boilers</li>
               </>
             ) : (
               <>
                 <li>Preserves safe baseline minerals while improving taste</li>
-                <li>Cost-effective for moderate {hardness} mg/L zones</li>
+                <li>Cost-effective for moderate <span className="tabular-nums font-medium">{hardness}</span> mg/L zones</li>
                 <li>No complex plumbing alterations required</li>
               </>
             )}
           </ul>
         </div>
         
-        <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
-          <h4 className="font-bold text-slate-800 mb-2">Editorial Considerations:</h4>
-          <ul className="list-disc pl-5 text-sm text-slate-600 space-y-1">
+        <div className="bg-zinc-50/80 rounded-2xl p-6 md:p-8 border border-zinc-200">
+          <h4 className="font-semibold text-zinc-900 tracking-tight mb-4 text-lg">Editorial Considerations:</h4>
+          <ul className="list-disc pl-5 text-zinc-600 font-light space-y-2.5 marker:text-zinc-400">
             <li>Requires annual filter replacement</li>
             <li>Best suited for indoor, temperature-controlled installation</li>
             <li>Check local {city} municipal rules on brine discharge if upgrading to full softening</li>
@@ -218,15 +300,15 @@ export function ProductMatchEngine({ city, hardness, lang = 'en' }: ProductMatch
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center justify-between mt-8 pt-6 border-t border-slate-100">
-        <p className="text-xs text-slate-400 max-w-sm mb-4 sm:mb-0">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pt-8 border-t border-zinc-100 gap-6">
+        <p className="text-xs text-zinc-400 font-light leading-relaxed max-w-md">
           *We independently evaluate all recommended products. If you click on links we provide, we may receive compensation.
         </p>
         <a 
           href={product.url} 
           target="_blank" 
           rel="nofollow sponsored"
-          className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-md transition-colors w-full sm:w-auto text-center"
+          className="shrink-0 bg-zinc-900 hover:bg-zinc-800 text-white font-medium py-3.5 px-8 rounded-xl shadow-sm hover:shadow-lg hover:shadow-zinc-300/50 transition-all duration-300 w-full sm:w-auto text-center tracking-wide"
         >
           Check Price on Amazon
         </a>

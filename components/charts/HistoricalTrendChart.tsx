@@ -2,13 +2,14 @@
 "use client";
 
 import { useMemo } from 'react';
-
+import { SupportedLanguage } from '@/types';
 interface HistoricalTrendChartProps {
   city: string;
   currentHardness: number;
+  lang: SupportedLanguage;
 }
 
-export function HistoricalTrendChart({ city, currentHardness }: HistoricalTrendChartProps) {
+export function HistoricalTrendChart({ city, currentHardness, lang }: HistoricalTrendChartProps) {
   // Generate a realistic, slightly fluctuating 10-year dataset based on current hardness
   const historicalData = useMemo(() => {
     const years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];

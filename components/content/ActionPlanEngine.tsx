@@ -139,13 +139,14 @@
 
 
 import { ActionPlanRules } from '@/utils/content-generators/action-plans';
-
+import { SupportedLanguage } from '@/types';
 interface ActionPlanProps {
   city: string;
   rules: ActionPlanRules;
+  lang: SupportedLanguage;
 }
 
-export function ActionPlanEngine({ city, rules }: ActionPlanProps) {
+export function ActionPlanEngine({ city, rules, lang }: ActionPlanProps) {
   return (
     <section className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden my-8">
       <div className="bg-slate-800 px-6 py-4">

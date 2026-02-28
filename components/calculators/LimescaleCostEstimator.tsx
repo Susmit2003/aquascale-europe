@@ -1,3 +1,167 @@
+// // components/calculators/LimescaleCostEstimator.tsx
+// "use client";
+
+// import { useState, useMemo } from 'react';
+// import { calculateAnnualImpact, BoilerType, UsageFrequency } from '@/utils/calculations';
+
+// interface LimescaleCostEstimatorProps {
+//   hardness: number;
+//   kwhPrice: number;
+// }
+
+// export default function LimescaleCostEstimator({ hardness, kwhPrice }: LimescaleCostEstimatorProps) {
+//   const [size, setSize] = useState<number>(3);
+//   const [boiler, setBoiler] = useState<BoilerType>('electric');
+//   const [freq, setFreq] = useState<UsageFrequency>('medium');
+
+//   // Memoize calculations so it only runs when inputs change
+//   const results = useMemo(() => {
+//     return calculateAnnualImpact({
+//       size,
+//       boilerType: boiler,
+//       kwhPrice,
+//       hardnessMgL: hardness,
+//       applianceFrequency: freq,
+//     });
+//   }, [size, boiler, freq, kwhPrice, hardness]);
+
+//   const maxProjectionValue = Math.max(...results.fiveYearProjection, 100);
+
+//   return (
+//     <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+//       <div className="p-6 sm:p-8 bg-gradient-to-br from-blue-50 to-white">
+//         <form className="grid grid-cols-1 md:grid-cols-3 gap-6" aria-label="Limescale cost calculator">
+//           {/* Input: Household Size */}
+//           <div className="flex flex-col">
+//             <label htmlFor="household-size" className="text-sm font-semibold text-gray-700 mb-2">
+//               Household Size
+//             </label>
+//             <select
+//               id="household-size"
+//               value={size}
+//               onChange={(e) => setSize(Number(e.target.value))}
+//               className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm"
+//             >
+//               {[1, 2, 3, 4, 5, 6, 7, 8].map((n) => (
+//                 <option key={n} value={n}>{n} {n === 1 ? 'Person' : 'People'}</option>
+//               ))}
+//             </select>
+//           </div>
+
+//           {/* Input: Boiler Type */}
+//           <div className="flex flex-col">
+//             <label htmlFor="boiler-type" className="text-sm font-semibold text-gray-700 mb-2">
+//               Water Heating System
+//             </label>
+//             <select
+//               id="boiler-type"
+//               value={boiler}
+//               onChange={(e) => setBoiler(e.target.value as BoilerType)}
+//               className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm"
+//             >
+//               <option value="electric">Electric Boiler</option>
+//               <option value="gas">Gas Boiler</option>
+//               <option value="combi">Combi Boiler</option>
+//               <option value="heat_pump">Heat Pump</option>
+//             </select>
+//           </div>
+
+//           {/* Input: Usage Frequency */}
+//           <div className="flex flex-col">
+//             <label htmlFor="usage-freq" className="text-sm font-semibold text-gray-700 mb-2">
+//               Appliance Usage
+//             </label>
+//             <select
+//               id="usage-freq"
+//               value={freq}
+//               onChange={(e) => setFreq(e.target.value as UsageFrequency)}
+//               className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm"
+//             >
+//               <option value="low">Low (Occasional)</option>
+//               <option value="medium">Medium (Daily)</option>
+//               <option value="high">High (Heavy)</option>
+//             </select>
+//           </div>
+//         </form>
+//       </div>
+
+//       <div className="p-6 sm:p-8 grid grid-cols-1 lg:grid-cols-2 gap-10 border-t border-gray-100">
+//         {/* Results Metrics */}
+//         <div className="space-y-6">
+//           <div className="p-4 bg-red-50 rounded-xl border border-red-100">
+//             <p className="text-sm font-medium text-red-800">Estimated Extra Energy Cost</p>
+//             <p className="text-3xl font-bold text-red-600 mt-1">
+//               €{results.extraEnergyCostEur} <span className="text-lg font-normal text-red-400">/ yr</span>
+//             </p>
+//           </div>
+          
+//           <div className="p-4 bg-orange-50 rounded-xl border border-orange-100">
+//             <p className="text-sm font-medium text-orange-800">Appliance Lifespan Reduction</p>
+//             <p className="text-3xl font-bold text-orange-600 mt-1">
+//               {results.lifespanReductionPercent}% <span className="text-lg font-normal text-orange-400">faster wear</span>
+//             </p>
+//           </div>
+
+//           <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
+//             <p className="text-sm font-medium text-blue-800">Annual Descaling Products</p>
+//             <p className="text-3xl font-bold text-blue-600 mt-1">
+//               €{results.annualDescalingCostEur} <span className="text-lg font-normal text-blue-400">/ yr</span>
+//             </p>
+//           </div>
+//         </div>
+
+//        {/* 5-Year Lightweight SVG Chart */}
+//         <div className="flex flex-col h-full">
+//           <h3 className="text-sm font-semibold text-gray-700 mb-6">5-Year Cumulative Cost Projection (€)</h3>
+          
+//           <div className="flex-1 flex items-end justify-between gap-2 h-48 mt-2">
+//             {results.fiveYearProjection.map((val, idx) => {
+//               const heightPercentage = (val / maxProjectionValue) * 100;
+//               return (
+//                 <div key={idx} className="flex flex-col items-center flex-1 group relative h-full">
+                  
+//                   {/* Dedicated Bar Container (Forces explicit height for the % to work) */}
+//                   <div className="w-full flex-1 flex items-end justify-center relative">
+//                     {/* Tooltip on hover */}
+//                     <div className="opacity-0 group-hover:opacity-100 absolute -top-8 bg-gray-800 text-white text-xs py-1 px-2 rounded transition-opacity pointer-events-none z-10 whitespace-nowrap">
+//                       €{Math.round(val)}
+//                     </div>
+                    
+//                     {/* The Bar */}
+//                     <div 
+//                       className="w-full max-w-[40px] bg-blue-500 rounded-t-md transition-all duration-500 ease-out"
+//                       style={{ height: `${Math.max(heightPercentage, 2)}%` }}
+//                     />
+//                   </div>
+
+//                   {/* X-Axis Label */}
+//                   <span className="text-xs text-gray-500 mt-2 font-medium shrink-0">Yr {idx + 1}</span>
+//                 </div>
+//               );
+//             })}
+//           </div>
+//         </div>
+//       </div>
+
+//       {/* SEO Compliance Disclaimer */}
+//       {/* Replace the old disclaimer at the bottom of LimescaleCostEstimator with this: */}
+//         <div className="bg-yellow-50 px-6 py-5 border-t border-yellow-200 flex flex-col md:flex-row items-center justify-between gap-4">
+//           <div>
+//             <h4 className="font-bold text-yellow-900 mb-1">Financial Impact Warning</h4>
+//             <p className="text-xs text-yellow-800 leading-relaxed">
+//               At {hardness} mg/L, households in this region lose an estimated <strong>€{Math.round(results.extraEnergyCostEur * 5)} every 5 years</strong> purely to mineral scaling inefficiency.
+//             </p>
+//           </div>
+//           <a href="#product-recommendations" className="shrink-0 bg-yellow-600 hover:bg-yellow-700 text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors">
+//             View Descaling Solutions
+//           </a>
+//         </div>
+//     </div>
+//   );
+// }
+
+
+
 // components/calculators/LimescaleCostEstimator.tsx
 "use client";
 
@@ -28,19 +192,19 @@ export default function LimescaleCostEstimator({ hardness, kwhPrice }: Limescale
   const maxProjectionValue = Math.max(...results.fiveYearProjection, 100);
 
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
-      <div className="p-6 sm:p-8 bg-gradient-to-br from-blue-50 to-white">
-        <form className="grid grid-cols-1 md:grid-cols-3 gap-6" aria-label="Limescale cost calculator">
+    <div className="bg-white rounded-[2rem] shadow-xl shadow-zinc-200/40 border border-zinc-100 overflow-hidden font-sans">
+      <div className="p-8 md:p-10 bg-zinc-50/50 border-b border-zinc-100">
+        <form className="grid grid-cols-1 md:grid-cols-3 gap-8" aria-label="Limescale cost calculator">
           {/* Input: Household Size */}
           <div className="flex flex-col">
-            <label htmlFor="household-size" className="text-sm font-semibold text-gray-700 mb-2">
+            <label htmlFor="household-size" className="text-sm font-semibold text-zinc-800 mb-3 tracking-tight">
               Household Size
             </label>
             <select
               id="household-size"
               value={size}
               onChange={(e) => setSize(Number(e.target.value))}
-              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm"
+              className="px-4 py-3 border border-zinc-200 rounded-xl focus:ring-4 focus:ring-sky-100 focus:border-sky-400 bg-white text-zinc-800 font-light shadow-sm transition-all outline-none appearance-none cursor-pointer"
             >
               {[1, 2, 3, 4, 5, 6, 7, 8].map((n) => (
                 <option key={n} value={n}>{n} {n === 1 ? 'Person' : 'People'}</option>
@@ -50,14 +214,14 @@ export default function LimescaleCostEstimator({ hardness, kwhPrice }: Limescale
 
           {/* Input: Boiler Type */}
           <div className="flex flex-col">
-            <label htmlFor="boiler-type" className="text-sm font-semibold text-gray-700 mb-2">
+            <label htmlFor="boiler-type" className="text-sm font-semibold text-zinc-800 mb-3 tracking-tight">
               Water Heating System
             </label>
             <select
               id="boiler-type"
               value={boiler}
               onChange={(e) => setBoiler(e.target.value as BoilerType)}
-              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm"
+              className="px-4 py-3 border border-zinc-200 rounded-xl focus:ring-4 focus:ring-sky-100 focus:border-sky-400 bg-white text-zinc-800 font-light shadow-sm transition-all outline-none appearance-none cursor-pointer"
             >
               <option value="electric">Electric Boiler</option>
               <option value="gas">Gas Boiler</option>
@@ -68,14 +232,14 @@ export default function LimescaleCostEstimator({ hardness, kwhPrice }: Limescale
 
           {/* Input: Usage Frequency */}
           <div className="flex flex-col">
-            <label htmlFor="usage-freq" className="text-sm font-semibold text-gray-700 mb-2">
+            <label htmlFor="usage-freq" className="text-sm font-semibold text-zinc-800 mb-3 tracking-tight">
               Appliance Usage
             </label>
             <select
               id="usage-freq"
               value={freq}
               onChange={(e) => setFreq(e.target.value as UsageFrequency)}
-              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm"
+              className="px-4 py-3 border border-zinc-200 rounded-xl focus:ring-4 focus:ring-sky-100 focus:border-sky-400 bg-white text-zinc-800 font-light shadow-sm transition-all outline-none appearance-none cursor-pointer"
             >
               <option value="low">Low (Occasional)</option>
               <option value="medium">Medium (Daily)</option>
@@ -85,57 +249,57 @@ export default function LimescaleCostEstimator({ hardness, kwhPrice }: Limescale
         </form>
       </div>
 
-      <div className="p-6 sm:p-8 grid grid-cols-1 lg:grid-cols-2 gap-10 border-t border-gray-100">
+      <div className="p-8 md:p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 bg-white">
         {/* Results Metrics */}
         <div className="space-y-6">
-          <div className="p-4 bg-red-50 rounded-xl border border-red-100">
-            <p className="text-sm font-medium text-red-800">Estimated Extra Energy Cost</p>
-            <p className="text-3xl font-bold text-red-600 mt-1">
-              €{results.extraEnergyCostEur} <span className="text-lg font-normal text-red-400">/ yr</span>
+          <div className="p-6 bg-rose-50/50 rounded-2xl border border-rose-100/50">
+            <p className="text-sm font-medium text-rose-900 tracking-tight">Estimated Extra Energy Cost</p>
+            <p className="text-4xl font-semibold text-rose-600 mt-2 tabular-nums tracking-tighter">
+              €{results.extraEnergyCostEur} <span className="text-lg font-light text-rose-400 tracking-normal">/ yr</span>
             </p>
           </div>
           
-          <div className="p-4 bg-orange-50 rounded-xl border border-orange-100">
-            <p className="text-sm font-medium text-orange-800">Appliance Lifespan Reduction</p>
-            <p className="text-3xl font-bold text-orange-600 mt-1">
-              {results.lifespanReductionPercent}% <span className="text-lg font-normal text-orange-400">faster wear</span>
+          <div className="p-6 bg-amber-50/50 rounded-2xl border border-amber-100/50">
+            <p className="text-sm font-medium text-amber-900 tracking-tight">Appliance Lifespan Reduction</p>
+            <p className="text-4xl font-semibold text-amber-600 mt-2 tabular-nums tracking-tighter">
+              {results.lifespanReductionPercent}% <span className="text-lg font-light text-amber-500/80 tracking-normal">faster wear</span>
             </p>
           </div>
 
-          <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
-            <p className="text-sm font-medium text-blue-800">Annual Descaling Products</p>
-            <p className="text-3xl font-bold text-blue-600 mt-1">
-              €{results.annualDescalingCostEur} <span className="text-lg font-normal text-blue-400">/ yr</span>
+          <div className="p-6 bg-sky-50/50 rounded-2xl border border-sky-100/50">
+            <p className="text-sm font-medium text-sky-900 tracking-tight">Annual Descaling Products</p>
+            <p className="text-4xl font-semibold text-sky-600 mt-2 tabular-nums tracking-tighter">
+              €{results.annualDescalingCostEur} <span className="text-lg font-light text-sky-400 tracking-normal">/ yr</span>
             </p>
           </div>
         </div>
 
        {/* 5-Year Lightweight SVG Chart */}
-        <div className="flex flex-col h-full">
-          <h3 className="text-sm font-semibold text-gray-700 mb-6">5-Year Cumulative Cost Projection (€)</h3>
+        <div className="flex flex-col h-full pt-2">
+          <h3 className="text-sm font-semibold text-zinc-800 mb-8 tracking-tight">5-Year Cumulative Cost Projection (€)</h3>
           
-          <div className="flex-1 flex items-end justify-between gap-2 h-48 mt-2">
+          <div className="flex-1 flex items-end justify-between gap-3 h-48 mt-2">
             {results.fiveYearProjection.map((val, idx) => {
               const heightPercentage = (val / maxProjectionValue) * 100;
               return (
                 <div key={idx} className="flex flex-col items-center flex-1 group relative h-full">
                   
-                  {/* Dedicated Bar Container (Forces explicit height for the % to work) */}
+                  {/* Dedicated Bar Container */}
                   <div className="w-full flex-1 flex items-end justify-center relative">
                     {/* Tooltip on hover */}
-                    <div className="opacity-0 group-hover:opacity-100 absolute -top-8 bg-gray-800 text-white text-xs py-1 px-2 rounded transition-opacity pointer-events-none z-10 whitespace-nowrap">
+                    <div className="opacity-0 group-hover:opacity-100 absolute -top-10 bg-zinc-800 text-zinc-50 text-xs py-1.5 px-3 rounded-lg shadow-xl transition-all duration-200 pointer-events-none z-10 whitespace-nowrap font-medium tabular-nums transform translate-y-2 group-hover:translate-y-0">
                       €{Math.round(val)}
                     </div>
                     
                     {/* The Bar */}
                     <div 
-                      className="w-full max-w-[40px] bg-blue-500 rounded-t-md transition-all duration-500 ease-out"
+                      className="w-full max-w-[48px] bg-sky-400 group-hover:bg-sky-500 rounded-t-xl transition-all duration-500 ease-out"
                       style={{ height: `${Math.max(heightPercentage, 2)}%` }}
                     />
                   </div>
 
                   {/* X-Axis Label */}
-                  <span className="text-xs text-gray-500 mt-2 font-medium shrink-0">Yr {idx + 1}</span>
+                  <span className="text-xs text-zinc-400 mt-4 font-medium shrink-0 uppercase tracking-wider">Yr {idx + 1}</span>
                 </div>
               );
             })}
@@ -144,18 +308,20 @@ export default function LimescaleCostEstimator({ hardness, kwhPrice }: Limescale
       </div>
 
       {/* SEO Compliance Disclaimer */}
-      {/* Replace the old disclaimer at the bottom of LimescaleCostEstimator with this: */}
-        <div className="bg-yellow-50 px-6 py-5 border-t border-yellow-200 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <h4 className="font-bold text-yellow-900 mb-1">Financial Impact Warning</h4>
-            <p className="text-xs text-yellow-800 leading-relaxed">
-              At {hardness} mg/L, households in this region lose an estimated <strong>€{Math.round(results.extraEnergyCostEur * 5)} every 5 years</strong> purely to mineral scaling inefficiency.
-            </p>
-          </div>
-          <a href="#product-recommendations" className="shrink-0 bg-yellow-600 hover:bg-yellow-700 text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors">
-            View Descaling Solutions
-          </a>
+      <div className="bg-amber-50/30 px-8 py-6 border-t border-amber-100/50 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div>
+          <h4 className="font-semibold text-amber-950 tracking-tight mb-2">Financial Impact Warning</h4>
+          <p className="text-sm text-amber-800/80 leading-relaxed font-light">
+            At <span className="font-medium tabular-nums">{hardness} mg/L</span>, households in this region lose an estimated <strong className="font-semibold tabular-nums text-amber-900">€{Math.round(results.extraEnergyCostEur * 5)} every 5 years</strong> purely to mineral scaling inefficiency.
+          </p>
         </div>
+        <a 
+          href="#product-recommendations" 
+          className="shrink-0 bg-zinc-900 hover:bg-zinc-800 text-white text-sm font-medium py-3 px-6 rounded-xl transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-zinc-200/50"
+        >
+          View Descaling Solutions
+        </a>
+      </div>
     </div>
   );
 }

@@ -82,12 +82,9 @@
 // }
 
 
-
 // utils/cityArticleGenerator.ts
 import { Location } from '@/types';
-import nlp from 'compromise';
 
-// Pure functions for strict categorization
 function getHardnessCategory(mgL: number): string {
   if (mgL < 60) return "Soft";
   if (mgL < 120) return "Moderately Hard";
@@ -95,97 +92,11 @@ function getHardnessCategory(mgL: number): string {
   return "Very Hard";
 }
 
-function getHash(str: string): number {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = str.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  return Math.abs(hash);
-}
-
-// Helper to pick a segment based on hash and position
-function pick(segments: string[], seed: string, offset: number): string {
-  const index = (getHash(seed) + offset) % segments.length;
-  return segments[index];
-}
-
-export function generateCityHubArticle(location: Location, allLocations: Location[]): string[] {
+export function generateCityDataSummary(location: Location): string {
   const { name, hardness_mg_l, source_utility } = location;
   const germanDegrees = (hardness_mg_l * 0.056).toFixed(1);
   const category = getHardnessCategory(hardness_mg_l);
-
-  // --- PARAGRAPH 1: CORE FACTUAL REPORTING ---
-  // Combinations: 15 (Opening) * 15 (Middle) * 15 (Closing) = 3,375 variations
-  const p1_open = [
-    `According to figures provided by ${source_utility}, the water in ${name} has a hardness of ${hardness_mg_l} mg/L.`,
-    `Official reports from ${source_utility} indicate that ${name}'s municipal supply registers ${hardness_mg_l} mg/L.`,
-    `Data verified by ${source_utility} shows that local tap water contains ${hardness_mg_l} mg/L of dissolved minerals.`,
-    `The latest readings from ${source_utility} place the mineral concentration in ${name} at ${hardness_mg_l} mg/L.`,
-    `Technical analysis from ${source_utility} confirms a baseline hardness of ${hardness_mg_l} mg/L for ${name}.`,
-    `Per the documentation from ${source_utility}, ${name} residents receive water with ${hardness_mg_l} mg/L of hardness minerals.`,
-    `Water quality metrics from ${source_utility} establish ${name}'s hardness at ${hardness_mg_l} mg/L.`,
-    `${source_utility} publishes data showing the ${name} water supply contains ${hardness_mg_l} mg/L of calcium and magnesium.`,
-    `Testing conducted by ${source_utility} identifies a hardness level of ${hardness_mg_l} mg/L within ${name}.`,
-    `The water profile for ${name}, maintained by ${source_utility}, reports ${hardness_mg_l} mg/L of total hardness.`,
-    `Environmental reports from ${source_utility} list ${name}'s tap water hardness at ${hardness_mg_l} mg/L.`,
-    `Based on laboratory results from ${source_utility}, ${name} registers a hardness of ${hardness_mg_l} mg/L.`,
-    `Statistics from ${source_utility} regarding ${name}'s water supply show ${hardness_mg_l} mg/L of mineral content.`,
-    `The municipal grid in ${name}, overseen by ${source_utility}, delivers water with ${hardness_mg_l} mg/L of hardness.`,
-    `Quality control data from ${source_utility} indicates that the hardness in ${name} is ${hardness_mg_l} mg/L.`
-  ];
-
-  const p1_mid = [
-    ` This measurement translates to approximately ${germanDegrees} °dH.`,
-    ` In terms of German degrees, this is calculated as ${germanDegrees} °dH.`,
-    ` On the standard °dH scale, this corresponds to a value of ${germanDegrees}.`,
-    ` When converted to German degrees, the reading is ${germanDegrees} °dH.`,
-    ` This mineral weight is equivalent to ${germanDegrees} °dH.`,
-    ` Local households can interpret this as ${germanDegrees} on the German hardness scale.`,
-    ` For appliance calibration, this represents ${germanDegrees} °dH.`,
-    ` This equates to a concentration of ${germanDegrees} °dH.`,
-    ` Using the German degree system, the water measures ${germanDegrees} °dH.`,
-    ` The converted value for local plumbing standards is ${germanDegrees} °dH.`,
-    ` This reading represents ${germanDegrees} °dH on the common dH scale.`,
-    ` For practical use, this is roughly ${germanDegrees} German degrees.`,
-    ` Calculated for appliance settings, this comes to ${germanDegrees} °dH.`,
-    ` The official conversion result is ${germanDegrees} °dH.`,
-    ` This data point is mirrored by a reading of ${germanDegrees} °dH.`
-  ];
-
-  const p1_close = [
-    ` Consequently, the supply is officially categorized as "${category}".`,
-    ` This profile classifies the local water as "${category}" under EU standards.`,
-    ` Residents are receiving water that is technically defined as "${category}".`,
-    ` Under current European guidelines, this is considered "${category}" water.`,
-    ` This specific mineral profile falls into the "${category}" range.`,
-    ` Officially, this places the ${name} water supply in the "${category}" bracket.`,
-    ` Local authorities define this level of hardness as "${category}".`,
-    ` From a chemical perspective, this is a "${category}" water type.`,
-    ` This level of mineralization is officially labeled as "${category}".`,
-    ` Accordingly, the tap water here is ranked as "${category}".`,
-    ` This officially designates the supply as "${category}" for consumer use.`,
-    ` Technical standards categorize this particular concentration as "${category}".`,
-    ` This measurement formally classifies the supply as "${category}".`,
-    ` As a result, the water is characterized as "${category}" in official documentation.`,
-    ` This reading puts the water firmly in the "${category}" category.`
-  ];
-
-  const intro = `${pick(p1_open, name, 1)}${pick(p1_mid, name, 2)}${pick(p1_close, name, 3)}`;
-
-  // --- NLP SYNONYM SWAPPING WITH COMPROMISE ---
-  let doc = nlp(intro);
-  const hash = getHash(name);
   
-  // Randomly swap synonyms to further increase entropy
-  if (hash % 2 === 0) {
-    doc.match('residents').replaceWith('households');
-  } else if (hash % 3 === 0) {
-    doc.match('residents').replaceWith('citizens');
-  }
-
-  if (hash % 4 === 0) {
-    doc.match('official').replaceWith('verified');
-  }
-
-  return [doc.text()];
+  // One clean, factual, snippet-bait sentence. No fluff. No spinning.
+  return `According to current water quality data provided by ${source_utility || 'local municipal authorities'}, the measured water hardness in ${name} is ${hardness_mg_l} mg/L (approximately ${germanDegrees} °dH), which is officially classified as ${category} under European hydro-chemical guidelines.`;
 }

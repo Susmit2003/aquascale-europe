@@ -19,6 +19,7 @@ export interface Location {
   // Added for pre-computed internal linking silo
   nearby_locations?: string[]; 
   source_utility: string;
+  source_url?: string;
 }
 
 // 3. i18n Types

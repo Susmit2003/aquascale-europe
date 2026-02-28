@@ -45,7 +45,7 @@ export default function RootLayout({
       </Link>
     </div>
     <nav className="hidden md:flex gap-6 text-sm font-semibold text-gray-600">
-      <Link href="/cities" className="hover:text-blue-600 transition-colors">Cities</Link>
+      
       <div className="group relative">
         <button className="hover:text-blue-600 transition-colors flex items-center gap-1">
           Calculators ▾

@@ -4,8 +4,8 @@ import computedLocationsData from '@/data/locations-computed.json';
 import { Location, SupportedLanguage } from '@/types';
 
 const allLocations = computedLocationsData as Location[];
-// export const dynamicParams = false;
-
+export const dynamicParams = true;
+export const revalidate = 604800;
 interface Props {
   params: Promise<{ lang: SupportedLanguage; country: string }>;
 }

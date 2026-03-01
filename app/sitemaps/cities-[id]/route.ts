@@ -25,9 +25,10 @@ function createSafeSlug(name: string): string {
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> } // <-- FIXED TYPE
 ) {
-  const chunkIndex = parseInt(params.id) - 1;
+  const resolvedParams = await params; // <-- AWAIT PARAMS
+  const chunkIndex = parseInt(resolvedParams.id) - 1;
   const start = chunkIndex * CHUNK_SIZE;
   const end = start + CHUNK_SIZE;
 

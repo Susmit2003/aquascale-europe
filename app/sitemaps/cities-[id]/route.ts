@@ -1,5 +1,5 @@
 // app/sitemaps/cities-[id]/route.ts
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import locationsComputed from '@/data/locations-computed.json';
 
 const BASE_URL = 'https://waterhardnessscale.com';
@@ -24,10 +24,10 @@ function createSafeSlug(name: string): string {
 }
 
 export async function GET(
-  request: Request,
-  { params }: { params: Promise<{ id: string }> } // <-- FIXED TYPE
+  request: NextRequest,
+  context: { params: Promise<{ id: string }> }
 ) {
-  const resolvedParams = await params; // <-- AWAIT PARAMS
+  const resolvedParams = await context.params;
   const chunkIndex = parseInt(resolvedParams.id) - 1;
   const start = chunkIndex * CHUNK_SIZE;
   const end = start + CHUNK_SIZE;
@@ -49,10 +49,9 @@ export async function GET(
 
   const chunkUrls = allUrls.slice(start, end);
 
-  // Use a static date for the build, or ideally the date you last updated locations.json
+  // Use a static date for the build
   const lastModDate = new Date().toISOString().split('T')[0];
 
-  // 4. Added <lastmod> to the XML
   const urlsXml = chunkUrls
     .map((url) => {
       return `

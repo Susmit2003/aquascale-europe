@@ -9,7 +9,7 @@ const allLocations = computedLocationsData as Location[];
 interface Props {
   params: Promise<{ lang: SupportedLanguage; country: string }>;
 }
-export const runtime = 'edge';
+// export const runtime = 'edge';
 export async function generateStaticParams() {
   const languages: SupportedLanguage[] = ['en', 'de', 'fr', 'es'];
   const params: any[] = [];

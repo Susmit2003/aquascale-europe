@@ -5,7 +5,8 @@ import { useState } from 'react';
 import { Mail, MapPin, ShieldCheck, Send, CheckCircle2 } from 'lucide-react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-
+import { Metadata } from 'next';
+export const runtime = 'edge';
 export default function ContactPage() {
   const params = useParams();
   const lang = params.lang as string || 'en';

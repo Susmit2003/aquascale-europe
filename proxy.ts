@@ -67,6 +67,8 @@ import type { NextRequest } from 'next/server';
 const locales = ['en', 'de', 'fr', 'es'];
 const defaultLocale = 'en';
 
+
+
 function getLocale(request: NextRequest): string {
   const acceptLanguage = request.headers.get('accept-language');
   if (acceptLanguage) {
@@ -77,6 +79,8 @@ function getLocale(request: NextRequest): string {
   }
   return defaultLocale;
 }
+
+export const runtime = 'edge';
 
 // 🟢 FIX 1: The function MUST be named 'proxy' as per your error message
 export function proxy(request: NextRequest) {

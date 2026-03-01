@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: 'Understand what milligrams per liter (mg/L) means in water quality testing, how it measures calcium carbonate (CaCO3), and how to convert it to other units.',
 };
 
+export const runtime = 'edge';
+
 export default async function GlossaryMgLPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
 

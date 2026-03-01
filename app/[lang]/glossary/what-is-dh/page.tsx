@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: 'Learn how to calculate and convert °dH (Deutsche Härte) to mg/L. Understand the German standard for measuring water hardness and limescale.',
 };
 
+export const runtime = 'edge';
+
 export default async function GlossaryDhPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
 

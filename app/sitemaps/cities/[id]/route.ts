@@ -5,7 +5,7 @@ import locationsComputed from '@/data/locations-computed.json';
 const BASE_URL = 'https://waterhardnessscale.com';
 const CHUNK_SIZE = 10000;
 const LANGUAGES = ['en', 'de', 'fr', 'es'];
-
+export const runtime = 'edge';
 export async function GET(
   request: NextRequest,
   context: { params: Promise<{ id: string }> }

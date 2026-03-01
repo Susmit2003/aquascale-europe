@@ -114,6 +114,8 @@ export const metadata: Metadata = {
   description: 'Learn how Water Hardness Scale aggregates, tests, and verifies municipal water hardness data across European regions.',
 };
 
+export const runtime = 'edge';
+
 export default async function MethodologyPage({ params }: { params: Promise<{ lang: SupportedLanguage }> }) {
   const { lang } = await params;
 

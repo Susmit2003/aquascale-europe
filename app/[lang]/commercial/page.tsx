@@ -8,6 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: 'Enterprise water quality data and limescale prevention solutions for European installers, hotels, restaurants, and industrial applications.',
   };
 }
+export const runtime = 'edge';
 
 export default async function GlobalCommercialPage({
   params,

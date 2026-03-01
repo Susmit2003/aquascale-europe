@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { SupportedLanguage, Location } from '@/types';
 import computedLocationsData from '@/data/locations-computed.json';
 import { Map, Star } from 'lucide-react';
+import { Metadata } from 'next';
 
 const allLocations = computedLocationsData as Location[];
 
@@ -13,6 +14,8 @@ const primaryCountriesMap: Record<string, string[]> = {
   fr: ['france', 'belgium', 'luxembourg', 'switzerland'],
   es: ['spain']
 };
+
+export const runtime = 'edge';
 
 export default async function LocalizedHomepage({ params }: { params: Promise<{ lang: SupportedLanguage }> }) {
   const { lang } = await params;

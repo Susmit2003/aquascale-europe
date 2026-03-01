@@ -101,7 +101,7 @@ export const metadata: Metadata = {
   title: 'EU Water Hardness Classification Chart | mg/L, °dH, °fH',
   description: 'The ultimate conversion chart for European water hardness. Convert between mg/L, German Degrees (°dH), French Degrees (°fH), and English Clark Degrees.',
 };
-
+export const runtime = 'edge';
 export default async function EUChartPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
 

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = { title: 'Legal Disclaimer | Water Hardness Scale' };
-
+export const runtime = 'edge';
 export default function DisclaimerPage() {
   return (
     <main className="max-w-4xl mx-auto p-4 md:p-8 prose prose-blue">

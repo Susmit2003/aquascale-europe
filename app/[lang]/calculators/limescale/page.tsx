@@ -187,8 +187,12 @@ import LimescaleCostEstimator from '@/components/calculators/LimescaleCostEstima
 import { Search, MapPin, Settings2 } from 'lucide-react';
 import AdUnit from '@/components/AdUnit';
 const allLocations = computedLocationsData as Location[];
-
+import { useParams } from 'next/navigation';
 export default function GlobalLimescaleCalculator() {
+
+  const params = useParams();
+  const lang = params?.lang || 'en';
+
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   
@@ -212,6 +216,13 @@ export default function GlobalLimescaleCalculator() {
 
   const activeHardness = selectedLocation ? selectedLocation.hardness_mg_l : manualHardness;
   const displayTitle = selectedLocation ? `Estimator: ${selectedLocation.name}` : 'Limescale Cost Estimator';
+
+  // 3. GENERATE A DYNAMIC CTA LINK
+  // If they selected a city, send them to that specific city's analysis page.
+  // If they just used the manual sliders, send them to the general commercial page.
+  const dynamicCtaLink = selectedLocation
+    ? `/${lang}/${selectedLocation.country_slug}/${selectedLocation.region_slug}/${encodeURIComponent(selectedLocation.name.toLowerCase().replace(/\s+/g, '-'))}/water-softener-analysis#product-recommendations`
+    : `/${lang}/commercial`;
 
   return (
     <main className="max-w-4xl mx-auto p-6 md:p-12 font-sans text-zinc-800">
@@ -337,7 +348,12 @@ export default function GlobalLimescaleCalculator() {
             {displayTitle}
           </h2>
           {/* We pass the active variables down to your existing component */}
-          <LimescaleCostEstimator hardness={activeHardness} kwhPrice={kwhPrice} />
+          {/* 4. PASS THE DYNAMIC LINK DOWN AS A PROP */}
+          <LimescaleCostEstimator 
+            hardness={activeHardness} 
+            kwhPrice={kwhPrice} 
+            ctaLink={dynamicCtaLink} 
+          />
         </div>
         <div className="mt-12">
        <AdUnit slot="8215679439" format="auto" />

@@ -6,7 +6,6 @@ const BASE_URL = 'https://waterhardnessscale.com';
 const CHUNK_SIZE = 10000;
 const LANGUAGES = ['en', 'de', 'fr', 'es'];
 
-// Helper to escape XML special characters to prevent sitemap breaking
 function escapeXml(unsafe: string) {
   return unsafe.replace(/[<>&'"]/g, (c) => {
     switch (c) {
@@ -32,14 +31,11 @@ export async function GET(
   const start = chunkIndex * CHUNK_SIZE;
   const end = start + CHUNK_SIZE;
 
-  // 1. Filter dataset using the Quality Threshold
+  // 1. Cleaned up filter
   const indexableLocations = (locationsComputed as any[]).filter(loc => {
-    if (loc.population >= 5000) return true;
-    if (loc.population < 5000 && loc.hardness_mg_l !== null && !loc.is_regional_average) return true;
-    return false;
+    return loc.population >= 5000 || (loc.population < 5000 && loc.hardness_mg_l !== null);
   });
 
-  // 2. Build the full URL Matrix (Cities × Languages)
   const allUrls: string[] = [];
   
   indexableLocations.forEach((loc) => {
@@ -50,18 +46,18 @@ export async function GET(
     });
   });
 
-  // 3. Slice exactly the chunk requested
   const chunkUrls = allUrls.slice(start, end);
 
-  // 4. Generate XML string highly efficiently
+  // Use a static date for the build, or ideally the date you last updated locations.json
+  const lastModDate = new Date().toISOString().split('T')[0];
+
+  // 4. Added <lastmod> to the XML
   const urlsXml = chunkUrls
     .map((url) => {
-      // Prioritize deeper URLs slightly lower
       return `
     <url>
       <loc>${escapeXml(url)}</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
+      <lastmod>${lastModDate}</lastmod>
     </url>`;
     })
     .join('');
@@ -74,7 +70,6 @@ export async function GET(
   return new NextResponse(xml, {
     headers: {
       'Content-Type': 'application/xml',
-      // Cache the sitemap heavily to prevent DB/Memory load on repeated Googlebot requests
       'Cache-Control': 'public, max-age=86400, stale-while-revalidate',
     },
   });

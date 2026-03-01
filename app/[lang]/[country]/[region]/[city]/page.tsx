@@ -575,24 +575,38 @@ const HistoricalTrendChart = dynamic(() => import('@/components/charts/Historica
 });
 
 const allLocations = computedLocationsData as Location[];
-export const dynamicParams = false; 
+export const revalidate = 2592000; 
 
 interface PageProps {
   params: Promise<{ lang: SupportedLanguage; country: string; region: string; city: string }>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { city } = await params;
+  const { lang, country, region, city } = await params;
   const decodedCity = decodeURIComponent(city);
   const location = allLocations.find(l => l.name.toLowerCase() === decodedCity.toLowerCase());
   
   if (!location) return {};
-  const shouldIndex = location.population > 5000;
+  const shouldIndex = location.population >= 5000 || 
+    (location.population < 5000 && location.hardness_mg_l !== null);
+
+  const baseUrl = 'https://waterhardnessscale.com';
+  const pathSuffix = `${country}/${region}/${city}`;
 
   return {
     title: `${location.name} Water Hardness Data (${new Date().getFullYear()}) | Official Profile`,
     description: `Official municipal water hardness data for ${location.name}. Hardness level is ${location.hardness_mg_l} mg/L. View local hydro-chemical analysis.`,
-    robots: { index: shouldIndex, follow: true }
+    robots: { index: shouldIndex, follow: true },
+    // ADDED: Crucial for Multilingual Programmatic SEO
+    alternates: {
+      canonical: `${baseUrl}/${lang}/${pathSuffix}`,
+      languages: {
+        'en': `${baseUrl}/en/${pathSuffix}`,
+        'de': `${baseUrl}/de/${pathSuffix}`,
+        'fr': `${baseUrl}/fr/${pathSuffix}`,
+        'es': `${baseUrl}/es/${pathSuffix}`,
+      },
+    },
   };
 }
 
@@ -785,9 +799,15 @@ export default async function CityDashboard({ params }: PageProps) {
 
         </div>
 
+        {/* RIGHT SIDEBAR COLUMN */}
         <div className="hidden lg:block lg:col-span-1">
           <StickySummary city={location.name} hardness={hardness} lang={lang} />
-          <div className="sticky top-[100px] mt-10">
+          
+          {/* FIX: Added w-full, min-h-[600px], and a subtle skeleton background.
+            This reserves the 600px vertical space immediately on page load, 
+            preventing the page from "jumping" when the Google Ad eventually renders.
+          */}
+          <div className="sticky top-[100px] mt-10 w-full min-h-[600px] bg-zinc-100/50 rounded-2xl flex justify-center items-start overflow-hidden border border-zinc-100">
              <AdUnit slot="8215679439" format="rectangle" minHeight="600px" />
           </div>
         </div>

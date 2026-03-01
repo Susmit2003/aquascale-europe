@@ -1,10 +1,7 @@
-
-
-// app/robots.ts;
-
+// app/robots.ts
 import { MetadataRoute } from 'next'
 
-const baseUrl = 'https://waterhardnessscale.com' ;// ← replace with your real domain
+const baseUrl = 'https://waterhardnessscale.com';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -13,17 +10,18 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: [
           '/',
+          '/_next/static/', // Explicitly allow CSS/JS for Googlebot rendering
         ],
         disallow: [
           '/api/',
-          '/_next/',
           '/admin/',
+          '/admin-portal/',
           '/dashboard/',
           '/private/',
           '/data/',
           '/json/',
           '/*.json$',
-          '/*?*',           // blocks parameter URLs (important for crawl control)
+          '/*?*', // Excellent: blocks parameter URLs to prevent crawl traps
         ],
       },
     ],

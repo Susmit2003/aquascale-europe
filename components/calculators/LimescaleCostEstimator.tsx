@@ -171,9 +171,15 @@ import { calculateAnnualImpact, BoilerType, UsageFrequency } from '@/utils/calcu
 interface LimescaleCostEstimatorProps {
   hardness: number;
   kwhPrice: number;
+  ctaLink?: string; // 1. ADD THIS OPTIONAL PROP
 }
 
-export default function LimescaleCostEstimator({ hardness, kwhPrice }: LimescaleCostEstimatorProps) {
+export default function LimescaleCostEstimator({ 
+  hardness, 
+  kwhPrice, 
+  ctaLink = "#product-recommendations" // 2. SET A DEFAULT FALLBACK
+}: LimescaleCostEstimatorProps) {
+  
   const [size, setSize] = useState<number>(3);
   const [boiler, setBoiler] = useState<BoilerType>('electric');
   const [freq, setFreq] = useState<UsageFrequency>('medium');
@@ -316,7 +322,7 @@ export default function LimescaleCostEstimator({ hardness, kwhPrice }: Limescale
           </p>
         </div>
         <a 
-          href="#product-recommendations" 
+          href={ctaLink} 
           className="shrink-0 bg-zinc-900 hover:bg-zinc-800 text-white text-sm font-medium py-3 px-6 rounded-xl transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-zinc-200/50"
         >
           View Descaling Solutions

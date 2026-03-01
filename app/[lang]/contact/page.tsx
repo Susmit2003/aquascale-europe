@@ -48,7 +48,7 @@ export default function ContactPage() {
             <ul className="space-y-4 text-sm text-gray-600">
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-gray-400" />
-                data@aquascale-europe.com
+                tidyauras@gmail.com
               </li>
               <li className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-gray-400" />

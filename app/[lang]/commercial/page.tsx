@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Commercial Water Hardness Solutions & Data API | AquaScale Europe',
+    title: 'Commercial Water Hardness Solutions & Data API | Water Hardness Scale',
     description: 'Enterprise water quality data and limescale prevention solutions for European installers, hotels, restaurants, and industrial applications.',
   };
 }
@@ -68,7 +68,7 @@ export default async function GlobalCommercialPage({
           Enterprise Water Intelligence
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          AquaScale Europe provides actionable water quality data and limescale mitigation strategies 
+          Water Hardness Scale provides actionable water quality data and limescale mitigation strategies 
           for businesses across the continent. Protect your assets, optimize your services, and integrate our data.
         </p>
       </header>

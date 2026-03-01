@@ -3,9 +3,9 @@
 import { Metadata } from 'next';
 import { SoftenerROICalculator } from '@/components/calculators/SoftenerROICalculator';
 import { Droplets, Zap, Banknote, ShieldCheck } from 'lucide-react';
-
+import AdUnit from '@/components/AdUnit';
 export const metadata: Metadata = {
-  title: 'Water Softener ROI Calculator | AquaScale Europe',
+  title: 'Water Softener ROI Calculator | Water Hardness Scale',
   description: 'Calculate your return on investment and long-term financial savings for a whole-house water softening system.',
   robots: {
     index: false, // Prevents this generic page from outranking your high-value city pages
@@ -33,6 +33,10 @@ export default function ROICalculatorPage() {
           systemCost={800}   
         />
       </div>
+
+      <div className="mb-16">
+  <AdUnit slot="8215679439" format="rectangle" />
+</div>
 
       {/* Educational Article Section */}
       <article className="prose prose-lg prose-blue max-w-none text-slate-700">

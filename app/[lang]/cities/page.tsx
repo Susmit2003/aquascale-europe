@@ -15,7 +15,7 @@
 
 // export async function generateMetadata(): Promise<Metadata> {
 //   return {
-//     title: 'Water Hardness by City & Country | AquaScale Europe',
+//     title: 'Water Hardness by City & Country | Water Hardness Scale',
 //     description: 'Explore municipal water hardness data, limescale cost estimates, and appliance calibration guides for cities across Europe.',
 //   };
 // }
@@ -141,7 +141,7 @@
 //     Navigating local utility websites to find accurate hardness data can be frustrating due to differing regional measurement standards. While the UK might use Clark Degrees (°e), Germany relies on Deutsche Härte (°dH), and France uses standard French Degrees (°fH). 
 //   </p>
 //   <p>
-//     AquaScale Europe standardizes all municipal data into a universal metric: milligrams per liter (mg/L) of calcium carbonate. This standardization allows for accurate, cross-border comparisons. When reviewing your city's page in our directory, any value below 60 mg/L is considered soft, 61-120 mg/L is moderately hard, 121-180 mg/L is hard, and anything above 180 mg/L is classified as very hard.
+//     Water Hardness Scale standardizes all municipal data into a universal metric: milligrams per liter (mg/L) of calcium carbonate. This standardization allows for accurate, cross-border comparisons. When reviewing your city's page in our directory, any value below 60 mg/L is considered soft, 61-120 mg/L is moderately hard, 121-180 mg/L is hard, and anything above 180 mg/L is classified as very hard.
 //   </p>
 //   <p>
 //     Select your country and city from the directory above to view your exact, localized water hardness profile, complete with historical trends and appliance calibration guides tailored to your specific municipality.
@@ -170,7 +170,7 @@ const allLocations = computedLocationsData as Location[];
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Water Hardness by City & Country | AquaScale Europe',
+    title: 'Water Hardness by City & Country | Water Hardness Scale',
     description: 'Explore municipal water hardness data, limescale cost estimates, and appliance calibration guides for cities across Europe.',
   };
 }
@@ -307,7 +307,7 @@ export default async function GlobalCitiesHub({
           Navigating local utility websites to find accurate hardness data can be frustrating due to differing regional measurement standards. While the UK might use Clark Degrees (°e), Germany relies on Deutsche Härte (°dH), and France uses standard French Degrees (°fH). 
         </p>
         <p className="font-light leading-relaxed">
-          AquaScale Europe standardizes all municipal data into a universal metric: milligrams per liter (mg/L) of calcium carbonate. This standardization allows for accurate, cross-border comparisons. When reviewing your city's page in our directory, any value below <strong className="font-medium text-zinc-800 tabular-nums">60 mg/L</strong> is considered soft, <strong className="font-medium text-zinc-800 tabular-nums">61-120 mg/L</strong> is moderately hard, <strong className="font-medium text-zinc-800 tabular-nums">121-180 mg/L</strong> is hard, and anything above <strong className="font-medium text-zinc-800 tabular-nums">180 mg/L</strong> is classified as very hard.
+          Water Hardness Scale standardizes all municipal data into a universal metric: milligrams per liter (mg/L) of calcium carbonate. This standardization allows for accurate, cross-border comparisons. When reviewing your city's page in our directory, any value below <strong className="font-medium text-zinc-800 tabular-nums">60 mg/L</strong> is considered soft, <strong className="font-medium text-zinc-800 tabular-nums">61-120 mg/L</strong> is moderately hard, <strong className="font-medium text-zinc-800 tabular-nums">121-180 mg/L</strong> is hard, and anything above <strong className="font-medium text-zinc-800 tabular-nums">180 mg/L</strong> is classified as very hard.
         </p>
         <p className="font-light leading-relaxed">
           Select your country and city from the directory above to view your exact, localized water hardness profile, complete with historical trends and appliance calibration guides tailored to your specific municipality.

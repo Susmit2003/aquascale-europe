@@ -2,8 +2,8 @@
 // import Breadcrumbs from '@/components/Breadcrumbs';
 
 // export const metadata: Metadata = {
-//   title: 'About AquaScale Europe | Our Mission & Methodology',
-//   description: 'Learn about AquaScale Europe, our data methodology, and our mission to provide accurate water hardness data across the continent.',
+//   title: 'About Water Hardness Scale | Our Mission & Methodology',
+//   description: 'Learn about Water Hardness Scale, our data methodology, and our mission to provide accurate water hardness data across the continent.',
 // };
 
 // export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -14,10 +14,10 @@
 //       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About Us', href: `/${lang}/about` }]} />
       
 //       <div className="prose prose-blue max-w-none mt-8">
-//         <h1 className="text-4xl font-extrabold text-gray-900 mb-6">About AquaScale Europe</h1>
+//         <h1 className="text-4xl font-extrabold text-gray-900 mb-6">About Water Hardness Scale</h1>
         
 //         <p className="text-xl text-gray-600 lead">
-//           AquaScale Europe is the continent's leading independent digital resource for localized water hardness data, limescale mitigation, and appliance efficiency standards.
+//           Water Hardness Scale is the continent's leading independent digital resource for localized water hardness data, limescale mitigation, and appliance efficiency standards.
 //         </p>
 
 //         <h2>Our Mission</h2>
@@ -32,7 +32,7 @@
 
 //         <h2>Independence & Transparency</h2>
 //         <p>
-//           AquaScale Europe operates independently. While we partner with affiliate networks to fund our research (see our Affiliate Disclosure), our data and calculator outputs remain objective and uninfluenced by commercial partnerships.
+//           Water Hardness Scale operates independently. While we partner with affiliate networks to fund our research (see our Affiliate Disclosure), our data and calculator outputs remain objective and uninfluenced by commercial partnerships.
 //         </p>
 //       </div>
 //     </main>
@@ -46,7 +46,7 @@
 // export default function AboutPage() {
 //   return (
 //     <main className="max-w-4xl mx-auto p-8">
-//       <h1 className="text-4xl font-bold mb-6">About AquaScale Europe</h1>
+//       <h1 className="text-4xl font-bold mb-6">About Water Hardness Scale</h1>
       
 //       <section className="mb-12">
 //         <h2 className="text-2xl font-bold mb-4">Our Data Methodology</h2>
@@ -85,7 +85,7 @@ export default function AboutPage() {
       {/* Header Section */}
       <header className="mb-16 md:mb-20 text-center max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-semibold text-zinc-900 tracking-tighter mb-6">
-          About AquaScale Europe
+          About Water Hardness Scale
         </h1>
         <p className="text-lg md:text-xl text-zinc-500 font-light leading-relaxed">
           We are an independent data initiative dedicated to mapping and analyzing municipal water hardness across the European continent.

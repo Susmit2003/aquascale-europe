@@ -6,7 +6,7 @@
 // const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 // export const metadata: Metadata = {
-//   title: 'AquaScale Europe | Local Water Hardness Data',
+//   title: 'Water Hardness Scale | Local Water Hardness Data',
 //   description: 'Find exact water hardness levels, appliance settings, and skin-care recommendations for over 50,000 cities across Europe.',
 // };
 
@@ -72,7 +72,7 @@
     
 //     {/* Column 1: Company & Trust */}
 //     <div>
-//       <h3 className="text-white font-bold text-lg mb-4">AquaScale Europe</h3>
+//       <h3 className="text-white font-bold text-lg mb-4">Water Hardness Scale</h3>
 //       <ul className="space-y-3 text-sm">
 //         <li><Link href="/en/about" className="hover:text-blue-400 transition-colors">About Us</Link></li>
 //         <li><Link href="/en/contact" className="hover:text-blue-400 transition-colors">Contact</Link></li>
@@ -99,13 +99,13 @@
 //   {/* Global Legal & Affiliate Disclaimer (Mandatory for AdSense) */}
 //   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-slate-500 border-t border-slate-800 pt-8 text-center md:text-left">
 //     <p className="mb-2 text-slate-400">
-//       <strong>Disclaimer:</strong> Water hardness values are estimates based on regional municipal data and digital interpolation. AquaScale Europe is an informational platform. We do not provide financial advice, nor do we guarantee exact appliance lifespans. Always test your water directly before making exact calibrational adjustments to industrial appliances.
+//       <strong>Disclaimer:</strong> Water hardness values are estimates based on regional municipal data and digital interpolation. Water Hardness Scale is an informational platform. We do not provide financial advice, nor do we guarantee exact appliance lifespans. Always test your water directly before making exact calibrational adjustments to industrial appliances.
 //     </p>
 //     <p>
-//       AquaScale Europe is a participant in affiliate marketing programs. We may earn a commission from qualifying purchases made through links on this site at no extra cost to you.
+//       Water Hardness Scale is a participant in affiliate marketing programs. We may earn a commission from qualifying purchases made through links on this site at no extra cost to you.
 //     </p>
 //     <p className="mt-4 pt-4 border-t border-slate-800/50 flex flex-col md:flex-row justify-between items-center gap-2">
-//       <span>© {new Date().getFullYear()} AquaScale Europe. All rights reserved.</span>
+//       <span>© {new Date().getFullYear()} Water Hardness Scale. All rights reserved.</span>
 //       <span className="text-slate-600">Data updated bi-annually.</span>
 //     </p>
 //   </div>
@@ -125,7 +125,7 @@ import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'AquaScale Europe | Local Water Hardness Data',
+  title: 'Water Hardness Scale | Local Water Hardness Data',
   description: 'Find exact water hardness levels, appliance settings, and skin-care recommendations for over 50,000 cities across Europe.',
 };
 
@@ -198,7 +198,7 @@ export default function RootLayout({
             
             {/* Column 1: Company & Trust */}
             <div>
-              <h3 className="text-zinc-100 font-semibold text-lg tracking-tight mb-6">AquaScale Europe</h3>
+              <h3 className="text-zinc-100 font-semibold text-lg tracking-tight mb-6">Water Hardness Scale</h3>
               <ul className="space-y-4 text-sm font-light">
                 <li><Link href="/en/about" className="hover:text-white transition-colors duration-200">About Us</Link></li>
                 <li><Link href="/en/contact" className="hover:text-white transition-colors duration-200">Contact</Link></li>
@@ -221,13 +221,13 @@ export default function RootLayout({
           {/* Global Legal & Affiliate Disclaimer (Mandatory for AdSense) */}
           <div className="max-w-7xl mx-auto px-6 lg:px-12 text-xs text-zinc-500 border-t border-zinc-800/60 pt-10 text-center md:text-left font-light leading-relaxed">
             <p className="mb-4 text-zinc-400">
-              <strong className="font-medium text-zinc-300">Disclaimer:</strong> Water hardness values are estimates based on regional municipal data and digital interpolation. AquaScale Europe is an informational platform. We do not provide financial advice, nor do we guarantee exact appliance lifespans. Always test your water directly before making exact calibrational adjustments to industrial appliances.
+              <strong className="font-medium text-zinc-300">Disclaimer:</strong> Water hardness values are estimates based on regional municipal data and digital interpolation. Water Hardness Scale is an informational platform. We do not provide financial advice, nor do we guarantee exact appliance lifespans. Always test your water directly before making exact calibrational adjustments to industrial appliances.
             </p>
             <p className="mb-6">
-              AquaScale Europe is a participant in affiliate marketing programs. We may earn a commission from qualifying purchases made through links on this site at no extra cost to you.
+              Water Hardness Scale is a participant in affiliate marketing programs. We may earn a commission from qualifying purchases made through links on this site at no extra cost to you.
             </p>
             <p className="pt-6 border-t border-zinc-800/40 flex flex-col md:flex-row justify-between items-center gap-4">
-              <span>© {new Date().getFullYear()} AquaScale Europe. All rights reserved.</span>
+              <span>© {new Date().getFullYear()} Water Hardness Scale. All rights reserved.</span>
               <span className="text-zinc-600 font-medium tracking-wide uppercase">Data updated bi-annually</span>
             </p>
           </div>

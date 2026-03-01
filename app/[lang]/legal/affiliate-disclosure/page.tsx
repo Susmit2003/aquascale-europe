@@ -1,16 +1,16 @@
 import { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Affiliate Disclosure | AquaScale Europe' };
+export const metadata: Metadata = { title: 'Affiliate Disclosure | Water Hardness Scale' };
 
 export default function AffiliateDisclosurePage() {
   return (
     <main className="max-w-4xl mx-auto p-4 md:p-8 prose prose-blue">
       <h1>Affiliate Disclosure</h1>
       
-      <p>Transparency and honesty are core values at AquaScale Europe. To comply with European consumer protection laws and Federal Trade Commission (FTC) guidelines, please read our affiliate disclosure.</p>
+      <p>Transparency and honesty are core values at Water Hardness Scale. To comply with European consumer protection laws and Federal Trade Commission (FTC) guidelines, please read our affiliate disclosure.</p>
 
       <h2>How We Fund Our Platform</h2>
-      <p>AquaScale Europe is a free informational resource. To maintain our servers, continuously update our data API, and pay our development team, we participate in various affiliate marketing programs.</p>
+      <p>Water Hardness Scale is a free informational resource. To maintain our servers, continuously update our data API, and pay our development team, we participate in various affiliate marketing programs.</p>
 
       <h2>What is an Affiliate Link?</h2>
       <p>When you click on links to various merchants on this site (such as Amazon, local plumbing suppliers, or water softener manufacturers) and make a purchase, this can result in this site earning a commission. <strong>This occurs at absolutely no additional cost to you.</strong></p>

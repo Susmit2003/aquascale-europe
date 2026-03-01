@@ -5,8 +5,8 @@
 // import { SupportedLanguage } from '@/types';
 
 // export const metadata: Metadata = {
-//   title: 'Data Methodology & Testing Protocols | AquaScale Europe',
-//   description: 'Learn how AquaScale Europe aggregates, tests, and verifies municipal water hardness data across European regions.',
+//   title: 'Data Methodology & Testing Protocols | Water Hardness Scale',
+//   description: 'Learn how Water Hardness Scale aggregates, tests, and verifies municipal water hardness data across European regions.',
 // };
 
 // export default async function MethodologyPage({ params }: { params: Promise<{ lang: SupportedLanguage }> }) {
@@ -108,10 +108,10 @@ import { ShieldCheck, Database, Beaker, MapPin } from 'lucide-react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { SupportedLanguage } from '@/types';
-
+import AdUnit from '@/components/AdUnit';
 export const metadata: Metadata = {
-  title: 'Data Methodology & Testing Protocols | AquaScale Europe',
-  description: 'Learn how AquaScale Europe aggregates, tests, and verifies municipal water hardness data across European regions.',
+  title: 'Data Methodology & Testing Protocols | Water Hardness Scale',
+  description: 'Learn how Water Hardness Scale aggregates, tests, and verifies municipal water hardness data across European regions.',
 };
 
 export default async function MethodologyPage({ params }: { params: Promise<{ lang: SupportedLanguage }> }) {

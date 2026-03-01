@@ -7,7 +7,7 @@
 // // const allLocations = locationsData as Location[];
 
 // // export const metadata: Metadata = {
-// //   title: 'AquaScale Europe | Find Water Hardness in Your City',
+// //   title: 'Water Hardness Scale | Find Water Hardness in Your City',
 // //   description: 'The ultimate directory for European water hardness data. Find exact mg/L, °dH, and °fH values to protect your home appliances and skin.',
 // // };
 
@@ -90,7 +90,7 @@
 // //   <h2 className="text-3xl font-extrabold text-gray-900">The State of European Water Quality in 2026</h2>
   
 // //   <p>
-// //     Access to clean, safe municipal water is a hallmark of modern European infrastructure. However, while the safety of the water is universally regulated, the <em>chemical composition</em>—specifically the mineral density—varies drastically street by street. AquaScale Europe was engineered to bridge the gap between complex municipal utility reports and actionable data for everyday homeowners, installers, and property managers.
+// //     Access to clean, safe municipal water is a hallmark of modern European infrastructure. However, while the safety of the water is universally regulated, the <em>chemical composition</em>—specifically the mineral density—varies drastically street by street. Water Hardness Scale was engineered to bridge the gap between complex municipal utility reports and actionable data for everyday homeowners, installers, and property managers.
 // //   </p>
 
 // //   <h3 className="text-2xl font-bold text-gray-900 mt-8">Beyond the Tap: Why Local Water Hardness Actually Matters</h3>
@@ -109,9 +109,9 @@
 // //     For example, one municipality might draw surface water from a local river (resulting in soft water), while a neighboring district just 10 kilometers away might draw from a deep chalk aquifer (resulting in extremely hard water). Generic data leads to incorrect appliance calibration, wasted detergent, and unoptimized energy consumption.
 // //   </p>
 
-// //   <h3 className="text-2xl font-bold text-gray-900 mt-8">How AquaScale Europe Aggregates Municipal Intelligence</h3>
+// //   <h3 className="text-2xl font-bold text-gray-900 mt-8">How Water Hardness Scale Aggregates Municipal Intelligence</h3>
 // //   <p>
-// //     AquaScale Europe operates the continent's most comprehensive and granular database of municipal water hardness. By aggregating thousands of localized water quality reports, translating varied measurement units (°dH, °fH, °e) into a universal standard (mg/L), and applying advanced digital interpolation, we provide exact, address-level insights.
+// //     Water Hardness Scale operates the continent's most comprehensive and granular database of municipal water hardness. By aggregating thousands of localized water quality reports, translating varied measurement units (°dH, °fH, °e) into a universal standard (mg/L), and applying advanced digital interpolation, we provide exact, address-level insights.
 // //   </p>
 // //   <p>
 // //     Whether you are an installer generating an ROI report for a client, a café owner calibrating an espresso machine for optimal taste extraction, or a homeowner trying to extend the lifespan of your combi-boiler, our platform delivers the precise data required to make informed, financially sound decisions. 
@@ -134,7 +134,7 @@
 // const allLocations = locationsData as Location[];
 
 // export const metadata: Metadata = {
-//   title: 'AquaScale Europe | Find Water Hardness in Your City',
+//   title: 'Water Hardness Scale | Find Water Hardness in Your City',
 //   description: 'The ultimate directory for European water hardness data. Find exact mg/L, °dH, and °fH values to protect your home appliances and skin.',
 // };
 
@@ -342,7 +342,7 @@ import locationsData from '@/data/locations.json';
 const allLocations = locationsData as Location[];
 
 export const metadata: Metadata = {
-  title: 'AquaScale Europe | Find Water Hardness in Your City',
+  title: 'Water Hardness Scale | Find Water Hardness in Your City',
   description: 'The ultimate directory for European water hardness data. Find exact mg/L, °dH, and °fH values to protect your home appliances and skin.',
 };
 

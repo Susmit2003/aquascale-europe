@@ -24,7 +24,7 @@ export const generateBreadcrumbSchema = (items: { name: string; item: string }[]
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": `https://aquascale-europe.com${item.item}`
+      "item": `https://waterhardnessscale.com${item.item}`
     }))
   };
 };
@@ -35,13 +35,13 @@ export const generateArticleSchema = (title: string, desc: string, url: string, 
     "@type": "Article",
     "headline": title,
     "description": desc,
-    "url": `https://aquascale-europe.com${url}`,
+    "url": `https://waterhardnessscale.com${url}`,
     "publisher": {
       "@type": "Organization",
-      "name": "AquaScale Europe",
+      "name": "Water Hardness Scale",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://aquascale-europe.com/logo.png"
+        "url": "https://waterhardnessscale.com/logo.png"
       }
     },
     "datePublished": "2024-01-01T08:00:00+08:00",

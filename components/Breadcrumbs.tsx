@@ -19,7 +19,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.label,
-      item: `https://aquascale-europe.com${item.href}`, // Always use absolute URLs for schema
+      item: `https://waterhardnessscale.com${item.href}`, // Always use absolute URLs for schema
     })),
   };
 

@@ -137,7 +137,7 @@
 //                 <strong>Financial Disclaimer:</strong> Return on Investment (ROI) projections and limescale cost estimates are theoretical mathematical models based on standard European household consumption averages and localized energy rates. Actual savings will vary depending on your specific appliance age, usage habits, and exact utility billing structure.
 //               </p>
 //               <p>
-//                 <strong>Affiliate Disclosure:</strong> AquaScale Europe partners with selected water treatment manufacturers. If you purchase a system through our recommended links, we may earn a commission at no additional cost to you. This funds our independent data collection and municipal API tracking.
+//                 <strong>Affiliate Disclosure:</strong> Water Hardness Scale partners with selected water treatment manufacturers. If you purchase a system through our recommended links, we may earn a commission at no additional cost to you. This funds our independent data collection and municipal API tracking.
 //               </p>
 //             </div>
 //           </div>
@@ -295,7 +295,7 @@ export default async function CommercialAnalysisPage({ params }: PageProps) {
                 <strong className="font-medium text-zinc-700">Financial Disclaimer:</strong> Return on Investment (ROI) projections and limescale cost estimates are theoretical mathematical models based on standard European household consumption averages and localized energy rates. Actual savings will vary depending on your specific appliance age, usage habits, and exact utility billing structure.
               </p>
               <p>
-                <strong className="font-medium text-zinc-700">Affiliate Disclosure:</strong> AquaScale Europe partners with selected water treatment manufacturers. If you purchase a system through our recommended links, we may earn a commission at no additional cost to you. This funds our independent data collection and municipal API tracking.
+                <strong className="font-medium text-zinc-700">Affiliate Disclosure:</strong> Water Hardness Scale partners with selected water treatment manufacturers. If you purchase a system through our recommended links, we may earn a commission at no additional cost to you. This funds our independent data collection and municipal API tracking.
               </p>
             </div>
           </div>

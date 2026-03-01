@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Legal Disclaimer | AquaScale Europe' };
+export const metadata: Metadata = { title: 'Legal Disclaimer | Water Hardness Scale' };
 
 export default function DisclaimerPage() {
   return (
@@ -8,7 +8,7 @@ export default function DisclaimerPage() {
       <h1>General Disclaimer</h1>
       
       <h2>1. Financial & Calculation Disclaimer</h2>
-      <p>The "Annual Limescale Cost Estimator," "Softener ROI Calculator," and all other financial projections provided on AquaScale Europe are <strong>estimates only</strong>. They are based on generalized municipal data, average energy prices, and standard appliance thermodynamics.</p>
+      <p>The "Annual Limescale Cost Estimator," "Softener ROI Calculator," and all other financial projections provided on Water Hardness Scale are <strong>estimates only</strong>. They are based on generalized municipal data, average energy prices, and standard appliance thermodynamics.</p>
       <p>We are not financial advisors. Your actual energy bills, repair costs, and water softener payback periods will vary based on your specific usage, appliance age, and precise home water chemistry. We do not guarantee any specific financial savings.</p>
 
       <h2>2. Medical & Health Disclaimer</h2>

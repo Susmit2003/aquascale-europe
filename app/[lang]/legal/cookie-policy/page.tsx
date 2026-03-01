@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Cookie Policy | AquaScale Europe' };
+export const metadata: Metadata = { title: 'Cookie Policy | Water Hardness Scale' };
 
 export default function CookiePolicyPage() {
   return (

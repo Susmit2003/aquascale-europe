@@ -1,62 +1,41 @@
+
+
+
 // app/sitemap.ts
 import { MetadataRoute } from 'next';
-import locationsData from '@/data/locations.json';
-import { Location } from '@/types';
+import locationsComputed from '@/data/locations-computed.json';
 
-const allLocations = locationsData as Location[];
-const BASE_URL = 'https://aquascale-europe.com'; // Replace with your actual live domain
+const BASE_URL = 'https://waterhardnessscale.com';
 const LANGUAGES = ['en', 'de', 'fr', 'es'];
+const CHUNK_SIZE = 10000;
 
-// 1. STRICT FILTERING: Only include cities we actually want Google to index.
-// This prevents wasting crawl budget on tiny villages that have a 'noindex' tag.
-const indexableLocations = allLocations.filter(loc => loc.population > 5000);
+// Re-apply the Quality Threshold to know the exact count
+const indexableLocations = (locationsComputed as any[]).filter(loc => {
+  if (loc.population >= 5000) return true;
+  if (loc.population < 5000 && loc.hardness_mg_l !== null && !loc.is_regional_average) return true;
+  return false;
+});
 
-// SEO MATH: Max URLs per sitemap = 50,000. 
-// We chunk at 2,500 locations per file.
-const CHUNK_SIZE = 2500;
+export default function sitemap(): MetadataRoute.Sitemap {
+  // Total URLs = indexable cities × 4 languages
+  const totalUrls = indexableLocations.length * LANGUAGES.length;
+  const totalChunks = Math.ceil(totalUrls / CHUNK_SIZE);
 
-export async function generateSitemaps() {
-  const totalSitemaps = Math.ceil(indexableLocations.length / CHUNK_SIZE);
-  return Array.from({ length: totalSitemaps }).map((_, i) => ({ id: i }));
-}
+  const sitemaps = [];
 
-// Helper to safely encode slugs (spaces to hyphens, remove weird chars)
-function createSafeSlug(name: string): string {
-  return encodeURIComponent(name.toLowerCase().replace(/\s+/g, '-'));
-}
+  // Important: include a chunk for static/taxonomy pages (chunk 0)
+  sitemaps.push({
+    url: `${BASE_URL}/sitemaps/static.xml`,
+    lastModified: new Date(),
+  });
 
-export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
-  const start = id * CHUNK_SIZE;
-  const end = start + CHUNK_SIZE;
-  const chunk = indexableLocations.slice(start, end);
-
-  const sitemapEntries: MetadataRoute.Sitemap = [];
-
-  // Add the root homepage to the very first sitemap chunk
-  if (id === 0) {
-    sitemapEntries.push({
-      url: BASE_URL,
+  // Generate dynamic city chunks
+  for (let i = 1; i <= totalChunks; i++) {
+    sitemaps.push({
+      url: `${BASE_URL}/sitemaps/cities-${i}.xml`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1.0, 
     });
   }
 
-  // Iterate through the indexable chunk and build the URL matrix
-  chunk.forEach((city) => {
-    LANGUAGES.forEach((lang) => {
-        // Construct the full URL path using safe slug encoding
-        const safeCitySlug = createSafeSlug(city.name);
-        const url = `${BASE_URL}/${lang}/${city.country_slug}/${city.region_slug}/${safeCitySlug}`;
-        
-        sitemapEntries.push({
-          url,
-          lastModified: new Date(),
-          changeFrequency: 'monthly',
-          priority: 0.8, // Core dataset pages get high priority
-        });
-    });
-  });
-
-  return sitemapEntries;
+  return sitemaps;
 }

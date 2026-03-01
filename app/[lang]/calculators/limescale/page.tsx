@@ -185,7 +185,7 @@ import { Location } from '@/types';
 import computedLocationsData from '@/data/locations-computed.json';
 import LimescaleCostEstimator from '@/components/calculators/LimescaleCostEstimator';
 import { Search, MapPin, Settings2 } from 'lucide-react';
-
+import AdUnit from '@/components/AdUnit';
 const allLocations = computedLocationsData as Location[];
 
 export default function GlobalLimescaleCalculator() {
@@ -339,7 +339,12 @@ export default function GlobalLimescaleCalculator() {
           {/* We pass the active variables down to your existing component */}
           <LimescaleCostEstimator hardness={activeHardness} kwhPrice={kwhPrice} />
         </div>
+        <div className="mt-12">
+       <AdUnit slot="8215679439" format="auto" />
       </div>
+      </div>
+
+      
 
       {/* SEO & Contextual Authority Content (Replaces thin doorway text) */}
       <article className="prose prose-lg prose-zinc max-w-none text-zinc-600">

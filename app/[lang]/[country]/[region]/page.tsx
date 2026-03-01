@@ -177,7 +177,7 @@ export async function generateStaticParams() {
 // 2. Generate SEO Metadata for the Region Hub
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { lang, country, region } = await params;
-  const baseUrl = 'https://aquascale-europe.com';
+  const baseUrl = 'https://waterhardnessscale.com';
   
   // Format for display
   const displayCountry = country.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');

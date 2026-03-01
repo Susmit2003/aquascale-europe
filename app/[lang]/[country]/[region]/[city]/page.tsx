@@ -788,7 +788,7 @@ export default async function CityDashboard({ params }: PageProps) {
         <div className="hidden lg:block lg:col-span-1">
           <StickySummary city={location.name} hardness={hardness} lang={lang} />
           <div className="sticky top-[100px] mt-10">
-             <AdUnit slot="YOUR_SLOT_ID" format="rectangle" minHeight="600px" />
+             <AdUnit slot="8215679439" format="rectangle" minHeight="600px" />
           </div>
         </div>
       </div>

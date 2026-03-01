@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-export const metadata: Metadata = { title: 'Privacy Policy | AquaScale Europe' };
+export const metadata: Metadata = { title: 'Privacy Policy | waterhardness Europe' };
 
 export default function PrivacyPolicyPage() {
   return (
@@ -8,10 +8,10 @@ export default function PrivacyPolicyPage() {
       <h1>Privacy Policy</h1>
       <p><strong>Last Updated: {new Date().toLocaleDateString()}</strong></p>
       
-      <p>AquaScale Europe ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed in compliance with the General Data Protection Regulation (GDPR).</p>
+      <p>waterhardness ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed in compliance with the General Data Protection Regulation (GDPR).</p>
 
       <h2>1. Information We Collect</h2>
-      <p>When you visit AquaScale Europe, we may collect:</p>
+      <p>When you visit Water Hardness Scale, we may collect:</p>
       <ul>
         <li><strong>Usage Data:</strong> IP address, browser type, pages visited, and time spent on the site via analytics tools.</li>
         <li><strong>Cookies and Tracking Technologies:</strong> We use cookies to personalize content and ads, provide social media features, and analyze our traffic.</li>

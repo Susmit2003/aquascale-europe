@@ -96,8 +96,8 @@ export const generateDatasetSchema = (city: string, hardness: number) => {
     },
     "creator": {
       "@type": "Organization",
-      "name": "AquaScale Europe Data Team",
-      "url": "https://aquascale-europe.com/methodology"
+      "name": "Water Hardness Scale Data Team",
+      "url": "https://waterhardnessscale.com/methodology"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"
   };

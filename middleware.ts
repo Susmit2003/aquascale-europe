@@ -1,41 +1,103 @@
+// // import { NextResponse } from 'next/server';
+// // import type { NextRequest } from 'next/server';
+
+// // // Updated to perfectly match your SupportedLanguage type from types/index.ts
+// // const locales = ['en', 'de', 'fr', 'es'];
+// // const defaultLocale = 'en';
+
+// // // Helper function to detect the user's preferred language
+// // function getLocale(request: NextRequest): string {
+// //   const acceptLanguage = request.headers.get('accept-language');
+  
+// //   if (acceptLanguage) {
+// //     const preferredLocale = acceptLanguage.split(',')[0].split('-')[0];
+// //     if (locales.includes(preferredLocale)) {
+// //       return preferredLocale;
+// //     }
+// //   }
+  
+// //   return defaultLocale;
+// // }
+
+// // // 🚨 NEXT.JS 16 FIX: The exported function must now be named `proxy`
+// // export function proxy(request: NextRequest) {
+// //   const { pathname } = request.nextUrl;
+
+// //   // 1. Skip proxying for the root homepage (/), Next.js internals, APIs, and assets
+// //   // 🚨 FIX: Adding pathname === '/' prevents the 404 crash on your homepage
+// //   if (
+// //     pathname === '/' || 
+// //     pathname.startsWith('/_next') ||
+// //     pathname.startsWith('/api') ||
+// //     pathname.includes('.') || 
+// //     pathname === '/favicon.ico'
+// //   ) {
+// //     return NextResponse.next();
+// //   }
+
+// //   // 2. Check if the pathname already starts with a supported locale (e.g., /en/albania)
+// //   const pathnameHasLocale = locales.some(
+// //     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+// //   );
+
+// //   if (pathnameHasLocale) {
+// //     return NextResponse.next();
+// //   }
+
+// //   // 3. If navigating to a deep link without a locale, redirect to the localized version
+// //   const locale = getLocale(request);
+// //   request.nextUrl.pathname = `/${locale}${pathname}`;
+  
+// //   return NextResponse.redirect(request.nextUrl);
+// // }
+
+// // // Config ensures the proxy only runs on actual page routes
+// // export const config = {
+// //   matcher: [
+// //     '/((?!api|_next/static|_next/image|favicon.ico|.*\\.svg|.*\\.png|.*\\.jpg).*)',
+// //   ],
+// // };
+
+
+
+
 // import { NextResponse } from 'next/server';
 // import type { NextRequest } from 'next/server';
 
-// // Updated to perfectly match your SupportedLanguage type from types/index.ts
 // const locales = ['en', 'de', 'fr', 'es'];
 // const defaultLocale = 'en';
 
-// // Helper function to detect the user's preferred language
+
+
 // function getLocale(request: NextRequest): string {
 //   const acceptLanguage = request.headers.get('accept-language');
-  
 //   if (acceptLanguage) {
 //     const preferredLocale = acceptLanguage.split(',')[0].split('-')[0];
 //     if (locales.includes(preferredLocale)) {
 //       return preferredLocale;
 //     }
 //   }
-  
 //   return defaultLocale;
 // }
 
-// // 🚨 NEXT.JS 16 FIX: The exported function must now be named `proxy`
+// export const runtime = 'edge';
+
+// // 🟢 FIX 1: The function MUST be named 'proxy' as per your error message
 // export function proxy(request: NextRequest) {
 //   const { pathname } = request.nextUrl;
 
-//   // 1. Skip proxying for the root homepage (/), Next.js internals, APIs, and assets
-//   // 🚨 FIX: Adding pathname === '/' prevents the 404 crash on your homepage
+//   // 🟢 FIX 2: Explicitly exclude admin-portal from the localization logic
 //   if (
 //     pathname === '/' || 
 //     pathname.startsWith('/_next') ||
 //     pathname.startsWith('/api') ||
+//     pathname.startsWith('/admin-portal') || // Stops the redirect to /en/admin-portal
 //     pathname.includes('.') || 
 //     pathname === '/favicon.ico'
 //   ) {
 //     return NextResponse.next();
 //   }
 
-//   // 2. Check if the pathname already starts with a supported locale (e.g., /en/albania)
 //   const pathnameHasLocale = locales.some(
 //     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
 //   );
@@ -44,19 +106,19 @@
 //     return NextResponse.next();
 //   }
 
-//   // 3. If navigating to a deep link without a locale, redirect to the localized version
 //   const locale = getLocale(request);
 //   request.nextUrl.pathname = `/${locale}${pathname}`;
   
 //   return NextResponse.redirect(request.nextUrl);
 // }
 
-// // Config ensures the proxy only runs on actual page routes
+// // 🟢 FIX 3: Exclude admin-portal from the matcher as well
 // export const config = {
 //   matcher: [
-//     '/((?!api|_next/static|_next/image|favicon.ico|.*\\.svg|.*\\.png|.*\\.jpg).*)',
+//     '/((?!api|_next/static|_next/image|admin-portal|favicon.ico|.*\\.svg|.*\\.png|.*\\.jpg).*)',
 //   ],
 // };
+
 
 
 
@@ -64,10 +126,11 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
+// 1. Explicitly set the edge runtime for Cloudflare compatibility
+export const runtime = 'edge'; 
+
 const locales = ['en', 'de', 'fr', 'es'];
 const defaultLocale = 'en';
-
-
 
 function getLocale(request: NextRequest): string {
   const acceptLanguage = request.headers.get('accept-language');
@@ -80,24 +143,26 @@ function getLocale(request: NextRequest): string {
   return defaultLocale;
 }
 
-export const runtime = 'edge';
-
-// 🟢 FIX 1: The function MUST be named 'proxy' as per your error message
-export function proxy(request: NextRequest) {
+/**
+ * FIXED: The function MUST be named 'middleware' to be recognized 
+ * by the Next.js build engine.
+ */
+export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // 🟢 FIX 2: Explicitly exclude admin-portal from the localization logic
+  // 2. Skip localization for internals, APIs, and the admin-portal
   if (
     pathname === '/' || 
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
-    pathname.startsWith('/admin-portal') || // Stops the redirect to /en/admin-portal
+    pathname.startsWith('/admin-portal') || 
     pathname.includes('.') || 
     pathname === '/favicon.ico'
   ) {
     return NextResponse.next();
   }
 
+  // Check if pathname already has a locale
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
@@ -106,13 +171,15 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // Redirect to localized version
   const locale = getLocale(request);
-  request.nextUrl.pathname = `/${locale}${pathname}`;
+  const url = request.nextUrl.clone();
+  url.pathname = `/${locale}${pathname}`;
   
-  return NextResponse.redirect(request.nextUrl);
+  return NextResponse.redirect(url);
 }
 
-// 🟢 FIX 3: Exclude admin-portal from the matcher as well
+// 3. Matcher configuration remains the same
 export const config = {
   matcher: [
     '/((?!api|_next/static|_next/image|admin-portal|favicon.ico|.*\\.svg|.*\\.png|.*\\.jpg).*)',

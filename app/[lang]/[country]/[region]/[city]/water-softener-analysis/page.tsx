@@ -197,6 +197,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
   };
 }
+export const runtime = 'edge';
 
 export default async function CommercialAnalysisPage({ params }: PageProps) {
   const { lang, city, country, region } = await params;

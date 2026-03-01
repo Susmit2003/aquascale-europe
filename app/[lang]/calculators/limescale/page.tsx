@@ -188,6 +188,7 @@ import { Search, MapPin, Settings2 } from 'lucide-react';
 import AdUnit from '@/components/AdUnit';
 const allLocations = computedLocationsData as Location[];
 import { useParams } from 'next/navigation';
+export const runtime = 'edge';
 export default function GlobalLimescaleCalculator() {
 
   const params = useParams();

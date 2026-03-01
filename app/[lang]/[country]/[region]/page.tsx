@@ -150,7 +150,7 @@ const translations = translationsData as unknown as Translations;
 
 export const dynamicParams = true;
 export const revalidate = 604800; // ISR cache for 7 days
-
+export const runtime = 'edge';
 // Next.js 15 requires params to be a Promise
 interface PageProps {
   params: Promise<{ lang: SupportedLanguage; country: string; region: string }>;

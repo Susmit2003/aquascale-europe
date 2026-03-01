@@ -2,7 +2,8 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 // Mandatory for Next.js 16 + Cloudflare compatibility
-export const runtime = 'experimental-edge'; 
+// Mandatory for Next.js 16 + Cloudflare compatibility
+export const runtime = 'edge';
 
 const locales = ['en', 'de', 'fr', 'es'];
 const defaultLocale = 'en';

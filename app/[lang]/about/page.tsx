@@ -78,6 +78,8 @@
 
 
 // Inside app/[lang]/about/page.tsx
+
+export const runtime = 'edge';
 export default function AboutPage() {
   return (
     <main className="max-w-5xl mx-auto p-6 md:p-12 font-sans text-zinc-800">

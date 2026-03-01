@@ -167,6 +167,7 @@ interface Location {
 }
 
 const allLocations = computedLocationsData as Location[];
+export const runtime = 'edge';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {

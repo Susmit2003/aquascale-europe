@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Dynamic City chunks
   for (let i = 1; i <= totalChunks; i++) {
     sitemaps.push({
-      url: `${BASE_URL}/sitemaps/cities-${i}.xml`,
+      url: `${BASE_URL}/sitemaps/cities/${i}.xml`,
       lastModified: new Date(),
     });
   }

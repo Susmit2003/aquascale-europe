@@ -171,7 +171,7 @@ import { StickySummary } from '@/components/content/StickySummary';
 import { ShieldAlert, TrendingDown } from 'lucide-react';
 
 const allLocations = computedLocationsData as Location[];
-export const dynamicParams = false; 
+// export const dynamicParams = false; 
 
 const ENERGY_RATES: Record<string, number> = {
   germany: 0.40, italy: 0.35, uk: 0.34, spain: 0.30, france: 0.25, default: 0.28

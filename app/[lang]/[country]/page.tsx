@@ -4,12 +4,12 @@ import computedLocationsData from '@/data/locations-computed.json';
 import { Location, SupportedLanguage } from '@/types';
 
 const allLocations = computedLocationsData as Location[];
-export const dynamicParams = false;
+// export const dynamicParams = false;
 
 interface Props {
   params: Promise<{ lang: SupportedLanguage; country: string }>;
 }
-
+export const runtime = 'edge';
 export async function generateStaticParams() {
   const languages: SupportedLanguage[] = ['en', 'de', 'fr', 'es'];
   const params: any[] = [];

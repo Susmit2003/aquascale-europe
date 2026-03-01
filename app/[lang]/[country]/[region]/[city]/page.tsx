@@ -575,7 +575,9 @@ const HistoricalTrendChart = dynamic(() => import('@/components/charts/Historica
 });
 
 const allLocations = computedLocationsData as Location[];
-export const revalidate = 2592000; 
+// export const revalidate = 2592000; 
+
+
 
 interface PageProps {
   params: Promise<{ lang: SupportedLanguage; country: string; region: string; city: string }>;

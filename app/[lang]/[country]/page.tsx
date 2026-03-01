@@ -6,10 +6,10 @@ import { Location, SupportedLanguage } from '@/types';
 const allLocations = computedLocationsData as Location[];
 export const dynamicParams = true;
 export const revalidate = 604800;
+export const runtime = 'edge';
 interface Props {
   params: Promise<{ lang: SupportedLanguage; country: string }>;
 }
-// export const runtime = 'edge';
 export async function generateStaticParams() {
   const languages: SupportedLanguage[] = ['en', 'de', 'fr', 'es'];
   const params: any[] = [];

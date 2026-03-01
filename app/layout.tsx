@@ -122,6 +122,8 @@ import Script from 'next/script';
 import './globals.css'; 
 import Link from 'next/link';
 
+export const runtime = 'edge';
+
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
